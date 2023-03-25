@@ -2480,13 +2480,43 @@ text-decoration: none;
     cursor: pointer !important;
     -webkit-user-select: none !important;
     user-select: none !important;
-    border: 1px solid rgb(73 63 88);
-    border-radius: 6px;
+    border-right: 0px solid rgb(73 63 88);
+      border-left: 1px solid rgb(73 63 88);
+    border-top: 1px solid rgb(73 63 88);
+    border-bottom: 1px solid rgb(73 63 88);    border-radius: 6px 0px 0px 6px;
     font-family: "Saoecom2font" !important;
     color: #c7acff !important;
     background-color: rgb(51 45 62) !important;
   float: inherit !important;
+  margin-right: -5px;
+  margin-top: 11px !important;
 }
+
+
+.ficusbtnnav2 {
+text-decoration: none;
+    padding: 6px 16px !important;
+    font-size: 15px !important;
+    font-weight: var(--base-text-weight-medium, 500) !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    border-right: 1px solid rgb(73 63 88);
+      border-left: 1px solid rgb(73 63 88);
+    border-top: 1px solid rgb(73 63 88);
+    border-bottom: 1px solid rgb(73 63 88);
+
+    border-radius: 0px 0px 0px 0px;
+    font-family: "Saoecom2font" !important;
+    color: #c7acff !important;
+    background-color: rgb(51 45 62) !important;
+  float: inherit !important;
+  margin-top: 11px !important;
+}
+
 
 
 .ficusbtn-nvidia {
@@ -2980,7 +3010,7 @@ background: grey ;
 width: 70% !important;
 border: 1px solid #d9e1ec;
 border-radius: 4px;
-background: white ;
+background: #ffffff ;
 margin-top: 10px;
 margin-bottom: 10px;
 margin-left: auto;
@@ -2993,7 +3023,8 @@ margin-right: auto;
     border-radius: 12px;
     border: 2px solid transparent;
   
-box-shadow: 10px 5px 5px red;
+box-shadow: 0px 0px 20px 3px #d5d5d5;
+
 }
 
 .yellowstone {
