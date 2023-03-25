@@ -2878,13 +2878,13 @@ form {
 input[type="text9"] {
   padding: 10px;
   border-radius: 6px;
-background: white !important;
+background: grey !important;
     border: 0px solid white !important;
   width: 69% !important;
 color: #7e6b91 !important;
 font-size: 15px !important;
     font-family: "Saoecom2font" !important;
-  height: 33px;
+  height: 50px;
   outline: none;
 }
 
@@ -2897,7 +2897,7 @@ background: white !important;
 color: #7e6b91 !important;
 font-size: 15px !important;
     font-family: "Saoecom2font" !important;
-  height: 33px;
+  height: 50px;
   outline: none;
 }
 
@@ -3030,7 +3030,7 @@ grid-gap: 0px;
 
 .nvidia {
 width: 100% !important;
-background: red ;
+background: orange ;
 text-align: center;
 padding-top: 30px;
   padding-bottom: 30px;
@@ -3061,12 +3061,12 @@ padding-top: 30px;
 
 
 .nvidia-welcome {
-width: 70% !important;
+width: 88% !important;
 border: 1px solid #d9e1ec;
 border-radius: 4px;
 background: #ffffff !important;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 1px;
+margin-bottom: 1px;
 margin-left: auto;
 margin-right: auto;
   padding-top: 10px;
@@ -3579,11 +3579,11 @@ color: rgb(166 166 166);
 
 
 .nvidiakycbtn {
-  background-color: yellow;
-  color: #000;
+  background-color: #fe4f00;
+  color: #ffffff;
   border: unset;
   width: 100px;
-  border-radius: purple;
+  border-radius: 12px;
   margin-left: 10px;
   cursor: pointer;
   font-size: 18px;
@@ -3610,7 +3610,8 @@ color: rgb(166 166 166);
     font-weight: bold;
     font-size: 0.8em;
     color: #444;
-    top: 10px;
+top: 16px;
+    left: 20px;
 }
 
 .faiie {
@@ -3720,7 +3721,7 @@ position: relative;
 }
 
 .parent-avatar1 {
-    width: 30%;
+    width: 40%;
 }
 
 .parent-avatar2 {
@@ -3853,6 +3854,15 @@ argin-right: -40px;
 
 .missile-text-sol-air  {
   text-align: center !important;
+}
+
+.livai {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
 }
 
 
