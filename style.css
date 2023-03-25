@@ -1181,6 +1181,30 @@ footer {
 z-index: 2;
 }
 
+
+.nav-parent {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.nav-left {
+    width: 65%;
+    text-align: left !important;
+  justify-content: left !important;
+}
+
+.nav-right {
+    width: 35%;
+  text-align: right !important;
+  justify-content: right !important;
+  
+}
+
 img.navlogo {
   margin-top: -9px;
   margin-left: 10px !important;
@@ -1189,7 +1213,7 @@ img.navlogo {
 .navlogo
 {
   line-height: 10px;
-  width: 150px !important;
+  width: 70px !important;
 }
 
 
@@ -3676,6 +3700,9 @@ margin-left: -17px;
   justify-content: right !important;
   
 }
+
+
+
 
 .missile-text {
   text-align: left !important;
