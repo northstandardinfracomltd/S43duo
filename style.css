@@ -1177,7 +1177,7 @@ footer {
   height: 55px;
   width: 100%;
   justify-content: space-between;
-  background: linear-gradient(0.25turn, #4B3CC4, #27128E);
+  background: linear-gradient(0.25turn, #007aff, #004998);
 z-index: 2;
 }
 
@@ -2799,7 +2799,7 @@ input[type="text9"] {
   border-radius: 6px;
 background: white !important;
     border: 0px solid white !important;
-  width: 80% !important;
+  width: 69% !important;
 color: #7e6b91 !important;
 font-size: 15px !important;
     font-family: "Saoecom2font" !important;
@@ -2807,18 +2807,17 @@ font-size: 15px !important;
   outline: none;
 }
 
-input[type="text9"]:focus{
+input[type="text9"]:focus {
   padding: 10px;
   border-radius: 6px;
 background: white !important;
     border: 0px solid white !important;
-  width: 80% !important;
+  width: 69% !important;
 color: #7e6b91 !important;
 font-size: 15px !important;
     font-family: "Saoecom2font" !important;
   height: 33px;
-    outline: none;
-
+  outline: none;
 }
 
 
@@ -3498,7 +3497,7 @@ color: rgb(166 166 166);
   background-color: yellow;
   color: #000;
   border: unset;
-  width: 70px;
+  width: 100px;
   border-radius: purple;
   margin-left: 10px;
   cursor: pointer;
@@ -3530,7 +3529,7 @@ color: rgb(166 166 166);
 }
 
 .faiie {
-	padding:5px 5px 5px 150px !important;
+	padding:5px 5px 5px 107px !important;
 }
 
 
