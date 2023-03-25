@@ -2988,6 +2988,11 @@ margin-left: auto;
 margin-right: auto;
   padding-top: 10px;
     padding-bottom: 10px;
+  
+  
+    background: linear-gradient(#F8F8F8, #F8F8F8) padding-box, linear-gradient(to right, #238636, #1f6feb, #8957e5, #da3633, #bd561d);
+    border-radius: 8px;
+    border: 2px solid transparent;
 }
 
 .yellowstone {
