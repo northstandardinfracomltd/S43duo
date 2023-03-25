@@ -1208,7 +1208,7 @@ z-index: 2;
 
 
 .nav-parent1 {
-    width: 100%;
+   !important  width: 100%;
     display: flex;
     flex-flow: row wrap;
   text-align: center;
@@ -3752,7 +3752,34 @@ margin-left: -17px;
 
 .avatar-arrow-explain {
 	width: 45px;
-  margin-right: -40px;
+  }
+
+.wagner34 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.wagner34-left {
+    width: 65%;
+    text-align: left;
+  justify-content: left;
+}
+
+.wagner34-right {
+    width: 35%;
+  text-align: right !important;
+  justify-content: right !important;
+  
+}
+
+
+
+argin-right: -40px;
 
 }
 
