@@ -1205,6 +1205,31 @@ z-index: 2;
   
 }
 
+
+
+.nav-parent1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.nav-left1 {
+    width: 65%;
+    text-align: left !important;
+  justify-content: left !important;
+}
+
+.nav-right1 {
+    width: 35%;
+  text-align: right !important;
+  justify-content: right !important;
+  
+}
+
 img.navlogo {
   margin-top: -9px;
   margin-left: 10px !important;
