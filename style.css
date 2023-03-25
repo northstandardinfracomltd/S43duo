@@ -2469,6 +2469,26 @@ text-decoration: none;
 }
 
 
+.ficusbtnnav {
+text-decoration: none;
+    padding: 6px 16px !important;
+    font-size: 15px !important;
+    font-weight: var(--base-text-weight-medium, 500) !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    border: 1px solid rgb(73 63 88);
+    border-radius: 6px;
+    font-family: "Saoecom2font" !important;
+    color: #c7acff !important;
+    background-color: rgb(51 45 62) !important;
+  float: inherit !important;
+}
+
+
 .ficusbtn-nvidia {
 text-decoration: none;
     display: inline-block !important;
