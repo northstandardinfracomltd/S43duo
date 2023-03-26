@@ -1202,10 +1202,11 @@ z-index: 2;
     width: 35%;
   text-align: right !important;
   justify-content: right !important;
-margin-top: 16px;
-    margin-bottom: 0px;
-    padding-top: 8px;
+    margin-bottom: auto;
+  margin-top: auto;
+    padding-top: 0px;
     padding-bottom: 0px;
+  padding-right: 15px;
 }
 
 
@@ -2509,13 +2510,13 @@ text-decoration: none;
     cursor: pointer !important;
     -webkit-user-select: none !important;
     user-select: none !important;
-    border-right: 0px solid rgb(108 120 130);
-      border-left: 1px solid rgb(108 120 130);
-    border-top: 1px solid rgb(108 120 130);
-    border-bottom: 1px solid rgb(108 120 130);
+    border-right: 0px solid rgb(108 120 130 / 67%);
+      border-left: 1px solid rgb(108 120 130 / 67%);
+    border-top: 1px solid rgb(108 120 130 / 67%);
+    border-bottom: 1px solid rgb(108 120 130 / 67%);
   border-radius: 6px 0px 0px 6px;
     font-family: "Saoecom2font" !important;
-    color: #c7acff !important;
+    color: #c9d3dc !important;
     background-color: #454c56 !important;
   float: inherit !important;
   margin-right: -5px;
@@ -2533,14 +2534,14 @@ text-decoration: none;
     cursor: pointer !important;
     -webkit-user-select: none !important;
     user-select: none !important;
-    border-right: 0px solid rgb(108 120 130);
-      border-left: 1px solid rgb(108 120 130);
-    border-top: 1px solid rgb(108 120 130);
-    border-bottom: 1px solid rgb(108 120 130);
+    border-right: 0px solid rgb(108 120 130 / 67%);
+      border-left: 1px solid rgb(108 120 130 / 67%);
+    border-top: 1px solid rgb(108 120 130 / 67%);
+    border-bottom: 1px solid rgb(108 120 130 / 67%);
 
     border-radius: 0px 0px 0px 0px;
     font-family: "Saoecom2font" !important;
-    color: #b3c1ce !important;
+    color: #c9d3dc !important;
     background-color: #454c56 !important;
   float: inherit !important;
 }
@@ -2557,13 +2558,13 @@ text-decoration: none;
     cursor: pointer !important;
     -webkit-user-select: none !important;
     user-select: none !important;
-    border-right: 1px solid rgb(108 120 130);
-      border-left: 1px solid rgb(108 120 130);
-    border-top: 1px solid rgb(108 120 130);
-    border-bottom: 1px solid rgb(108 120 130);
+    border-right: 1px solid rgb(108 120 130 / 67%);
+      border-left: 1px solid rgb(108 120 130 / 67%);
+    border-top: 1px solid rgb(108 120 130 / 67%);
+    border-bottom: 1px solid rgb(108 120 130 / 67%);
 
 border-radius: 0px 6px 6px 0px;    font-family: "Saoecom2font" !important;
-    color: #c7acff !important;
+    color: #c9d3dc !important;
     background-color: #454c56 !important;
   float: inherit !important;
   margin-left: -5px;
@@ -3950,4 +3951,69 @@ argin-right: -40px;
 .haribo {
    justify-content: center;
   margin-left: 0px;right: 0px;
+}
+
+
+
+
+
+
+
+
+
+.mmm {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px;
+  background: red;
+}
+
+.mmm1 {
+    width: 15%;
+  background : blue;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+    text-align: center;
+display: flex;
+}
+
+.mmm2 {
+    width: 70%;
+  background : yellow;
+    margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+    text-align: center;
+  display: flex;
+
+}
+
+.mmm3 {
+    width: 15%;
+  background : pink;
+    margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+
+.kalash {
+text-decoration: none;
+    padding: 6px 16px !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    user-select: none !important;
+  border-radius: 6px 0px 0px 6px;
+    font-family: "Saoecom2font" !important;
+    color: #c9d3dc !important;
+    background-color: #454c56 !important;
+  margin-right: -5px;
 }
