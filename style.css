@@ -2581,11 +2581,11 @@ text-decoration: none;
     vertical-align: middle !important;
     cursor: pointer !important;
     user-select: none !important;
-    border: 1px solid rgb(73 63 88);
+    border: 1px solid #46874c;
     border-radius: 6px;
     font-family: "Saoecom2font" !important;
-    color: #c7acff !important;
-    background-color: rgb(51 45 62) !important;
+    color: #feffff !important;
+    background-color: #347d39 !important;
 }
 
 .buttonalert:hover {
@@ -3038,6 +3038,24 @@ padding-top: 30px;
 
 
 .nvidia-ultra {
+    width: 45% !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  
+    background-image: radial-gradient(circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98%) !important;
+
+}
+
+
+.nvidia-ultra-vab {
     background: grey;
     width: 45% !important;
     margin-right: auto;
@@ -3049,6 +3067,10 @@ padding-top: 30px;
     border-radius: 10px;
     padding-left: 30px;
     padding-right: 30px;
+  
+  
+    background-image: radial-gradient(circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98%) !important;
+
 }
 
 
@@ -3148,7 +3170,7 @@ border-radius: 4px;
 display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 5px 0;
+    margin: 15px 0;
   
     margin-right: 0px ;
     margin-left: 0px;
@@ -3164,7 +3186,7 @@ display: flex;
 display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 5px 0;
+    margin: 15px 0;
   
     margin-right: 0px ;
     margin-left: 0px;
