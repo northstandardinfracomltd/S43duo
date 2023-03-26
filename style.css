@@ -2879,7 +2879,7 @@ form {
 input[type="text9"] {
   padding: 10px;
   border-radius: 6px;
-background: grey !important;
+background: #1c2128 !important;
     border: 0px solid white !important;
   width: 69% !important;
 color: #7e6b91 !important;
@@ -2892,7 +2892,7 @@ font-size: 15px !important;
 input[type="text9"]:focus {
   padding: 10px;
   border-radius: 6px;
-background: white !important;
+background: #1c2128 !important;
     border: 0px solid white !important;
   width: 69% !important;
 color: #7e6b91 !important;
@@ -3108,9 +3108,9 @@ box-shadow:   0 12px 48px #1c2128 !important;
 
 .nvidia-welcome {
 width: 88% !important;
-border: 1px solid #d9e1ec;
+border: 1px solid #434c55;
 border-radius: 4px;
-background: #22272e !important;
+background: #1c2128 !important;
 margin-top: 1px;
 margin-bottom: 1px;
 margin-left: auto;
@@ -3639,14 +3639,23 @@ color: rgb(166 166 166);
 
 
 .nvidiakycbtn {
-  background-color: #fe4f00;
-  color: #ffffff;
-  border: unset;
-  width: 100px;
-  border-radius: 12px;
-  margin-left: 10px;
-  cursor: pointer;
-  font-size: 18px;
+  
+    text-decoration: none;
+    display: inline-block !important;
+    padding: 6px 16px !important;
+    font-size: 15px !important;
+    font-weight: var(--base-text-weight-medium, 500) !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    border: 1px solid #46874c;
+    border-radius: 6px;
+    font-family: "Saoecom2font" !important;
+    color: #feffff !important;
+    background-color: #347d39 !important;
+
 }
 
 
