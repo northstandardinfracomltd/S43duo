@@ -3063,6 +3063,7 @@ padding-bottom: 9px;
 .nvidia-star-text {
 
 color: #cdd9e5;
+  
 
 }
 
@@ -3085,17 +3086,18 @@ box-shadow:   0 12px 48px #1c2128 !important;
 
 
 .nvidia-ultra2 {
-    background: #b7a2a2;
-    width: 45% !important;
+    background: #2d333b;
+    width: 600px !important;
     margin-right: auto;
     margin-left: auto;
     padding-top: 35px !important;
     padding-bottom: 35px !important;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     border-radius: 10px;
     padding-left: 30px;
     padding-right: 30px;
+  border: 1px #454c56 solid;
 }
 
 
@@ -3820,8 +3822,8 @@ position: relative;
 
 
 .avatar-arrow {
-	width: 40px;
-  margin-bottom: -100px;
+  width: 55px;
+    margin-bottom: -65px;
 }
 
 
