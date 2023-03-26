@@ -1102,7 +1102,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
     margin: 0px !important;
-  background: #ffffff;
+  background: #22272e;
 }
 
 /* STRUCTURE */
@@ -3152,9 +3152,25 @@ display: flex;
   
     margin-right: 0px ;
     margin-left: 0px;
-    border-radius: 4px;
-    background: red ;
-border-left: blue 5px solid;
+    border-radius: 6px;
+    background: #21272e ;
+  border: #454c56 1px solid;
+}
+
+
+.moduleitem:hover {
+    width: 100% !important;
+  
+display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+  
+    margin-right: 0px ;
+    margin-left: 0px;
+    border-radius: 6px;
+    background: #2a3037 ;
+  border: #549bf5 1px solid;
 }
 
 .moduleitemcol1 {
