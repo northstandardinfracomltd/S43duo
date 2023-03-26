@@ -3030,34 +3030,40 @@ grid-gap: 0px;
 
 .nvidia {
 width: 100% !important;
-background: orange ;
 text-align: center;
 padding-top: 30px;
   padding-bottom: 30px;
+  
+  background: #2d333b;
 }
 
 
 .nvidia-ultra {
-    width: 45% !important;
+    width: 600px !important;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 35px !important;
-    padding-bottom: 35px !important;
-    margin-bottom: 0px;
+    padding-top: 5px !important;
+    margin-bottom: 5px;
     margin-top: 20px;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-  
+    padding-left: 5px;
+    padding-right: 5px;
     background-image: radial-gradient(circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98%) !important;
+padding-bottom: 9px;
+}
+
+
+
+.nvidia-star-text {
+
+color: #cdd9e5;
 
 }
 
 
 .nvidia-ultra-vab {
-    background: grey;
-    width: 45% !important;
+    background: #22272e;
+    width: 580px !important;
     margin-right: auto;
     margin-left: auto;
     padding-top: 35px !important;
@@ -3065,11 +3071,8 @@ padding-top: 30px;
     margin-bottom: 0px;
     margin-top: 20px;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
   
-  
-    background-image: radial-gradient(circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98%) !important;
+box-shadow:   0 12px 48px #1c2128 !important;
 
 }
 
