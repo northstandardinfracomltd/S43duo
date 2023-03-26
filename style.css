@@ -1179,6 +1179,7 @@ footer {
   justify-content: space-between;
   background: #2d333b;
 z-index: 2;
+  border-bottom: 1px solid #454c57;
 }
 
 
