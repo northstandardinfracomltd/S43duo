@@ -1177,7 +1177,7 @@ footer {
   height: 70px;
   width: 100%;
   justify-content: space-between;
-  background: linear-gradient(0.25turn, #007aff, #004998);
+  background: #22272e;
 z-index: 2;
 }
 
@@ -3034,7 +3034,11 @@ text-align: center;
 padding-top: 30px;
   padding-bottom: 30px;
   
-  background: #2d333b;
+  
+    background: linear-gradient(#22272e, #22272e) padding-box, linear-gradient(to right, #238636, #1f6feb, #8957e5, #da3633, #bd561d);
+    border-radius: 0px;
+    border-bottom: 2px solid transparent;
+
 }
 
 
@@ -3105,7 +3109,7 @@ box-shadow:   0 12px 48px #1c2128 !important;
 width: 88% !important;
 border: 1px solid #d9e1ec;
 border-radius: 4px;
-background: #ffffff !important;
+background: #22272e !important;
 margin-top: 1px;
 margin-bottom: 1px;
 margin-left: auto;
@@ -3114,10 +3118,8 @@ margin-right: auto;
     padding-bottom: 10px;
   
       border-radius: 12px;
-    border: 2px solid blue;
+    border: 1px solid #444c56;
   
-box-shadow: 0px 0px 20px 3px #d5d5d5;
-
 }
 
 .yellowstone {
@@ -3194,7 +3196,7 @@ display: flex;
     margin-right: 0px ;
     margin-left: 0px;
     border-radius: 6px;
-    background: #2a3037 ;
+    background: rgb(65 132 228 / 15%) ;
   border: #549bf5 1px solid;
 }
 
