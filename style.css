@@ -1147,7 +1147,7 @@ footer {
   padding: 0px;
   top: 0;
   left: 0;
-  height: 70px;
+  height: 72px;
   width: 100%;
   justify-content: space-between;
   background: #2d333b;
@@ -1685,15 +1685,93 @@ purpleblockswww2001 {
 .btn1 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border: 1px #316dca;
-  border-radius: 6px 0px 0px 6px;
-  margin-right: -2px;
-  text-decoration: none;
-  color: #cdd9e5 !important;
-  background: #316dca !important;
-  font-size: 19px !important;
-  height: 20px !important;
+border: 1px #316dca;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: -2px;
+    text-decoration: none;
+    color: #cdd9e5 !important;
+    background: #316dca !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 10px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
 }
+
+.btn1:hover {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+border: 1px #316dca;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: -2px;
+    text-decoration: none;
+    color: #cdd9e5 !important;
+    background: #316dca !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 10px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
+}
+
+.btn2 {
+border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 0px 0px 0px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 9px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
+}
+
+.btn2:hover {
+border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 0px 0px 0px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #3f464f !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 9px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
+}
+
+
+.btn3 {
+border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 9px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
+}
+
+.btn3:hover {
+border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #3f464f !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 9px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
+}
+
+
 
 .btn1left:hover {
   border-top-right-radius: 0;
