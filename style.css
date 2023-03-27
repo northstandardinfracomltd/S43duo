@@ -313,7 +313,7 @@ img.iconcard {
 }
 
 .combat {
-  background: #373756;
+  background: #22272e;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -322,7 +322,8 @@ img.iconcard {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  border-radius: 9px 9px 0px 0px !important;
+  border-radius: 12px !important;
+  border: 1px solid #373e47;
 }
 
 .combat2 {
@@ -653,7 +654,8 @@ nvidia1010 {
   display: grid;
   /*Define our columns */
   grid-gap: 0em;
-  background: pink;
+  background: #1c2128;
+  border-top: 1px solid #373e48;
 }
 
 purpleblocksB3B3 {
@@ -803,6 +805,41 @@ article:nth-child(even) {
   width: 300px !important;
   border: solid 1px red;
 }
+
+
+
+.card1blue {
+  background-color: rgb(65 132 228 / 15%) !important;
+  font-size: 1.4em !important;
+  padding-left: 35px !important;
+  padding-top: 21px !important;
+  padding-bottom: 18px !important;
+  font-family: "Saoecom2font" !important;
+  line-height: 0 !important;
+  letter-spacing: 0.02em !important;
+  border: solid 1px #549bf5 !important;
+  color: #9d91ff !important;
+  cursor: default !important;
+  border-radius: 12px !important;
+}
+
+
+.card1orange {
+  background-color: rgb(236 119 92 / 15%) !important;
+  font-size: 1.4em !important;
+  padding-left: 35px !important;
+  padding-top: 21px !important;
+  padding-bottom: 18px !important;
+  font-family: "Saoecom2font" !important;
+  line-height: 0 !important;
+  letter-spacing: 0.02em !important;
+  border: solid 1px #ec775c !important;
+  color: #9d91ff !important;
+  cursor: default !important;
+  border-radius: 12px !important;
+}
+
+
 
 .cardservice1 {
   background-color: #241d2e !important;
@@ -3232,18 +3269,18 @@ button[type="submit"]:hover {
 }
 
 .ficus {
-  width: 97.2% !important;
+  width: 100% !important;
 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin: 5px 0;
 
-  margin-right: 20px;
-  margin-left: 20px;
-  border: 1px solid #d9e1ec;
-  border-radius: 4px;
-  background: red;
+  margin-right: 0px;
+  margin-left: 0px;
+  border: 1px solid #2d333b;
+  border-radius: 12px;
+  background: #2d333b;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
