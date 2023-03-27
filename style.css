@@ -839,6 +839,39 @@ article:nth-child(even) {
   border-radius: 12px !important;
 }
 
+.card1green {
+  background-color: rgb(85 171 89 / 15%) !important;
+  font-size: 1.4em !important;
+  padding-left: 35px !important;
+  padding-top: 21px !important;
+  padding-bottom: 18px !important;
+  font-family: "Saoecom2font" !important;
+  line-height: 0 !important;
+  letter-spacing: 0.02em !important;
+  border: solid 1px #57ab5a !important;
+  color: #9d91ff !important;
+  cursor: default !important;
+  border-radius: 12px !important;
+}
+
+
+
+.card1pink {
+  background-color: rgb(153 117 211 / 15%)!important;
+  font-size: 1.4em !important;
+  padding-left: 35px !important;
+  padding-top: 21px !important;
+  padding-bottom: 18px !important;
+  font-family: "Saoecom2font" !important;
+  line-height: 0 !important;
+  letter-spacing: 0.02em !important;
+  border: solid 1px #9975d3 !important;
+  color: #9d91ff !important;
+  cursor: default !important;
+  border-radius: 12px !important;
+}
+
+
 
 
 .cardservice1 {
