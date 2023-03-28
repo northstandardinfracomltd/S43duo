@@ -1908,19 +1908,45 @@ border: 1px solid rgb(205 217 229 / 10%) !important;
 
 
 
-  input[type="cube1"] {
-  padding: 10px;
-  border-radius: 6px;
-  background: #1c2128 !important;
-  border: 0px solid white !important;
-  width: 100px !important;
-  color: #7e6b91 !important;
-  font-size: 15px !important;
-  font-family: "Saoecom2font" !important;
-  height: 50px;
-  outline: none;
-
+.cube0 {
+  width: 140px !important;
+        font-family: "Saoecom2font" !important;
+        border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 8px 0px 0px 8px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 22px !important;
+    padding-right: 14px !important;
 }
+
+.cube1 {
+  width: 100px !important;
+        font-family: "Saoecom2font" !important;
+        border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 8px 0px 0px 8px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 22px !important;
+    padding-right: 14px !important;
+}
+
+.cube1::placeholder {
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    font-size: 16px !important;
+          font-family: "Saoecom2font" !important;
+}
+
 
 
 .cube2 {
