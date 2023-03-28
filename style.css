@@ -1922,10 +1922,34 @@ border: 1px solid rgb(205 217 229 / 10%) !important;
     padding-top: 8.5px !important;
     padding-left: 22px !important;
     padding-right: 14px !important;
+    outline: none !important;
+transition-duration: 0s;
 }
 
 .cube1 {
-  width: 100px !important;
+  width: 224px !important;
+        font-family: "Saoecom2font" !important;
+        border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 22px !important;
+    padding-right: 14px !important;
+  margin-left: -5px;
+    outline: none !important;
+  transition-duration: 0s;
+
+
+}
+
+
+
+.cube0:hover {
+  width: 140px !important;
         font-family: "Saoecom2font" !important;
         border: 1px solid rgb(205 217 229 / 10%) !important;
     border-radius: 8px 0px 0px 8px !important;
@@ -1938,6 +1962,30 @@ border: 1px solid rgb(205 217 229 / 10%) !important;
     padding-top: 8.5px !important;
     padding-left: 22px !important;
     padding-right: 14px !important;
+  outline: none !important;
+  transition-duration: 0s;
+
+}
+
+.cube1:hover {
+  width: 224px !important;
+        font-family: "Saoecom2font" !important;
+        border: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 22px !important;
+    padding-right: 14px !important;
+  margin-left: -5px;
+  box-shadow: 0 0 0px 4px #008eff38;
+    outline: none !important;
+  transition-duration: 0s;
+
+
 }
 
 .cube1::placeholder {
