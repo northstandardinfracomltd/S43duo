@@ -3314,6 +3314,50 @@ button[type="submit"]:hover {
   border: 1px #454c56 solid;
 }
 
+
+
+
+.engine93 {
+    background: transparent;
+    width: 600px !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px transparent solid;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.engine93-a {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.engine93-b {
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.engine93-c {
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
 @media (min-width: 320px) and (max-width: 480px) {
   .nvidia-ultra {
     width: 90% !important;
