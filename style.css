@@ -1942,7 +1942,7 @@ transition-duration: 0s;
   margin-left: -5px;
     outline: none !important;
   transition-duration: 0s;
-
+text-transform: lowercase;
 
 }
 
@@ -1985,14 +1985,15 @@ transition-duration: 0s;
     outline: none !important;
   transition-duration: 0s;
 
-
+text-transform: lowercase;
 }
 
 .cube1::placeholder {
     text-decoration: none !important;
-    color: #adbac7 !important;
+    color: #5e656b !important;
     font-size: 16px !important;
           font-family: "Saoecom2font" !important;
+  text-transform: lowercase;
 }
 
 
@@ -2012,11 +2013,12 @@ transition-duration: 0s;
 }
 
 .cube-btn1 {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  margin-bottom: 20px;
+
 border: 1px #316dca;
-    border-radius: 8px 0px 0px 8px;
-    margin-right: -2px;
+    border-radius: 8px 8px 8px 8px;
+    /* margin-right: -2px; */
+    margin-top: -5px;
     text-decoration: none;
     color: #cdd9e5 !important;
     background: #316dca !important;
@@ -2025,6 +2027,8 @@ border: 1px #316dca;
     padding-top: 9.5px !important;
     padding-left: 22px !important;
     padding-right: 23px !important;
+    width: 361px !important;
+    margin-left: 0px;
 }
 
 .cube-btn2 {
