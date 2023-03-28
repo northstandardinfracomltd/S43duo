@@ -3231,6 +3231,10 @@ button[type="submit"]:hover {
   width: 50%;
 }
 
+.rightsearch-container {
+  width: 50%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .leftsearch-container {
     width: 100%;
@@ -3586,12 +3590,7 @@ button[type="submit"]:hover {
 }
 
 .search-container {
-  display: flex;
-  justify-content: center;
   padding: 20px;
-  font-family: "Post1" !important;
-  font-size: 14px;
-  letter-spacing: 1;
 }
 
 @media screen and (max-width: 980px) {
@@ -3658,6 +3657,27 @@ input[type="text"] {
   color: #fff;
   background-color: #2b2b2b !important;
   outline: 4px solid #3b3b3b2e;
+}
+
+
+.nsi-engine {
+  padding: 8px !important;
+  font-size: 16px !important;
+  font-family: "Post1" !important;
+  font-size: 14px !important;
+  letter-spacing: 1 !important;
+  border: solid 1px #454c56 !important;
+  border-radius: 8px !important;
+  width: 400px !important;
+  margin-left: 30px !important;
+  color: #fff !important;
+  background-color: #1c2128 !important;
+  outline: 4px solid #3b3b3b2e !important;
+  font-family: "Saoecom2font" !important;
+    color: #adbac7 !important;
+    font-size: 16px !important;
+margin-top: 9px;
+    margin-bottom: 8px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
