@@ -3398,10 +3398,11 @@ button[type="submit"]:hover {
     font-family: "face6" !important;
     font-size: 16px;
     text-transform: none;
-    margin-top: 21px;
+    margin-top: 25px;
     margin-bottom: 20px;
     cursor: default;
     margin-left: 25px;
+    line-height: 25px;
 }
 
 
@@ -3779,22 +3780,26 @@ input[type="text"] {
 .nsi-engine {
   padding: 8px !important;
   font-size: 16px !important;
-  font-family: "Post1" !important;
-  font-size: 14px !important;
   letter-spacing: 1 !important;
   border: solid 1px #454c56 !important;
   border-radius: 8px !important;
   width: 400px !important;
   margin-left: 30px !important;
-  color: #fff !important;
+  color: #fff;
   background-color: #1c2128 !important;
-  outline: 4px solid #3b3b3b2e !important;
-  font-family: "Saoecom2font" !important;
-    color: #adbac7 !important;
-    font-size: 16px !important;
+  outline: 4px solid #454c5647 !important;
+  font-family: "face4" !important;
 margin-top: 9px;
     margin-bottom: 8px;
-  height: 40px;
+  height: 42px;
+}
+
+.nsi-engine:placeholder {
+  font-size: 16px !important;
+  font-family: "face1" !important;
+  font-size: 14px !important;
+  letter-spacing: 1 !important;
+  color: #fff !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -4167,6 +4172,7 @@ border: 3px solid #7aff7a !important;
   box-shadow: 0 8px 24px #1c2128;
   border: 1px solid #ec775c;
   z-index: 2;
+  outline: 4px solid #ec775c2b !important;
 }
 
 .explain2 {
