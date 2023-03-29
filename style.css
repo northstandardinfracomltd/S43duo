@@ -47,6 +47,13 @@
   src: url("https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/sf-pro-display_medium.woff2?v=1668542716190")
     format("opentype");
 }
+
+@font-face {
+  font-family: face0;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/sf-pro-display_medium.woff2?v=1668542716190")
+    format("opentype");
+}
 @font-face {
   font-family: Saoecom3font;
   font-weight: bold;
@@ -3600,15 +3607,28 @@ button[type="submit"]:hover {
 
 .mod-usage {
   margin-right: 8px;
-  color: yellow;
+  color: rgb(83, 155, 245) !important;
+    font-family: "face6" !important;
+    font-size: 16px !important;
+    cursor: default !important;
+  text-decoration: none !important;
 }
 
 .mod-price {
-  color: pink;
+  color: #ec775c !important;
+    font-family: "face3" !important;
+    font-size: 16px !important;
+    cursor: default !important;
+  text-decoration: none !important;
 }
 
 .mod-about {
-  color: purple;
+  color: #cdd9e5 !important;
+    font-family: "face0" !important;
+    font-size: 16px !important;
+    cursor: default !important;
+  margin-left: 13px !important;
+  text-decoration: none !important;
 }
 
 .ficus {
