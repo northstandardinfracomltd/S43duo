@@ -3144,7 +3144,8 @@ img.linkdivpromoimg2 {
 
 .divider {
   width: 100%;
-  border-bottom: 1px solid #302a38;
+  border-bottom: 1px solid rgb(65 71 81);
+  
 }
 
 form {
@@ -3667,6 +3668,8 @@ button[type="submit"]:hover {
   text-align: center;
   line-height: 22px;
     margin-left: auto;
+      font-family: "Saoecom2font" !important;
+
     margin-right: auto;
 border: 1px #316dca;
     border-radius: 8px;
@@ -3678,6 +3681,7 @@ border: 1px #316dca;
     padding-top: 9.5px !important;
     padding-left: 22px !important;
     padding-right: 23px !important;
+  margin-top: -90px;
 }
 
 
