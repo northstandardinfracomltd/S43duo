@@ -696,7 +696,6 @@ purpleblocks {
   grid-gap: 0em;
 }
 
-
 purpleblocks246 {
   max-width: 1200px;
   margin: 30px auto;
@@ -707,8 +706,6 @@ purpleblocks246 {
   grid-gap: 0em;
   background: yellow;
 }
-
-
 
 nvidia1010 {
   margin-top: -200px;
@@ -722,17 +719,17 @@ nvidia1010 {
 }
 
 .crabe {
-    border: 1px #316dca;
-    border-radius: 8px;
-    margin-right: -2px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px #316dca;
+  border-radius: 8px;
+  margin-right: -2px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
 nvidia1010pimp {
@@ -892,8 +889,6 @@ article:nth-child(even) {
   border: solid 1px red;
 }
 
-
-
 .card1blue {
   background-color: rgb(65 132 228 / 15%) !important;
   font-size: 1.4em !important;
@@ -908,7 +903,6 @@ article:nth-child(even) {
   cursor: default !important;
   border-radius: 12px !important;
 }
-
 
 .card1orange {
   background-color: rgb(236 119 92 / 15%) !important;
@@ -940,10 +934,8 @@ article:nth-child(even) {
   border-radius: 12px !important;
 }
 
-
-
 .card1pink {
-  background-color: rgb(153 117 211 / 15%)!important;
+  background-color: rgb(153 117 211 / 15%) !important;
   font-size: 1.4em !important;
   padding-left: 35px !important;
   padding-top: 21px !important;
@@ -956,9 +948,6 @@ article:nth-child(even) {
   cursor: default !important;
   border-radius: 12px !important;
 }
-
-
-
 
 .cardservice1 {
   background-color: #241d2e !important;
@@ -1837,97 +1826,93 @@ purpleblockswww2001 {
   color: #c7acff !important;
 }
 
-
 .btn1 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-border: 1px #316dca;
-    border-radius: 8px 0px 0px 8px;
-    margin-right: -2px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px #316dca;
+  border-radius: 8px 0px 0px 8px;
+  margin-right: -2px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
 .btn1:hover {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-border: 1px #316dca;
-    border-radius: 8px 0px 0px 8px;
-    margin-right: -2px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px #316dca;
+  border-radius: 8px 0px 0px 8px;
+  margin-right: -2px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
 .btn2 {
-border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 0px 0px 0px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
 .btn2:hover {
-border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 0px 0px 0px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #3f464f !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 0px 0px 0px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #3f464f !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
-
 .btn3 {
-border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
 
 .btn3:hover {
-border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #3f464f !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #3f464f !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
-
-
 
 .btn1left:hover {
   border-top-right-radius: 0;
@@ -1991,150 +1976,138 @@ border: 1px solid rgb(205 217 229 / 10%) !important;
   margin-left: -3px;
 }
 
-
-
-
 .cube0 {
   width: 140px !important;
-        font-family: "Saoecom2font" !important;
-        border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 8px 0px 0px 8px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
-    outline: none !important;
-transition-duration: 0s;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 0px 0px 8px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
+  outline: none !important;
+  transition-duration: 0s;
 }
 
 .cube1 {
   width: 224px !important;
-        font-family: "Saoecom2font" !important;
-        border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
   margin-left: -5px;
-    outline: none !important;
+  outline: none !important;
   transition-duration: 0s;
-text-transform: lowercase;
-
+  text-transform: lowercase;
 }
-
-
 
 .cube0:hover {
   width: 140px !important;
-        font-family: "Saoecom2font" !important;
-        border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 8px 0px 0px 8px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 0px 0px 8px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
   outline: none !important;
   transition-duration: 0s;
-
 }
 
 .cube1:hover {
   width: 224px !important;
-        font-family: "Saoecom2font" !important;
-        border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 0px 8px 8px 0px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
   margin-left: -5px;
   box-shadow: 0 0 0px 4px #008eff38;
-    outline: none !important;
+  outline: none !important;
   transition-duration: 0s;
 
-text-transform: lowercase;
-}
-
-.cube1::placeholder {
-    text-decoration: none !important;
-    color: #5e656b !important;
-    font-size: 16px !important;
-          font-family: "Saoecom2font" !important;
   text-transform: lowercase;
 }
 
-
+.cube1::placeholder {
+  text-decoration: none !important;
+  color: #5e656b !important;
+  font-size: 16px !important;
+  font-family: "Saoecom2font" !important;
+  text-transform: lowercase;
+}
 
 .cube2 {
-    border: 1px solid rgb(205 217 229 / 10%) !important;
-    border-radius: 8px 0px 0px 8px !important;
-    margin-right: -2px !important;
-    text-decoration: none !important;
-    color: #adbac7 !important;
-    background: #373e47 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 8.5px !important;
-    padding-left: 22px !important;
-    padding-right: 14px !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 0px 0px 8px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
 }
 
 .cube-btn1 {
   margin-bottom: 20px;
 
-border: 1px #316dca;
-    border-radius: 8px 8px 8px 8px;
-    /* margin-right: -2px; */
-    margin-top: -5px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
-    width: 361px !important;
-    margin-left: 0px;
+  border: 1px #316dca;
+  border-radius: 8px 8px 8px 8px;
+  /* margin-right: -2px; */
+  margin-top: -5px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+  width: 361px !important;
+  margin-left: 0px;
 }
 
 .cube-btn2 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-border: 1px #316dca;
-    border-radius: 8px 0px 0px 8px;
-    margin-right: -2px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  border: 1px #316dca;
+  border-radius: 8px 0px 0px 8px;
+  margin-right: -2px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
-
-
-
 
 bouton {
   position: relative !important;
@@ -3322,7 +3295,6 @@ button[type="submit"]:hover {
   width: 100%;
 }
 
-
 .rightsearch-container {
   width: 50%;
 }
@@ -3379,39 +3351,36 @@ button[type="submit"]:hover {
 
 .nvidia-star-text {
   color: #cdd9e5;
-    font-family: "face5" !important;
+  font-family: "face5" !important;
   font-size: 16px;
   text-transform: uppercase;
-    margin-top: 22.5px;
-    margin-bottom: 24px;
+  margin-top: 22.5px;
+  margin-bottom: 24px;
   cursor: default;
 }
 
-
 .blue1 {
-    color: #cdd9e5;
-    font-family: "face4" !important;
-    font-size: 17px;
-    text-transform: none;
-    margin-top: 21px;
-    margin-bottom: 20px;
-    cursor: default;
-    margin-left: 25px;
+  color: #cdd9e5;
+  font-family: "face4" !important;
+  font-size: 17px;
+  text-transform: none;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  cursor: default;
+  margin-left: 25px;
 }
-
 
 .blue2 {
-    color: #cdd9e5;
-    font-family: "face6" !important;
-    font-size: 17px;
-    text-transform: none;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    cursor: default;
-    margin-left: 25px;
-    line-height: 25px;
+  color: #cdd9e5;
+  font-family: "face6" !important;
+  font-size: 17px;
+  text-transform: none;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  cursor: default;
+  margin-left: 25px;
+  line-height: 25px;
 }
-
 
 .nvidia-ultra-vab {
   background: #22272e;
@@ -3442,49 +3411,42 @@ button[type="submit"]:hover {
   border: 1px #454c56 solid;
 }
 
-
-
-
 .engine93 {
-    background: transparent;
-    width: 600px !important;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 0px transparent solid;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    justify-content: center;
+  background: transparent;
+  width: 600px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px transparent solid;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
 }
 
-
 .engine93-a {
-    width: 40%;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .engine93-b {
-    width: 30%;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .engine93-c {
-    width: 30%;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-
-
-
 
 @media (min-width: 320px) and (max-width: 480px) {
   .nvidia-ultra {
@@ -3608,26 +3570,26 @@ button[type="submit"]:hover {
 .mod-usage {
   margin-right: 8px;
   color: rgb(83, 155, 245) !important;
-    font-family: "face6" !important;
-    font-size: 17px !important;
-    cursor: default !important;
+  font-family: "face6" !important;
+  font-size: 17px !important;
+  cursor: default !important;
   text-decoration: none !important;
 }
 
 .mod-price {
   color: #ec775c !important;
-    font-family: "face3" !important;
-    font-size: 17px !important;
-    cursor: default !important;
+  font-family: "face3" !important;
+  font-size: 17px !important;
+  cursor: default !important;
   text-decoration: none !important;
   margin-top: 17px !important;
 }
 
 .mod-about {
   color: #cdd9e5 !important;
-    font-family: "face0" !important;
-    font-size: 17px !important;
-    cursor: default !important;
+  font-family: "face0" !important;
+  font-size: 17px !important;
+  cursor: default !important;
   margin-left: 13px !important;
   text-decoration: none !important;
 }
@@ -3797,7 +3759,6 @@ input[type="text"] {
   outline: 4px solid #3b3b3b2e;
 }
 
-
 .nsi-engine {
   padding: 8px !important;
   font-size: 16px !important;
@@ -3810,8 +3771,8 @@ input[type="text"] {
   background-color: #1c2128 !important;
   outline: 4px solid #454c5647 !important;
   font-family: "face4" !important;
-margin-top: 9px;
-    margin-bottom: 8px;
+  margin-top: 9px;
+  margin-bottom: 8px;
   height: 42px;
 }
 
@@ -4112,16 +4073,16 @@ input[type="text"]:focus {
   height: 37px;
   border-radius: 40px;
   margin: -6px;
-border: 3px solid #f48eff !important;
+  border: 3px solid #f48eff !important;
   z-index: 1;
 }
 
 .avatar2 {
-border: 3px solid #7abaff !important;
+  border: 3px solid #7abaff !important;
 }
 
 .avatar3 {
-border: 3px solid #7aff7a !important;
+  border: 3px solid #7aff7a !important;
 }
 
 .nvidia-customers-circles1 {
@@ -4165,10 +4126,10 @@ border: 3px solid #7aff7a !important;
   width: 20%;
 }
 
-.avatar-arrow  {
-    width: 40px;
-    margin-bottom: -20px;
-    margin-left: -5px;
+.avatar-arrow {
+  width: 40px;
+  margin-bottom: -20px;
+  margin-left: -5px;
   margin-top: 7px;
 }
 
@@ -4394,7 +4355,6 @@ border: 3px solid #7aff7a !important;
   margin-bottom: auto;
 }
 
-
 .moustache {
   text-decoration: none;
   font-size: 15px !important;
@@ -4405,16 +4365,16 @@ border: 3px solid #7aff7a !important;
 }
 
 .quantum3-4 {
-    text-decoration: none;
-    font-size: 20px !important;
-    cursor: default !important;
-    font-family: "face6" !important;
-    color: #adbac7 !important;
-    line-height: 32px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 33px;
-    margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 20px !important;
+  cursor: default !important;
+  font-family: "face6" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
 }
 
 .kalashcenter {

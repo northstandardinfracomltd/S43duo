@@ -1,551 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <!-- 
+  <html translate="no">
+    <head>
+      <!-- 
     This is the main Handlebars template for the site 
     - When the user visits the homepage or submits a choice the app calls the endpoints in server.js
     - The server script passes data in here and the Handlebars code builds it into the HTML page
   -->
+      <meta name="google" content="notranslate" />
+      <meta charset="utf-8" />
+      <link rel="icon" href="https://glitch.com/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta charset="utf-8" />
-  <link rel="icon" href="https://glitch.com/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>{{seo.title}}</title>
 
-  <title>{{seo.title}}</title>
+      <!-- Meta tags for SEO and social sharing -->
+      <link rel="canonical" href="{{seo.url}}" />
+      <meta name="description" content="{{seo.description}}" />
+      <meta property="og:title" content="{{seo.title}}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="{{seo.url}}" />
+      <meta property="og:description" content="{{seo.description}}" />
+      <meta property="og:image" content="{{seo.image}}" />
+      <meta name="twitter:card" content="summary" />
 
-  <!-- Meta tags for SEO and social sharing -->
-  <link rel="canonical" href="{{seo.url}}">
-  <meta name="description" content="{{seo.description}}">
-  <meta property="og:title" content="{{seo.title}}">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="{{seo.url}}">
-  <meta property="og:description" content="{{seo.description}}">
-  <meta property="og:image" content="{{seo.image}}">
-  <meta name="twitter:card" content="summary">
+      <!-- Import the webpage's stylesheet -->
+      <link rel="stylesheet" href="/style.css" />
 
-  <!-- Import the webpage's stylesheet -->
-  <link rel="stylesheet" href="/style.css" />
-
-  <!-- Show choice chart on poll submission -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script type="text/javascript">
-    /*
+      <!-- Show choice chart on poll submission -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script type="text/javascript">
+        /*
     The chart uses chart.js - try tweaking the config!
     https://www.chartjs.org/docs/3.0.2/charts/doughnut.html
     
     We pass the choices and picks arrays from the page when the server script returns them
     */
-    function showChart(choices, picks) {
-      
-      // Get the page element to show the chart inside
-      var ctx = document.getElementById('myChart');
-      
-      // Set up the chart colors
-      var colors = ["#05DA84", "#E6E656", "#E5AED6"];
-      var border = "#ffffff";
-      
-      // Make sure we have some votes–if not show an empty chart
-      if(picks.reduce((a, b) => a + b, 0)<1) {
-        picks=["1e-10"]; // use a near zero value so that the doughnut displays
-        choices=["No votes! Reload and vote again."];
-        colors=["#00000000"]; // we'll show an empty doughnut shape
-        border=["#000000"];
-      }
-      
-      // Build the chart in the page element
-      var myLineChart = new Chart(ctx, {
-        type: "doughnut",
-        data: {
-          labels: choices,
-          datasets: [{
-            data: picks,
-            backgroundColor: colors,
-            borderColor: border,
-            fill: true,
-            hoverOffset: 12,
-            cutout: "60%"
-          }]
-        },
-        options: {
-          plugins: {
-            legend: {
-              display: true,
-              position: "bottom",
-              labels: {
-                padding: 24
-              }
-            }
-          },
-          layout: {
-            padding: 24
+        function showChart(choices, picks) {
+          // Get the page element to show the chart inside
+          var ctx = document.getElementById("myChart");
+
+          // Set up the chart colors
+          var colors = ["#05DA84", "#E6E656", "#E5AED6"];
+          var border = "#ffffff";
+
+          // Make sure we have some votes–if not show an empty chart
+          if (picks.reduce((a, b) => a + b, 0) < 1) {
+            picks = ["1e-10"]; // use a near zero value so that the doughnut displays
+            choices = ["No votes! Reload and vote again."];
+            colors = ["#00000000"]; // we'll show an empty doughnut shape
+            border = ["#000000"];
           }
+
+          // Build the chart in the page element
+          var myLineChart = new Chart(ctx, {
+            type: "doughnut",
+            data: {
+              labels: choices,
+              datasets: [
+                {
+                  data: picks,
+                  backgroundColor: colors,
+                  borderColor: border,
+                  fill: true,
+                  hoverOffset: 12,
+                  cutout: "60%",
+                },
+              ],
+            },
+            options: {
+              plugins: {
+                legend: {
+                  display: true,
+                  position: "bottom",
+                  labels: {
+                    padding: 24,
+                  },
+                },
+              },
+              layout: {
+                padding: 24,
+              },
+            },
+          });
         }
-      });
-    }
-  </script>
+      </script>
+    </head>
 
-</head>
-
-  <body>
-    <!--
+    <body>
+      <!--
       BODY SAOECOM ONEPAGE
     -->
 
+      <br /><br /><br /><br /><br /><br /><br />
 
+      <div class="nvidialarge">
+        <div class="nvidia">
+          <div class="nvidia-ultra">
+            <p class="nvidia-star-text">your own internal platform fastly</p>
 
-      
-      
-<br><br><br><br><br><br><br>
+            <div class="nvidia-ultra-vab">
+              <div class="parent-explain">
+                <div class="explain1"></div>
+                <div class="explain2">
+                  <img
+                    class="avatar-arrow-explain"
+                    src="https://cdn.glitch.global/e0f8de8c-a9c4-42bf-a8e1-f9c52f462fa8/arrow-right.svg?v=1679741712305"
+                  />
+                </div>
+                <div class="explain3">
+                  <p class="modulesand"></p>
+                </div>
+              </div>
 
-    
-<div class="nvidialarge">
+              <p class="quantum3-4">
+                Let's build from here the complete developer platform to build,
+                scale, and deliver secure software
+              </p>
 
+              <input class="cube0" value="jambase.town/" readonly />
+              <input
+                class="cube1"
+                placeholder="your-platform-shortname"
+                pattern="[A-Za-z0-9]+"
+                onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+                autofocus
+              />
 
-  
-  
-<div class="nvidia">
-  
-  <div class="nvidia-ultra">  
-    
-    
-
-<p class="nvidia-star-text">your own internal platform fastly</p>
- 
-    
-          <div class="nvidia-ultra-vab">  
-
-<div class="parent-explain">
-<div class="explain1">  
-</div>
-<div class="explain2">  
-<img class="avatar-arrow-explain" src="https://cdn.glitch.global/e0f8de8c-a9c4-42bf-a8e1-f9c52f462fa8/arrow-right.svg?v=1679741712305">
-</div>
-<div class="explain3"> 
-<p class="modulesand"></p>
-</div>
-</div>
-  
-  <p class="quantum3-4">Let's build from here the complete developer platform to build, scale, and deliver secure software</p>
-
-  
-            
-            
-            
-            
-                        <input class="cube0" value="jambase.town/"  readonly>
-            <input class="cube1" placeholder="your-platform-shortname" pattern="[A-Za-z0-9]+" onkeydown="if(['Space'].includes(arguments[0].code)){return false;}" autofocus/>
-            
-            
-            <br><br>
-            <bouton href="mailto:about@saoecom.com" class="cube-btn1">Create your platform</bouton>
-
-
-      </div>
-    </div>
-  
-  
-  
-  
-  
-      <div class="engine93">  
-        
-          
-        
-        <img class="avatar" src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/natalie%402x.jpeg?v=1680033269690">
-<img class="avatar avatar2" src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/ilya.jpeg?v=1680033225350">
-<img class="avatar avatar3" src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/DanaSept28-25473.jpeg?v=1680033265594">
-
-        
-                      <img class="avatar-arrow" src="https://cdn.glitch.global/e0f8de8c-a9c4-42bf-a8e1-f9c52f462fa8/arrow.svg?v=1679738754308">
-
-        
-              <p class="moustache">Be part of +2M daily happy users</p>
-
-        
-
-    </div>
-  
-  
-
-
-</div>
-  
-  
-  
-  
-
-  
-</div>
-
-    
-
-    
-    
-        <purpleblockswww>
-    
-      
-
-        
-        
-      
-    </purpleblockswww>
-    
-
-      
-        <br>
-
-    
-
-    
-    
-
-    
-
-    
-    
-<body>
-  
-
-    
-  <div class="parentsearch-container22">
-<div class="leftsearch-container93">
-<p class="blue1">Item name</p></div>
-</div>
-              
-<div class="parentsearch-container">
-<div class="leftsearch-container">
-<p class="blue2">Zapier lets you send info between Typeform and Trello game pitch automatically—no code required</p></div>
-<div class="rightsearch-container">
-<div class="search-container">
-<input class="nsi-engine" placeholder="Search bar" id="searchInput" />
-</div>   
-</div>
-</div>
-    
-              
-              
-<div class="modules">
-  
-<div class="load-more-container haribo">
-<input type="checkbox" id="load-more"/>
-  
-
-    
-<ul>
-  
-<li>
-<div class="moduleitem pinnedmod">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">free</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Sign in</p></a></div>
-</div>
-</li>
- 
-<li>
-<div class="moduleitem">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">£0.10 /user</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Add to my platform</p></a></div>
-</div>
-</li>
-  
-<li>
-<div class="moduleitem">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">£0.10 /user</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Add to my platform</p></a></div>
-</div>
-</li>
-  
-<li>
-<div class="moduleitem">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">£0.10 /user</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Add to my platform</p></a></div>
-</div>
-</li>
-  
-<li>
-<div class="moduleitem">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">£0.10 /user</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Add to my platform</p></a></div>
-</div>
-</li>
-  
-<li>
-<div class="moduleitem">
-<div class="moduleitemcol1"> <p class="mod-about">Item-title</p></div>
-<div class="moduleitemcol2"> <p class="mod-usage">Usage_type</p><p class="mod-price">£0.10 /user</p></div>
-<div class="moduleitemcol3"> <a href="https://www.rs6.com" target="_blank"><p class="ficusbtn-nvidia">Add to my platform</p></a></div>
-</div>
-</li>
-  
-  
-</ul>
-  
-
-</div>
-
-    <div class="zamzam">
-  <div class="load-more-container">
-
-    <label class="load-more-btn" for="load-more">
-    <span class="unloaded">LOAD MORE</span>
-    <span class="loaded">VIEW LESS</span>
-  </label>  
-
-  </div>
-</div>
-  
-</div>
-  
-  
-
-  
-
-              <script
-                src="https://code.jquery.com/jquery-3.6.0.min.js"
-              ></script>
-              <script>
-                $(document).ready(function(){ $("#searchInput").on("keyup",
-                function() { var value = $(this).val().toLowerCase();
-                $(".moduleitem").filter(function() {
-                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                }); }); });
-              </script>
-  
-  
-
-
-  
-  
-            </body>
-    
-    
-    
-    
-    <br><br>
-          <div class="divider"></div>
-
-    
-<datacenter>    
-<div class="ficus">
-<div class="ficus1"> <img class="ficusmedia" src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/svg-gobbler%20(10).svg?v=1668526097737" alt="" /></div>
-<div class="ficus2"> <p class="ficustext1"> Proud makers of great products for SME, franchises and large leaders </p> </div>
-<div class="ficus3"> <div style="width:15%; text-align: right; margin-top: auto; margin-bottom: auto; margin-right: 5px !important;"> <a target="_blank" href="https://servcom.uk/" class="ficusbtn">Visit</a> </div></div>
-</div>
-</datacenter>
-    
-    
-    
-        <main>
-        
-      
-   <a>
-     <article class="card1blue" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>   <a>
-     <article class="card1orange" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>   <a>
-     <article class="card1blue" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>   <a>
-     <article class="card1pink" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>
-   <a>
-     <article class="card1green" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>   <a>
-     <article class="card1orange" > 
-      <img
-          src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
-          class="iconcard"
-        /> Websites and apps</article></a>
-      
-      
-
-      
-    </main>
-    
-    
-
-    
-    <br><br><br>
-    
-    
-    
-    
-    
-    
-    
-            <purpleblocks>
-
-          
-
-          
-                    <div class="combat">
-   
-           
-           <div class="tadapopper">
-         <img
-             class="tadaXee"
-          src="https://cdn.glitch.global/8cbf6ac2-f9e2-4f94-b7d8-d17d6f831387/Icons.svg?v=1670686032651"
-          alt=""
-        />
-        
-		<h2 class="prideXfefe">Fuel your idea from zero to a</h2>
-        
-        
-        <bouton href="tel:+44 20 4524 4103" class="btn1left">Connect with a real person</bouton>
-<bouton href="mailto:about@saoecom.com" class="btn2right">Follow us on Twitter</bouton>
-
-        <br><br>
-        
-
-		<p class="pridesubXp">Extend your enterprise with a squad that creates</p>
-
-  
-    
-            
+              <br /><br />
+              <bouton href="mailto:about@saoecom.com" class="cube-btn1"
+                >Create your platform</bouton
+              >
             </div>
-          
+          </div>
+
+          <div class="engine93">
+            <img
+              class="avatar"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/natalie%402x.jpeg?v=1680033269690"
+            />
+            <img
+              class="avatar avatar2"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/ilya.jpeg?v=1680033225350"
+            />
+            <img
+              class="avatar avatar3"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/DanaSept28-25473.jpeg?v=1680033265594"
+            />
+
+            <img
+              class="avatar-arrow"
+              src="https://cdn.glitch.global/e0f8de8c-a9c4-42bf-a8e1-f9c52f462fa8/arrow.svg?v=1679738754308"
+            />
+
+            <p class="moustache">Be part of +2M daily happy users</p>
+          </div>
+        </div>
+      </div>
+
+      <purpleblockswww> </purpleblockswww>
+
+      <br />
+
+      <body>
+        <div class="parentsearch-container22">
+          <div class="leftsearch-container93">
+            <p class="blue1">Item name</p>
+          </div>
+        </div>
+
+        <div class="parentsearch-container">
+          <div class="leftsearch-container">
+            <p class="blue2">
+              Zapier lets you send info between Typeform and Trello game pitch
+              automatically—no code required
+            </p>
+          </div>
+          <div class="rightsearch-container">
+            <div class="search-container">
+              <input
+                class="nsi-engine"
+                placeholder="Search bar"
+                id="searchInput"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="modules">
+          <div class="load-more-container haribo">
+            <input type="checkbox" id="load-more" />
+
+            <ul>
+              <li>
+                <div class="moduleitem pinnedmod">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">Included</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Sign in</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="moduleitem">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">£0.10 /user</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Add to my platform</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="moduleitem">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">£0.10 /user</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Add to my platform</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="moduleitem">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">£0.10 /user</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Add to my platform</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="moduleitem">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">£0.10 /user</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Add to my platform</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="moduleitem">
+                  <div class="moduleitemcol1">
+                    <p class="mod-about">Item-title</p>
+                  </div>
+                  <div class="moduleitemcol2">
+                    <p class="mod-usage">Usage_type</p>
+                    <p class="mod-price">£0.10 /user</p>
+                  </div>
+                  <div class="moduleitemcol3">
+                    <a href="https://www.rs6.com" target="_blank"
+                      ><p class="ficusbtn-nvidia">Add to my platform</p></a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="zamzam">
+            <div class="load-more-container">
+              <label class="load-more-btn" for="load-more">
+                <span class="unloaded">LOAD MORE</span>
+                <span class="loaded">VIEW LESS</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+              var value = $(this).val().toLowerCase();
+              $(".moduleitem").filter(function () {
+                $(this).toggle(
+                  $(this).text().toLowerCase().indexOf(value) > -1
+                );
+              });
+            });
+          });
+        </script>
+      </body>
+
+      <br /><br />
+      <div class="divider"></div>
+
+      <datacenter>
+        <div class="ficus">
+          <div class="ficus1">
+            <img
+              class="ficusmedia"
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/svg-gobbler%20(10).svg?v=1668526097737"
+              alt=""
+            />
+          </div>
+          <div class="ficus2">
+            <p class="ficustext1">
+              Proud makers of great products for SME, franchises and large
+              leaders
+            </p>
+          </div>
+          <div class="ficus3">
+            <div
+              style="
+                width: 15%;
+                text-align: right;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-right: 5px !important;
+              "
+            >
+              <a target="_blank" href="https://servcom.uk/" class="ficusbtn"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </datacenter>
+
+      <main>
+        <a>
+          <article class="card1blue">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+        <a>
+          <article class="card1orange">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+        <a>
+          <article class="card1blue">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+        <a>
+          <article class="card1pink">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+        <a>
+          <article class="card1green">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+        <a>
+          <article class="card1orange">
+            <img
+              src="https://cdn.glitch.global/b99994f5-4c44-4691-9f5c-108578f7e2e0/feder.svg?v=1672841398662"
+              class="iconcard"
+            />
+            Websites and apps
+          </article></a
+        >
+      </main>
+
+      <br /><br /><br />
+
+      <purpleblocks>
+        <div class="combat">
+          <div class="tadapopper">
+            <img
+              class="tadaXee"
+              src="https://cdn.glitch.global/8cbf6ac2-f9e2-4f94-b7d8-d17d6f831387/Icons.svg?v=1670686032651"
+              alt=""
+            />
+
+            <h2 class="prideXfefe">Fuel your idea from zero to a</h2>
+
+            <bouton href="tel:+44 20 4524 4103" class="btn1left"
+              >Connect with a real person</bouton
+            >
+            <bouton href="mailto:about@saoecom.com" class="btn2right"
+              >Follow us on Twitter</bouton
+            >
+
+            <br /><br />
+
+            <p class="pridesubXp">
+              Extend your enterprise with a squad that creates
+            </p>
+          </div>
+
           <!-- SAOECOM -->
         </div>
-    </purpleblocks>
-            
-              
-    <nvidia1010>
+      </purpleblocks>
 
-    
-              
-            
-    
-    <!-- SAOECOM -->
-    
-    
+      <nvidia1010>
+        <!-- SAOECOM -->
 
-                  
-              
-              
-              
-              
-              
-              
-              <br><br>
-              
-              
-              
-    <purpleblocks>
-          
+        <br /><br />
+
+        <purpleblocks>
           <section class="columns">
-      
-      
-      	<div class="column">
-      <p class="pridesub">
-  <span class="highlight2">Branding solutions</span>  – to be positioned
+            <div class="column">
+              <p class="pridesub">
+                <span class="highlight2">Branding solutions</span> – to be
+                positioned
+              </p>
+            </div>
 
-</p>
-</div>
+            <div class="column">
+              <p class="pridesub">
+                <span class="highlight2">Drawing solutions</span> – our team
+                members
+              </p>
+            </div>
 
-	
-            	<div class="column">
-      <p class="pridesub">
-  <span class="highlight2">Drawing solutions</span>  – our team members 
-</p>
-</div>
-    
-  
-                  	<div class="column">
-      <p class="pridesub">
-  <span class="highlight2">Web and app solutions</span>  – we edit online experiences
-</p>
-</div>
-    </section>	
-      
+            <div class="column">
+              <p class="pridesub">
+                <span class="highlight2">Web and app solutions</span> – we edit
+                online experiences
+              </p>
+            </div>
+          </section>
+        </purpleblocks>
+      </nvidia1010>
 
-                  
+      <nav class="main-nav">
+        <div class="nav-parent">
+          <div class="nav-left">
+            <h1 class="logo" href="https://whereby.com/saoecom-onboarding" />
+            <img
+              class="navlogo"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/wetransfer-1.svg?v=1679766031427"
+              alt=""
+            />
+          </div>
+          <div class="nav-right">
+            <bouton href="tel:+44 20 4524 4103" class="btn1"
+              >Platform console</bouton
+            >
+            <bouton href="mailto:about@saoecom.com" class="btn2"
+              >Talk with a real person</bouton
+            >
+            <bouton href="mailto:about@saoecom.com" class="btn3"
+              >Services status</bouton
+            >
+          </div>
+        </div>
+      </nav>
+    </body>
 
-              
-                            </purpleblocks>
-      
-    
-              </nvidia1010>
-
-              
-              
-    
-    
-      
-              
-              
-              
-              
-      
-                            
-              
-
-
-
-<nav class="main-nav">
-  
-  
-  
-<div class="nav-parent">
-<div class="nav-left">
-<h1 class="logo" href="https://whereby.com/saoecom-onboarding"/>
-<img class="navlogo" src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/wetransfer-1.svg?v=1679766031427" alt="" />
-</h1>
-</div>
-<div class="nav-right">
-     
-  
-        
-        <bouton href="tel:+44 20 4524 4103" class="btn1">Platform console</bouton>
-<bouton href="mailto:about@saoecom.com" class="btn2">Talk with a real person</bouton>
-  <bouton href="mailto:about@saoecom.com" class="btn3">Services status</bouton>
-
-      
-</div>
-</div>
-
-  
-  
-  
-
-              
-
-
-              
-
-</nav>
-
-    
-    
-
-  </body>
-  
-  
     <script>
-if (location.protocol != 'https:')
-{
- location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
-</script>
-  
-  
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+  </html>
 </html>
