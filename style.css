@@ -3419,15 +3419,15 @@ button[type="submit"]:hover {
 
 
 .blue-terms {
-  color: #549bf5;
-  font-family: "face6" !important;
-  font-size: 11px;
-  text-transform: none;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  cursor: default;
-  margin-left: 0px;
-  line-height: 25px;
+    color: #373d46;
+    font-family: "face0" !important;
+    font-size: 11px;
+    text-transform: none;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    cursor: default;
+    line-height: 25px;
+    text-align: center;
 }
 
 .nvidia-ultra-vab {
@@ -3735,7 +3735,7 @@ border: 1px #316dca;
     padding-top: 9.5px !important;
     padding-left: 22px !important;
     padding-right: 23px !important;
-  margin-top: -90px;
+  margin-top: 0px;
 }
 
 
@@ -4569,3 +4569,5 @@ text-decoration: none;
   -moz-appearance: none;
   appearance: none;
 }
+
+
