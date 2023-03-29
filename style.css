@@ -3372,14 +3372,45 @@ button[type="submit"]:hover {
 
 .nvidia-star-text {
   color: #cdd9e5;
+    font-family: "face5" !important;
+  font-size: 16px;
+  text-transform: uppercase;
+    margin-top: 22.5px;
+    margin-bottom: 24px;
+  cursor: default;
 }
+
+
+.blue1 {
+    color: #cdd9e5;
+    font-family: "face4" !important;
+    font-size: 16px;
+    text-transform: none;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    cursor: default;
+    margin-left: 25px;
+}
+
+
+.blue2 {
+    color: #cdd9e5;
+    font-family: "face6" !important;
+    font-size: 16px;
+    text-transform: none;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    cursor: default;
+    margin-left: 25px;
+}
+
 
 .nvidia-ultra-vab {
   background: #22272e;
   width: 580px !important;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 35px !important;
+  padding-top: 45px !important;
   padding-bottom: 35px !important;
   margin-bottom: 0px;
   margin-top: 20px;
