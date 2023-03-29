@@ -4507,6 +4507,11 @@ input[type="text"]:focus {
 }
 
 
+.cubedb:hover {
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
 .cubedb-face {
     font-family: "Saoecom2font" !important;
     margin-right: auto;
@@ -4521,6 +4526,11 @@ input[type="text"]:focus {
     padding-left: 22px !important;
     padding-right: 23px !important;
   margin-left: 10px;
+}
+
+
+.cubedb-face:hover {
+  box-shadow: 0 0 0px 4px #008eff38;
 }
 
 .cubedb-tle {
