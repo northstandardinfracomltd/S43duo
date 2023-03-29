@@ -3417,6 +3417,19 @@ button[type="submit"]:hover {
   line-height: 25px;
 }
 
+
+.blue-terms {
+  color: #549bf5;
+  font-family: "face6" !important;
+  font-size: 11px;
+  text-transform: none;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  cursor: default;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
 .nvidia-ultra-vab {
   background: #22272e;
   width: 580px !important;
