@@ -3574,6 +3574,22 @@ button[type="submit"]:hover {
   border: #454c56 1px solid;
 }
 
+
+.moduleitempinned {
+  width: 100% !important;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 15px 0;
+
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 12px;
+  background: #21272e;
+  border: #454c56 1px solid;
+}
+
 .pinnedmod {
   border-radius: 12px !important;
   background: rgb(65 132 228 / 15%) !important;
@@ -4322,6 +4338,7 @@ input[type="text"]:focus {
   justify-content: center;
   margin-left: 0px;
   right: 0px;
+  margin-bottom: -80px;
 }
 
 .mmm {
