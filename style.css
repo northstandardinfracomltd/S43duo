@@ -3657,17 +3657,32 @@ button[type="submit"]:hover {
   opacity: 0;
   transition: 0.1s ease-in;
 }
+
+
+
 .load-more-container .load-more-btn {
-  width: 150px;
-  line-height: 40px;
-  border-radius: 2px;
-  margin: 0 auto;
+  width: 361px;
   display: block;
-  background: #494747;
-  color: #fff;
   cursor: pointer;
   text-align: center;
+  line-height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+border: 1px #316dca;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #cdd9e5 !important;
+    background: #316dca !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 9.5px !important;
+    padding-left: 22px !important;
+    padding-right: 23px !important;
 }
+
+
+
+
 .load-more-container .load-more-btn:hover {
   background: #333;
 }
