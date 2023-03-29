@@ -4518,16 +4518,18 @@ text-decoration: none;
 
 
 .footer-btn-hydra  {
-    font-family: "Saoecom2font" !important;
-    margin-right: auto;
-    border: 1px #316dca;
+    font-family: "face0" !important;
+    border: 1px #2d333b;
     border-radius: 8px;
     text-decoration: none;
     color: #cdd9e5 !important;
-    background: #316dca !important;
+    background: #2d333b !important;
     font-size: 16px !important;
-    height: 40px !important;
     padding-top: 9.5px !important;
     padding-left: 22px !important;
+  width: 100%;
     padding-right: 23px !important;
+  text-align: left !important;
+  line-height: 23px !important;
+  height: 41px !important;
 }
