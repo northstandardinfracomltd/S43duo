@@ -54,6 +54,48 @@
     format("opentype");
 }
 
+@font-face {
+  font-family: face1;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-rounded-mid?v=1680074479499")
+    format("opentype");
+}
+
+@font-face {
+  font-family: face2;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-unknow2?v=1680074480534")
+    format("opentype");
+}
+
+@font-face {
+  font-family: face3;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-unknow1?v=1680074481718")
+    format("opentype");
+}
+
+@font-face {
+  font-family: face4;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-bold?v=1680074482902")
+    format("opentype");
+}
+
+@font-face {
+  font-family: face5;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-mid?v=1680074484617")
+    format("opentype");
+}
+
+@font-face {
+  font-family: face6;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/livai-jam-base-light?v=1680074486225")
+    format("opentype");
+}
+
 /* SAOECOM */
 .btn--remix {
   font-family: HK Grotesk;
@@ -4308,9 +4350,10 @@ border: 3px solid #7aff7a !important;
   text-decoration: none;
   font-size: 20px !important;
   cursor: pointer !important;
-  font-family: "Saoecom3font" !important;
+  font-family: "face6" !important;
   color: #acbac7 !important;
   margin-top: 4px;
+  line-height: 10px;
 }
 
 .kalashcenter {
