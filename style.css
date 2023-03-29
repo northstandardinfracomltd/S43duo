@@ -3617,9 +3617,10 @@ button[type="submit"]:hover {
 .mod-price {
   color: #ec775c !important;
     font-family: "face3" !important;
-    font-size: 16px !important;
+    font-size: 1px !important;
     cursor: default !important;
   text-decoration: none !important;
+  margin-top: 17px !important;
 }
 
 .mod-about {
