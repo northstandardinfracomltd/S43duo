@@ -3391,7 +3391,7 @@ button[type="submit"]:hover {
 .blue1 {
     color: #cdd9e5;
     font-family: "face4" !important;
-    font-size: 16px;
+    font-size: 17px;
     text-transform: none;
     margin-top: 21px;
     margin-bottom: 20px;
@@ -3403,7 +3403,7 @@ button[type="submit"]:hover {
 .blue2 {
     color: #cdd9e5;
     font-family: "face6" !important;
-    font-size: 16px;
+    font-size: 17px;
     text-transform: none;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -3609,7 +3609,7 @@ button[type="submit"]:hover {
   margin-right: 8px;
   color: rgb(83, 155, 245) !important;
     font-family: "face6" !important;
-    font-size: 16px !important;
+    font-size: 17px !important;
     cursor: default !important;
   text-decoration: none !important;
 }
@@ -3617,7 +3617,7 @@ button[type="submit"]:hover {
 .mod-price {
   color: #ec775c !important;
     font-family: "face3" !important;
-    font-size: 1px !important;
+    font-size: 17px !important;
     cursor: default !important;
   text-decoration: none !important;
   margin-top: 17px !important;
@@ -3626,7 +3626,7 @@ button[type="submit"]:hover {
 .mod-about {
   color: #cdd9e5 !important;
     font-family: "face0" !important;
-    font-size: 16px !important;
+    font-size: 17px !important;
     cursor: default !important;
   margin-left: 13px !important;
   text-decoration: none !important;
