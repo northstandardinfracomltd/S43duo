@@ -345,8 +345,9 @@ img.combat {
 
 img.iconcard {
   padding-right: 8px;
-  width: 42px !important;
-  margin-top: -2px !important;
+  width: 38px !important;
+  margin-top: -6px !important;
+  margin-left: -3px;
 }
 
 /* Very light scaling for our illustration */
@@ -926,15 +927,29 @@ article:nth-child(even) {
 }
 
 .card1pink {
-    background-color: rgb(153 117 211 / 15%) !important;
-    border: solid 1px #9975d3 !important;
-    border-radius: 12px !important;
-    color: #cdd9e5 !important;
-    font-family: "face6" !important;
-    font-size: 20px !important;
-    cursor: default !important;
-    text-decoration: none !important;
-    height: 60px;
+  background-color: rgb(153 117 211 / 15%) !important;
+  border: solid 1px #9975d3 !important;
+  border-radius: 12px !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  height: 65px;
+  display: flex;
+}
+
+.ballad-icon {
+  padding-right: 5px;
+  height: 35px;
+  margin-top: -5.5px !important;
+  margin-left: -1px;
+}
+
+.thebalad {
+  color: #d5bbff !important;
+  font-family: "face6" !important;
+  font-size: 19px !important;
+  margin-top: 13px;
+  margin-bottom: 0px;
+  margin-left: 6px;
 }
 
 .cardservice1 {
@@ -1054,38 +1069,34 @@ text.cardservice1 {
   cursor: default;
 }
 
-
-
-
 .cloud-text {
-    color: #cdd9e5;
-    font-family: "face4" !important;
-    font-size: 17px;
-    text-transform: none;
-    margin-top: 21px;
-    margin-bottom: 20px;
-    cursor: default;
-    margin-left: 25px;
+  color: #cdd9e5;
+  font-family: "face4" !important;
+  font-size: 17px;
+  text-transform: none;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  cursor: default;
+  margin-left: 25px;
 }
 
-
 .cloud-btn {
-    text-decoration: none;
-    display: inline-block !important;
-    padding: 0px 20px !important;
-    font-size: 16px !important;
-    font-weight: var(--base-text-weight-medium, 500) !important;
-    line-height: 38px !important;
-    white-space: nowrap !important;
-    vertical-align: middle !important;
-    cursor: pointer !important;
-    user-select: none !important;
-    border: 1px solid #46874c;
-    border-radius: 8px;
-    font-family: "Saoecom2font" !important;
-    color: #feffff !important;
-    background-color: #347d39 !important;
-    height: 40px;
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 40px;
 }
 
 .cardservice7 {
@@ -3167,7 +3178,6 @@ img.linkdivpromoimg2 {
 .divider {
   width: 100%;
   border-bottom: 1px solid rgb(65 71 81);
-  
 }
 
 form {
@@ -3405,17 +3415,16 @@ button[type="submit"]:hover {
   line-height: 25px;
 }
 
-
 .blue-terms {
-    color: #373d46;
-    font-family: "face0" !important;
-    font-size: 11px;
-    text-transform: none;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    cursor: default;
-    line-height: 25px;
-    text-align: center;
+  color: #373d46;
+  font-family: "face0" !important;
+  font-size: 11px;
+  text-transform: none;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  cursor: default;
+  line-height: 25px;
+  text-align: center;
 }
 
 .nvidia-ultra-vab {
@@ -3562,7 +3571,6 @@ button[type="submit"]:hover {
   border: #454c56 1px solid;
 }
 
-
 .moduleitempinned {
   width: 100% !important;
 
@@ -3679,8 +3687,8 @@ button[type="submit"]:hover {
 .ficus2 {
   width: 75%;
   padding-left: 7px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -3690,11 +3698,11 @@ button[type="submit"]:hover {
 }
 
 .ficus3 {
-width: 25%;
-    text-align: right;
-    padding-right: 20px;
-    padding-top: 21px;
-    padding-bottom: 20px;
+  width: 25%;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 20px;
 }
 
 .load-more-container ul {
@@ -3704,17 +3712,14 @@ width: 25%;
   width: 100% !important;
 }
 
-
 .load-more-container ul li {
   width: calc(25% - 10px);
   margin: -10px 0px 0;
-  background:  #22272e;
+  background: #22272e;
   color: #fff;
   float: left;
   border-radius: 2px;
 }
-
-
 
 .load-more-container ul:after {
   content: "";
@@ -3730,33 +3735,28 @@ width: 25%;
   transition: 0.1s ease-in;
 }
 
-
-
 .load-more-container .load-more-btn {
   width: 361px;
   display: block;
   cursor: pointer;
   text-align: center;
   line-height: 22px;
-    margin-left: auto;
-      font-family: "Saoecom2font" !important;
+  margin-left: auto;
+  font-family: "Saoecom2font" !important;
 
-    margin-right: auto;
-border: 1px #316dca;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  margin-right: auto;
+  border: 1px #316dca;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
   margin-top: 0px;
 }
-
-
-
 
 .load-more-container .load-more-btn:hover {
   background: #333;
@@ -4489,115 +4489,102 @@ input[type="text"]:focus {
   margin-bottom: auto;
 }
 
-
-
 .cubedb {
-    font-family: "Saoecom2font" !important;
-    margin-right: auto;
-    border: 1px #316dca;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #316dca !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  font-family: "Saoecom2font" !important;
+  margin-right: auto;
+  border: 1px #316dca;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
 }
-
 
 .cubedb:hover {
   box-shadow: 0 0 0px 4px #008eff38;
 }
 
-
 .cubedb-face {
-    font-family: "Saoecom2font" !important;
-    margin-right: auto;
-    border: 1px #46874c;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #ffffff !important;
-    background: #347d39 !important;
-    font-size: 16px !important;
-    height: 40px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
-    padding-right: 23px !important;
+  font-family: "Saoecom2font" !important;
+  margin-right: auto;
+  border: 1px #46874c;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff !important;
+  background: #347d39 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
   margin-left: 10px;
 }
-
 
 .cubedb-face:hover {
   box-shadow: 0 0 0px 4px #008eff38;
 }
 
 .cubedb-tle {
-text-decoration: none;
-    font-size: 55px !important;
-    cursor: default !important;
-    font-family: "face0" !important;
-    color: #adbac7 !important;
-    line-height: 32px;
-    margin-top: 33px;
-    margin-bottom: 35px;
+  text-decoration: none;
+  font-size: 55px !important;
+  cursor: default !important;
+  font-family: "face0" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-top: 33px;
+  margin-bottom: 35px;
 }
-
 
 .cubedb-txt {
-    text-decoration: none;
-    font-size: 20px !important;
-    cursor: default !important;
-    font-family: "face6" !important;
-    color: #adbac7 !important;
-    line-height: 32px;
-    margin-top: 33px;
-    margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 20px !important;
+  cursor: default !important;
+  font-family: "face6" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-top: 33px;
+  margin-bottom: 30px;
 }
 
-
-.footer-btn-hydra  {
-    font-family: "face0" !important;
-    border: 1px #2d333b;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #cdd9e5 !important;
-    background: #2d333b !important;
-    font-size: 16px !important;
-    padding-top: 9.5px !important;
-    padding-left: 22px !important;
+.footer-btn-hydra {
+  font-family: "face0" !important;
+  border: 1px #2d333b;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #2d333b !important;
+  font-size: 16px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
   width: 100%;
-    padding-right: 23px !important;
+  padding-right: 23px !important;
   text-align: left !important;
   line-height: 23px !important;
   height: 41px !important;
 }
 
-
 .regions-picker {
-    text-decoration: none;
-    display: inline-block !important;
-    padding: 0px 20px !important;
-    font-size: 16px !important;
-    font-weight: var(--base-text-weight-medium, 500) !important;
-    line-height: 38px !important;
-    white-space: nowrap !important;
-    vertical-align: middle !important;
-    cursor: pointer !important;
-    user-select: none !important;
-    border: 1px solid #46874c;
-    border-radius: 8px;
-    font-family: "Saoecom2font" !important;
-    color: #feffff !important;
-    background-color: #347d39 !important;
-    height: 40px;
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 40px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-
-
-
-
-
