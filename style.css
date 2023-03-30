@@ -3723,7 +3723,7 @@ width: 25%;
   width: 100% !important;
 }
 
-.load-more-container ul li:nth-child(1n + 5) {
+.load-more-container ul li:nth-child(2n + 6) {
   max-height: 0;
   opacity: 0;
   transition: 0.1s ease-in;
@@ -3766,7 +3766,7 @@ border: 1px #316dca;
 .load-more-container #load-more {
   display: none;
 }
-.load-more-container #load-more:checked ~ ul li:nth-child(1n + 5) {
+.load-more-container #load-more:checked ~ ul li:nth-child(2n + 6) {
   max-height: 999px;
   opacity: 1;
   transition: 0.2s ease-in;
@@ -4338,7 +4338,6 @@ input[type="text"]:focus {
   justify-content: center;
   margin-left: 0px;
   right: 0px;
-  margin-bottom: -80px;
 }
 
 .mmm {
