@@ -3719,8 +3719,7 @@ width: 25%;
 
 .load-more-container ul li {
   width: calc(25% - 10px);
-  margin: 0px 5px 0;
-  height: 100px;
+  margin: -10px 0px 0;
   background:  #22272e;
   color: #fff;
   float: left;
@@ -4609,5 +4608,8 @@ text-decoration: none;
   -moz-appearance: none;
   appearance: none;
 }
+
+
+
 
 
