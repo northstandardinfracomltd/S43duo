@@ -930,6 +930,7 @@ article:nth-child(even) {
 
 .card1orange:hover {
   transform: scale(1.02);
+  box-shadow: 0 0 0px 4px #008eff38;
 }
 
 
@@ -949,6 +950,7 @@ article:nth-child(even) {
 
 .card1pink:hover {
   transform: scale(1.02);
+  box-shadow: 0 0 0px 4px #008eff38;
 }
 
 .ballad-icon {
