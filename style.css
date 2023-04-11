@@ -4672,6 +4672,26 @@ input[type="text"]:focus {
 
 
 
+
+.saasgeniecustomers {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 12px;
+    background: blue;
+    border: #454c56 0px solid;
+}
+
+
+.geniecustomers {
+    width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .saasgenie {
     width: 100% !important;
     display: flex;
@@ -4683,7 +4703,7 @@ input[type="text"]:focus {
 }
 
 .saasgenie-left {
-    width: 50% !important;
+    width: 45% !important;
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
@@ -4692,7 +4712,7 @@ input[type="text"]:focus {
 
 
 .saasgenie-right {
-    width: 50% !important;
+    width: 55% !important;
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
@@ -4702,9 +4722,23 @@ input[type="text"]:focus {
 
 .geniethug {
   text-decoration: none;
-  font-size: 20px !important;
+  font-size: 50px !important;
   cursor: default !important;
   font-family: "genie11" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
+
+.geniemania {
+  text-decoration: none;
+  font-size: 20px !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
   color: #adbac7 !important;
   line-height: 32px;
   margin-right: 10%;
