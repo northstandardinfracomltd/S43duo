@@ -1406,10 +1406,6 @@ footer {
   justify-content: space-between;
   background: #2d333b;
   z-index: 2;
-  background: linear-gradient(#22272e, #22272e) padding-box,
-    linear-gradient(to right, #238636, #1f6feb, #8957e5, #da3633, #bd561d);
-  border-radius: 0px;
-  border-bottom: 1px solid transparent;
 }
 
 .nav-parent {
@@ -4698,7 +4694,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: #21272e;
+    background: transparent;
     border: #454c56 0px solid;
 }
 
@@ -4707,7 +4703,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: red;
+    background: transparent;
 }
 
 
@@ -4716,7 +4712,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: yellow;
+    background: transparent;
 }
 
 
@@ -4979,5 +4975,12 @@ margin-left: auto;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 30px;
+}
+
+
+.mural {
+background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+    background-blend-mode: normal, normal;
+    color: rgb(255, 255, 255);
 }
 
