@@ -4714,15 +4714,16 @@ input[type="text"]:focus {
 
 .geniethug {
   text-decoration: none;
-  font-size: 50px !important;
+  font-size: 52px !important;
   cursor: default !important;
   font-family: "genie11" !important;
-  color: #adbac7 !important;
+  color: rgb(255, 255, 255) !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 30px;
+  white-space: nowrap !important;
 }
 
 
@@ -4731,7 +4732,7 @@ input[type="text"]:focus {
   font-size: 20px !important;
   cursor: default !important;
   font-family: "genie9" !important;
-  color: #adbac7 !important;
+  color: rgb(255, 255, 255) !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
