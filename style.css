@@ -4867,23 +4867,51 @@ margin-left: auto;
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: #21272e;
     border: #454c56 0px solid;
+  
+  
+  background: url(//images.ctfassets.net/rz1oowkt5gyp/6Q4l8SJeMZGSu1m6W9vAjL/1021a10…/BigSwingFooterHeroGraphic__Left.svg) left center / contain no-repeat scroll padding-box border-box, url(//images.ctfassets.net/rz1oowkt5gyp/7KsuX6srvRqJVzeAIdIzIb/da1a331…/BigSwingFooterHeroGraphic__Right.svg) right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+    background-blend-mode: normal, normal, normal;
+    color: rgb(255, 255, 255);
 }
 
 .callmegenie-left {
+    width: 25% !important;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 12px;
+    background: transparent;
+}
+
+.callmegenie-center {
     width: 50% !important;
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: red;
+    background: transparent;
 }
 
 
 .callmegenie-right {
-    width: 50% !important;
+    width: 25% !important;
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: yellow;
+    background: transparent;
+}
+
+
+.siliconleft {
+    width: 90% !important;
+}
+
+
+.genietour {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: #454c56 0px solid;
+  background: transparent;
 }
