@@ -4915,3 +4915,69 @@ margin-left: auto;
     border: #454c56 0px solid;
   background: transparent;
 }
+
+.onthemat {
+    width: 100% !important;
+    background: rgb(24 42 78);
+}
+
+
+
+.geniebrief {
+    width: 80% !important;
+    display: flex;
+    justify-content: center;
+margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+    border: #454c56 0px solid;
+  background: rgb(24 42 78);
+}
+
+
+
+.geniebriefamber  {
+    width: 20% !important;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 12px;
+    background: transparent;
+}
+
+
+.geniebriefamber:hover  {
+    width: 20% !important;
+    justify-content: center;
+    margin: 15px 0;
+    border-radius: 12px;
+    background: rgb(30 52 98);
+}
+
+
+.serverfriendly {
+  text-decoration: none;
+  font-size: 20px !important;
+  cursor: default !important;
+  font-family: "face6" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
+
+.serverfriendly2 {
+  text-decoration: none;
+  font-size: 12px !important;
+  cursor: default !important;
+  font-family: "face6" !important;
+  color: #adbac7 !important;
+  line-height: 32px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
