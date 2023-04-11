@@ -4663,7 +4663,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 12px;
-    background: blue;
+    background: transparent;
     border: #454c56 0px solid;
 }
 
@@ -4672,6 +4672,14 @@ input[type="text"]:focus {
     width: 90% !important;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.targetintitate {
+    width: 90% !important;
+    margin-left: 7%;
+    margin-bottom: -5px;
+  margin-top: 20px;
 }
 
 
@@ -4912,6 +4920,7 @@ margin-left: auto;
   padding-right: 20px;
   padding-top: 21px;
   padding-bottom: 20px;
+      margin-left: 10%;
 }
 
 .ficus3:focus {
@@ -4919,7 +4928,9 @@ margin-left: auto;
   box-shadow: 0 0 0px 4px #ff000021 !important;
 }
 
-
+*:focus {
+  outline: none !important;
+}
 
 
 .onthemat {
