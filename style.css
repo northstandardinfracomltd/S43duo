@@ -4835,9 +4835,12 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 0px;
-    background: transparent;
     border: #454c56 0px solid;
     margin-top: 8px;
+  
+  
+  background: linear-gradient(240deg, rgb(0, 184, 217), rgb(0, 101, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(0, 101, 255);
+    background-blend-mode: normal, normal, normal;
 }
 
 .saasparadise-left {
@@ -4845,7 +4848,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 0px;
-    background: #f6f6f6;
+    background: transparent;
 }
 
 
@@ -4854,7 +4857,7 @@ input[type="text"]:focus {
     justify-content: center;
     margin: 15px 0;
     border-radius: 0px;
-    background: #ffffff;
+    background: transparent;
 }
 
 
