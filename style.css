@@ -5044,6 +5044,8 @@ margin-left: auto;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 0px !important;
+    cursor: pointer !important;
+
 }
 
 .stayactive {
@@ -5051,20 +5053,38 @@ margin-left: auto;
 }
 
 
-.serverfriendly2 {
-  text-decoration: none;
-  font-size: 12px !important;
-  cursor: default !important;
-  font-family: "genie12" !important;
-  color: #adbac7 !important;
-  line-height: 32px;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
+.serverfriendly2  {
+    text-decoration: none;
+    font-size: 15px !important;
+    cursor: default !important;
+    font-family: "genie15" !important;
+    color: #ffffff !important;
+    line-height: 24px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 17px !important;
+    margin-bottom: 0px !important;
+    cursor: pointer !important;
+}
+
+.serverfriendly2-link  {
+    text-decoration: none;
+    font-size: 18px !important;
+    cursor: default !important;
+    font-family: "genie15" !important;
+    color: rgb(163 255 170) !important;
+    line-height: 24px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 17px !important;
+    margin-bottom: 0px !important;
+    cursor: pointer !important;
 }
 
 
+.bordertopopex {
+margin-top: 15px !important;
+}
 
 
 .mural {
