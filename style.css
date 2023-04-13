@@ -145,6 +145,42 @@
     format("opentype");
 }
 
+@font-face {
+  font-family: genie13;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/Medium-c4b185e25a4dde85a29f902cd5ce5360-font.woff2?v=1681389287204")
+    format("opentype");
+}
+
+@font-face {
+  font-family: genie14;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/Bold-875de5047556e7c822519d95d7ee692d-font.woff2?v=1681389302355")
+    format("opentype");
+}
+
+@font-face {
+  font-family: genie15;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/Regular-d6a6aa8dc0f93416a832ea04a18c6fb8-font.woff2?v=1681389316378")
+    format("opentype");
+}
+
+@font-face {
+  font-family: genie16;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/Bold-d4ba4ecba17e90993f442f7bb082a3a2-font.woff2?v=1681389329813")
+    format("opentype");
+}
+
+@font-face {
+  font-family: genie17;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/redesignFont2020.1c41464abd017c31d315129988cd13b8.woff?v=1681389344745")
+    format("opentype");
+}
+
+
 /* SAOECOM */
 .btn--remix {
   font-family: HK Grotesk;
@@ -4944,6 +4980,8 @@ margin-left: auto;
 .onthemat {
     width: 100% !important;
     background: rgb(24 42 78);
+  margin-top: -16px;
+  padding-top: 15px;
 }
 
 
@@ -4985,13 +5023,17 @@ margin-left: auto;
   text-decoration: none;
   font-size: 24px !important;
   cursor: default !important;
-  font-family: "genie12" !important;
+  font-family: "genie13" !important;
   color: #ffffff !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 30px;
+}
+
+.stayactive {
+    background: rgb(30 52 98) !important;
 }
 
 
