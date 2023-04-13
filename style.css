@@ -2605,8 +2605,15 @@ h1.tag {
 }
 
 .tag-green {
-  background: #32a7494a;
-  color: #68ff86c7;
+    background: #32a7494a;
+    color: #68ff86c7;
+    font-size: 18px;
+    font-family: "genie13" !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+    border-radius: 24px !important;
 }
 
 .tag-vue {
@@ -4853,8 +4860,9 @@ background-image: linear-gradient(#182a4e 0%, #22272e 98% ) !important;
 .saasparadise-right {
     width: 50% !important;
     justify-content: center;
-    margin: 15px 0;
+    /* margin: 15px 0; */
     border-radius: 0px;
+    text-align: center;
     background: transparent;
 }
 
