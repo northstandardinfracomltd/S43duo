@@ -4834,17 +4834,18 @@ input[type="text"]:focus {
     display: flex;
     justify-content: center;
     margin: 15px 0;
-    border-radius: 12px;
-    background: #21272e;
+    border-radius: 0px;
+    background: transparent;
     border: #454c56 0px solid;
+    margin-top: 8px;
 }
 
 .saasparadise-left {
     width: 50% !important;
     justify-content: center;
     margin: 15px 0;
-    border-radius: 12px;
-    background: red;
+    border-radius: 0px;
+    background: #f6f6f6;
 }
 
 
@@ -4852,8 +4853,8 @@ input[type="text"]:focus {
     width: 50% !important;
     justify-content: center;
     margin: 15px 0;
-    border-radius: 12px;
-    background: yellow;
+    border-radius: 0px;
+    background: #ffffff;
 }
 
 
@@ -4982,6 +4983,7 @@ margin-left: auto;
     background: rgb(24 42 78);
   margin-top: -16px;
   padding-top: 15px;
+  margin-bottom: -25px;
 }
 
 
