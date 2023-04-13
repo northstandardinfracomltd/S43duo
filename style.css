@@ -5003,19 +5003,33 @@ margin-left: auto;
     width: 25% !important;
     justify-content: center;
     margin: 15px 0;
-    border-radius: 12px;
+    border-radius: 0px;
     background: transparent;
     cursor: pointer;
+  margin-right: 8px;
+  height: 220px;
+    vertical-align: middle;
 }
+
+
+
+.geniebriefamberlast  {
+  margin-right: 0px !important;
+}
+
 
 
 .geniebriefamber:hover  {
     width: 25% !important;
     justify-content: center;
     margin: 15px 0;
-    border-radius: 12px;
+    border-radius: 0px;
     background: rgb(30 52 98);
   cursor: pointer;
+    margin-right: 8px;
+  height: 220px;
+    vertical-align: middle;
+
 }
 
 
@@ -5029,7 +5043,7 @@ margin-left: auto;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 33px;
-  margin-bottom: 30px;
+  margin-bottom: 0px !important;
 }
 
 .stayactive {
@@ -5046,24 +5060,10 @@ margin-left: auto;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 33px;
-  margin-bottom: 30px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
-
-
-.serverfriendly2 {
-  text-decoration: none;
-  font-size: 12px !important;
-  cursor: default !important;
-  font-family: "face6" !important;
-  color: #adbac7 !important;
-  line-height: 32px;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 33px;
-  margin-bottom: 30px;
-}
 
 
 
@@ -5076,4 +5076,11 @@ background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / 
 
 .genieleftlog {
 width: 100%;
+}
+
+
+.pininfoflag {
+width: 30px;
+  margin-left: 20px;
+  margin-top: -20px;
 }
