@@ -2537,7 +2537,7 @@ img.tadaXee {
   border-radius: 2px;
   background: var(--tag-bg);
   color: var(--text-color);
-  margin: 0.25em 0.1em;
+  margin: 0.33em 0.2em;
   cursor: default;
 }
 
@@ -2597,11 +2597,41 @@ h1.tag {
 .tag-purple {
   background: rgb(139 133 255 / 21%);
   color: rgb(161 157 255);
+    font-size: 18px;
+    font-family: "genie13" !important;
+    padding-left: 19px !important;
+    padding-right: 19px !important;
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+    border-radius: 24px !important;
+  cursor: pointer;
+}
+
+.tag-purple:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0px 4px #008eff38; 
+  cursor: pointer;
+
 }
 
 .tag-blue {
   background: rgb(56 139 253 / 32%);
   color: #8dc3ff;
+    font-size: 18px;
+    font-family: "genie13" !important;
+    padding-left: 19px !important;
+    padding-right: 19px !important;
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+    border-radius: 24px !important;
+  cursor: pointer;
+}
+
+.tag-blue:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0px 4px #008eff38; 
+  cursor: pointer;
+
 }
 
 .tag-green {
@@ -2609,11 +2639,19 @@ h1.tag {
     color: #68ff86c7;
     font-size: 18px;
     font-family: "genie13" !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 19px !important;
+    padding-right: 19px !important;
     padding-top: 8px !important;
     padding-bottom: 9px !important;
     border-radius: 24px !important;
+  cursor: pointer;
+}
+
+.tag-green:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 0px 4px #008eff38; 
+  cursor: pointer;
+
 }
 
 .tag-vue {
@@ -4848,22 +4886,20 @@ background-image: linear-gradient(#182a4e 0%, #22272e 98% ) !important;
 }
 
 .saasparadise-left {
-    width: 50% !important;
-    justify-content: center;
-    margin: 15px 0;
-    border-radius: 0px;
-    background: transparent;
-  text-align: center;
+    width: 0% !important;
+    display: none !important;
 }
 
 
 .saasparadise-right {
-    width: 50% !important;
+    width: 65% !important;
     justify-content: center;
     /* margin: 15px 0; */
     border-radius: 0px;
     text-align: center;
     background: transparent;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -4890,8 +4926,8 @@ margin-left: auto;
   text-decoration: none;
   font-size: 50px !important;
   cursor: default !important;
-  font-family: "face6" !important;
-  color: #adbac7 !important;
+  font-family: "genie8" !important;
+  color: #ffffff !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
@@ -4904,8 +4940,8 @@ margin-left: auto;
   text-decoration: none;
   font-size: 20px !important;
   cursor: default !important;
-  font-family: "face6" !important;
-  color: #adbac7 !important;
+  font-family: "genie13" !important;
+  color: #ffffff !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
