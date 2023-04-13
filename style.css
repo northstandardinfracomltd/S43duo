@@ -4839,8 +4839,7 @@ input[type="text"]:focus {
     margin-top: 8px;
   
   
-  background: linear-gradient(240deg, rgb(0, 184, 217), rgb(0, 101, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(0, 101, 255);
-    background-blend-mode: normal, normal, normal;
+background-image: radial-gradient( circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98% ) !important;
 }
 
 .saasparadise-left {
