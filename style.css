@@ -4837,9 +4837,7 @@ input[type="text"]:focus {
     border-radius: 0px;
     border: #454c56 0px solid;
     margin-top: 8px;
-  
-  
-background-image: radial-gradient( circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%, #0d74ec 98% ) !important;
+background-image: linear-gradient(#182a4e 0%, #22272e 98% ) !important;
 }
 
 .saasparadise-left {
@@ -4848,6 +4846,7 @@ background-image: radial-gradient( circle, #2188ff 0%, #2188ff 48%, #0d74ec 85%,
     margin: 15px 0;
     border-radius: 0px;
     background: transparent;
+  text-align: center;
 }
 
 
@@ -5112,7 +5111,10 @@ width: 100%;
 }
 
 .flaticons93 {
-width: 20%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
