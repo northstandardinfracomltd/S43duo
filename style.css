@@ -482,7 +482,7 @@ img.iconcard {
     margin-right: auto;
     text-align: center;
     height: 270px;
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 .combat2 {
@@ -5204,13 +5204,23 @@ width: 30px;
 
 
 .cristalinefooter {
-  font-size: 16px;
-  color: #333;
-  /* autres styles pour le paragraphe */
+  font-size: 11px;
+  text-decoration: none;
+margin-left: auto;
+margin-right: auto;
+text-align: center; 
+  margin-top: -5px;
+  color: #ffffff;
 }
 
 .cristalinefooterlink {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
-  /* autres styles pour le lien */
+margin-left: auto;
+margin-right: auto;
+text-align: center; 
+}
+
+.cristalinefooterpop {
+  width: 100%;
 }
