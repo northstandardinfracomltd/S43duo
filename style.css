@@ -458,7 +458,7 @@ img.iconcard {
 .minessota {
   background: rgb(50 76 95 / 31%);
   width: 100%;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -467,6 +467,22 @@ img.iconcard {
   padding-bottom: 20px;
   border-radius: 12px !important;
   border: 0px solid #373e47;
+}
+
+
+.ristreto {
+    background: rgb(136 106 188 / 37%);
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px !important;
+    border: 0px solid #373e47;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 270px;
+    margin-top: 15px;
 }
 
 .combat2 {
@@ -4698,7 +4714,7 @@ input[type="text"]:focus {
   font-family: "face6" !important;
   color: #adbac7 !important;
   line-height: 32px;
-  margin-top: 33px;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -4992,6 +5008,8 @@ margin-left: auto;
     margin: 15px 0;
     border-radius: 12px;
     background: transparent;
+    text-align: right;
+  margin-left: auto;
 }
 
 
@@ -5005,6 +5023,13 @@ margin-left: auto;
     width: 350px !important;
     margin-top: -8px;
     margin-bottom: 20px;
+}
+
+.repercute {
+    width: 97% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
 }
 
 
