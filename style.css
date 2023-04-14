@@ -4753,6 +4753,9 @@ input[type="text"]:focus {
     border-radius: 12px;
     background: transparent;
     border: #454c56 0px solid;
+    max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -4780,6 +4783,9 @@ input[type="text"]:focus {
     border-radius: 12px;
     background: transparent;
     border: #454c56 0px solid;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .saasgenie-left {
@@ -5051,6 +5057,7 @@ margin-left: auto;
   border-radius: 12px;
     border: #454c56 0px solid;
   background: rgb(24 42 78);
+  max-width: 1188px !important;
 }
 
 
