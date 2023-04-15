@@ -785,10 +785,10 @@ main {
   width: 100%;
   display: grid;
   /* Define Auto Row size */
-  grid-auto-rows: 73px;
+  grid-auto-rows: 77px;
   /*Define our columns */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 datacenter {
@@ -1038,9 +1038,11 @@ article:nth-child(even) {
     border-radius: 12px !important;
     cursor: pointer !important;
     text-decoration: none !important;
-    height: 73px;
+    height: 78px;
     display: flex;
     transition: transform .2s; 
+      padding-top: 23px;
+    padding-left: 23px;
 }
 
 
@@ -1059,10 +1061,11 @@ article:nth-child(even) {
     border-radius: 12px !important;
     cursor: pointer !important;
     text-decoration: none !important;
-    height: 73px;
+height: 78px;
     display: flex;
-      transition: transform .2s; 
-
+    transition: transform .2s;
+    padding-top: 23px;
+    padding-left: 23px;
 }
 
 .card1pink:hover {
@@ -1472,7 +1475,7 @@ footer {
   width: 100%;
   justify-content: space-between;
   background: #2d333b;
-  z-index: 2;
+  z-index: 5;
 }
 
 .nav-parent {
@@ -3598,8 +3601,8 @@ font-family: "genie14" !important;
 
 .blue2 {
     color: #cdd9e5;
-    font-family: "genie12" !important;
-    font-size: 1.2rem;
+    font-family: "genie9" !important;
+    font-size: 20px;
     text-transform: none;
     margin-top: 29px;
     margin-bottom: 29px;
@@ -5216,7 +5219,7 @@ margin-left: auto;
 .serverfriendly2  {
     text-decoration: none;
     font-size: 20px !important;
-    font-family: "genie12" !important;
+    font-family: "genie9" !important;
     color: #8498c1 !important;
     line-height: 1.6;
     margin-right: 10%;
