@@ -3625,7 +3625,7 @@ font-family: "genie14" !important;
   width: 580px !important;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 45px !important;
+  padding-top: 50px !important;
   padding-bottom: 35px !important;
   margin-bottom: 0px;
   margin-top: 20px;
@@ -4346,14 +4346,27 @@ input[type="text"]:focus {
   margin: -6px;
   border: 3px solid #f48eff !important;
   z-index: 3;
+  cursor: pointer;
+}
+
+.avatar:hover {
+box-shadow: 0 0 0px 4px #ec775c2b;
 }
 
 .avatar2 {
   border: 3px solid #7abaff !important;
 }
 
+.avatar2:hover {
+box-shadow: 0 0 0px 4px #78baff30 !important;
+}
+
 .avatar3 {
   border: 3px solid #7aff7a !important;
+}
+
+.avatar3:hover {
+box-shadow: 0 0 0px 4px #7aff7a29 !important;
 }
 
 .nvidia-customers-circles1 {
@@ -4398,7 +4411,7 @@ input[type="text"]:focus {
 }
 
 .avatar-arrow {
-  width: 40px;
+  width: 48px;
   margin-bottom: -20px;
   margin-left: -5px;
   margin-top: 7px;
@@ -4446,11 +4459,12 @@ input[type="text"]:focus {
   min-height: 105px;
   background: #22272e;
   border-radius: 12px;
-  border: 1px dashed #444c56;
+  border: 1px dashed #ec775c7d;
 }
 
 .avatar-arrow-explain {
-  width: 45px;
+    width: 50px;
+    margin-top: 5px;
 }
 
 .wagner34 {
@@ -4627,13 +4641,14 @@ input[type="text"]:focus {
   margin-bottom: auto;
 }
 
-.moustache {
-  text-decoration: none;
-  font-size: 15px !important;
-  cursor: pointer !important;
-  font-family: "Saoecom2font" !important;
-  color: #acbac7 !important;
-  margin-top: 4px;
+.moustache{
+    text-decoration: none;
+    font-size: 13px !important;
+    cursor: pointer !important;
+    font-family: "genie13" !important;
+    color: #ffc6e2 !important;
+    margin-top: 4px;
+    margin-left: -7px;
 }
 
 .quantum3-4 {
@@ -4645,8 +4660,8 @@ input[type="text"]:focus {
     line-height: 35px;
     margin-right: 7%;
     margin-left: 7%;
-    margin-top: 40px;
-    margin-bottom: 34px;
+    margin-top: 35px;
+    margin-bottom: 36px;
 }
 
 .kalashcenter {
@@ -4797,9 +4812,10 @@ box-shadow: 0 0 0px 4px #008eff38;
 
 
 .geniecustomers {
-    width: 90% !important;
-  margin-left: auto;
-  margin-right: auto;
+    width: 93% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
 }
 
 
