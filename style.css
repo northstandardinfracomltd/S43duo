@@ -5293,6 +5293,8 @@ margin-top: 37px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -17px;
+
 }
 
 .ristreto  {
@@ -5301,13 +5303,16 @@ margin-top: 37px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 37px;
-    border-radius: 12px !important;
+    border-radius: 0px 0px 12px 12px !important;
     border: 0px solid #373e47;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  margin-top: -30px;
 }
 
 .catapult1 {
   background: pink;
+    border-radius: 12px 12px 0px 0px !important;
+
 }
