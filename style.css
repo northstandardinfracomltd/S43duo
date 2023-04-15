@@ -5144,15 +5144,17 @@ margin-left: auto;
 
 
 .geniebrief {
-    width: 80% !important;
+    width: 80.2% !important;
     display: flex;
     justify-content: center;
-margin-left: auto;
-  margin-right: auto;
-  border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
     border: #454c56 0px solid;
-  background: rgb(24 42 78);
-  max-width: 1188px !important;
+    background: rgb(24 42 78);
+    max-width: 1188px !important;
+    padding-top: 32px;
+    padding-bottom: 13px;
 }
 
 
@@ -5193,9 +5195,9 @@ margin-left: auto;
 
 .serverfriendly {
   text-decoration: none;
-  font-size: 24px !important;
+  font-size: 1.5rem !important;
   cursor: default !important;
-  font-family: "genie13" !important;
+  font-family: "genie9" !important;
   color: #ffffff !important;
   line-height: 32px;
   margin-right: 10%;
@@ -5213,11 +5215,10 @@ margin-left: auto;
 
 .serverfriendly2  {
     text-decoration: none;
-    font-size: 15px !important;
-    cursor: default !important;
-    font-family: "genie15" !important;
-    color: #ffffff !important;
-    line-height: 24px;
+    font-size: 18px !important;
+    font-family: "genie12" !important;
+    color: #8498c1 !important;
+    line-height: 28px;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 17px !important;
@@ -5227,9 +5228,9 @@ margin-left: auto;
 
 .serverfriendly2-link  {
     text-decoration: none;
-    font-size: 18px !important;
+    font-size: 20px !important;
     cursor: default !important;
-    font-family: "genie15" !important;
+    font-family: "genie9" !important;
     color: rgb(163 255 170) !important;
     line-height: 24px;
     margin-right: 10%;
