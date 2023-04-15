@@ -3643,7 +3643,7 @@ button[type="submit"]:hover {
   margin-left: auto;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
-  margin-bottom: -20px;
+  margin-bottom: -90px;
   margin-top: 20px;
   border-radius: 10px;
   padding-left: 10px;
@@ -4332,7 +4332,7 @@ input[type="text"]:focus {
   border-radius: 40px;
   margin: -6px;
   border: 3px solid #f48eff !important;
-  z-index: 1;
+  z-index: 3;
 }
 
 .avatar2 {
@@ -4389,6 +4389,7 @@ input[type="text"]:focus {
   margin-bottom: -20px;
   margin-left: -5px;
   margin-top: 7px;
+  z-index: 2;
 }
 
 .parent-explain {
@@ -4755,12 +4756,15 @@ input[type="text"]:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  margin-top: 60px;
 }
 
 
 .regions-picker:hover {
 box-shadow: 0 0 0px 4px #008eff38;
 }
+
+
 
 
 
@@ -4852,6 +4856,20 @@ box-shadow: 0 0 0px 4px #008eff38;
   margin-top: 33px;
   margin-bottom: 30px;
 }
+
+.geniemania-link {
+  text-decoration: none;
+  font-size: 20px !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 32px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
 
 
 
