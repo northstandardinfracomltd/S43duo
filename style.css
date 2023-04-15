@@ -180,6 +180,14 @@
     format("opentype");
 }
 
+@font-face {
+  font-family: genie18;
+  font-weight: bold;
+  src: url("https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/30c8ea12425640486856.woff2?v=1681548070968")
+    format("opentype");
+}
+
+
 
 /* SAOECOM */
 .btn--remix {
@@ -4843,14 +4851,28 @@ box-shadow: 0 0 0px 4px #008eff38;
   white-space: nowrap !important;
 }
 
+.geniepost {
+  text-decoration: none;
+  font-size: 55px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
+
 
 .geniemania {
   text-decoration: none;
-  font-size: 20px !important;
+  font-size: 1.5rem !important;
   cursor: default !important;
   font-family: "genie9" !important;
   color: rgb(255, 255, 255) !important;
-  line-height: 32px;
+  line-height: 1.6;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 33px;
@@ -4860,9 +4882,9 @@ box-shadow: 0 0 0px 4px #008eff38;
 .geniemania-link {
   text-decoration: none;
   font-size: 20px !important;
-  cursor: default !important;
+  cursor: pointer !important;
   font-family: "genie9" !important;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(255 142 198) !important;
   line-height: 32px;
   margin-right: 10%;
   margin-left: 10%;
