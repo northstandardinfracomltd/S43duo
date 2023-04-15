@@ -3604,10 +3604,10 @@ font-family: "genie14" !important;
     font-family: "genie9" !important;
     font-size: 20px;
     text-transform: none;
-    margin-top: 29px;
-    margin-bottom: 29px;
+    margin-top: 35px;
+    margin-bottom: 34px;
     cursor: default;
-    margin-left: 29px;
+    margin-left: 45px;
     line-height: 33px;
 }
 
@@ -4033,29 +4033,64 @@ input[type="text"] {
   outline: 4px solid #3b3b3b2e;
 }
 
-.nsi-engine {
-  padding: 8px !important;
-  font-size: 16px !important;
-  letter-spacing: 1 !important;
-  border: solid 1px #454c56 !important;
-  border-radius: 8px !important;
-  width: 400px !important;
-  margin-left: 30px !important;
-  color: #fff;
-  background-color: #1c2128 !important;
-  outline: 4px solid #454c5647 !important;
-  font-family: "face4" !important;
-  margin-top: 9px;
-  margin-bottom: 8px;
-  height: 42px;
+.nsi-engine{
+    padding: 8px !important;
+    font-size: 16px !important;
+    letter-spacing: 1 !important;
+    border: solid 1px #454c56 !important;
+    border-radius: 8px !important;
+    width: 82%!important;
+    margin-left: 46px !important;
+    color: #fff;
+    background-color: #1c2128 !important;
+    outline: 4px solid #454c5647 !important;
+    font-family: "Saoecom2font" !important;
+    margin-top: 29px;
+    margin-bottom: 8px;
+    height: 42px;
 }
+
+.nsi-engine:hover {
+    padding: 8px !important;
+    font-size: 16px !important;
+    letter-spacing: 1 !important;
+    border: solid 1px #454c56 !important;
+    border-radius: 8px !important;
+    width: 82%!important;
+    margin-left: 46px !important;
+    color: #fff;
+    background-color: #1c2128 !important;
+    outline: 4px solid #454c5647 !important;
+    font-family: "Saoecom2font" !important;
+    margin-top: 29px;
+    margin-bottom: 8px;
+    height: 42px;
+}
+
+.nsi-engine:focus {
+    padding: 8px !important;
+    font-size: 16px !important;
+    letter-spacing: 1 !important;
+    border: solid 1px #454c56 !important;
+    border-radius: 8px !important;
+    width: 82%!important;
+    margin-left: 46px !important;
+    color: #fff;
+    background-color: #1c2128 !important;
+    outline: 4px solid #454c5647 !important;
+    font-family: "Saoecom2font" !important;
+    margin-top: 29px;
+    margin-bottom: 8px;
+    height: 42px;
+}
+
 
 .nsi-engine:placeholder {
   font-size: 16px !important;
-  font-family: "face1" !important;
+  font-family: "genie13" !important;
   font-size: 14px !important;
   letter-spacing: 1 !important;
-  color: #fff !important;
+  color: yellow !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
