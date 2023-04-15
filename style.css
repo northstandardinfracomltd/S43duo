@@ -2162,6 +2162,54 @@ purpleblockswww2001 {
   text-transform: lowercase;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.cube1 {
+  width: 140px !important;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
+  margin-left: -5px;
+  outline: none !important;
+  transition-duration: 0s;
+  text-transform: lowercase;
+}
+
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.cube1 {
+  width: 140px !important;
+  font-family: "Saoecom2font" !important;
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 0px 8px 8px 0px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 8.5px !important;
+  padding-left: 22px !important;
+  padding-right: 14px !important;
+  margin-left: -5px;
+  outline: none !important;
+  transition-duration: 0s;
+  text-transform: lowercase;
+}  
+}
+
 .cube0:hover {
   width: 140px !important;
   font-family: "Saoecom2font" !important;
@@ -3631,8 +3679,42 @@ button[type="submit"]:hover {
   margin-bottom: 0px;
   margin-top: 20px;
   border-radius: 12px;
-
   box-shadow: 0 12px 48px #1c2128 !important;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.nvidia-ultra-vab {
+  background: #22272e;
+  width: 90% !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px !important;
+  padding-bottom: 35px !important;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px #1c2128 !important;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.nvidia-ultra-vab {
+  background: #22272e;
+  width: 90% !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px !important;
+  padding-bottom: 35px !important;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px #1c2128 !important;
+}    
 }
 
 .nvidia-ultra2 {
@@ -4873,6 +4955,40 @@ margin-top: 37px;
   margin-right: auto;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.saasgenie {
+  width: 100% !important;
+  display: block;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 12px;
+  background: transparent;
+  border: #454c56 0px solid;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.saasgenie {
+  width: 100% !important;
+  display: block;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 12px;
+  background: transparent;
+  border: #454c56 0px solid;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}  
+}
+
 .saasgenie-left {
   width: 45% !important;
   justify-content: center;
@@ -5413,4 +5529,3 @@ padding-top: 15px;
     text-align: center;
   margin-top: -30px;
 }
-
