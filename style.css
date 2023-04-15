@@ -3802,6 +3802,7 @@ padding-right: 11px;
   background: #21272e;
   border: #454c56 1px solid;
   height: 88px;
+      padding-right: 12px; 
 }
 
 .pinnedmod {
@@ -3842,26 +3843,26 @@ padding-right: 11px;
 .moduleitemcol3 {
   width: 20%;
   text-align: right;
-  padding-right: 0px;
+  padding-right: 1px;
     text-align: right;
 }
 
 .mod-usage {
-  margin-right: 8px;
-  color: rgb(83, 155, 245) !important;
-  font-family: "face6" !important;
-  font-size: 17px !important;
-  cursor: default !important;
-  text-decoration: none !important;
+    margin-right: 8px;
+    color: rgb(163 255 170) !important;
+    font-family: "genie9" !important;
+    font-size: 18px !important;
+    cursor: default !important;
+    text-decoration: none !important;
 }
 
 .mod-price {
-  color: #ec775c !important;
-  font-family: "face3" !important;
-  font-size: 17px !important;
-  cursor: default !important;
-  text-decoration: none !important;
-  margin-top: 17px !important;
+    color: #ff8ec6 !important;
+    font-family: "genie9" !important;
+    font-size: 17px !important;
+    cursor: default !important;
+    text-decoration: none !important;
+    margin-top: 19.4px !important;
 }
 
 .mod-about {
@@ -4801,13 +4802,13 @@ box-shadow: 0 0 0px 4px #7aff7a29 !important;
 
 .cubedb-txt {
   text-decoration: none;
-  font-size: 20px !important;
-  cursor: default !important;
-  font-family: "face6" !important;
-  color: #adbac7 !important;
   line-height: 32px;
   margin-top: 40px;
   margin-bottom: 30px;
+      font-size: 1.5rem !important;
+    cursor: default !important;
+    font-family: "genie9" !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .footer-btn-hydra {
