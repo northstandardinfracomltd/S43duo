@@ -474,19 +474,7 @@ img.iconcard {
   border: 0px solid #373e47;
 }
 
-.ristreto  {
-    background: rgb(136 106 188 / 37%);
-    width: 90%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 37px;
-    border-radius: 12px !important;
-    border: 0px solid #373e47;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 2px;
-}
+
 
 .combat2 {
   background: #373756;
@@ -5296,4 +5284,30 @@ margin-top: 37px;
 
 .flamingooo {
   margin-bottom: -50px !important;
+}
+
+
+
+.catapult {
+  width: 620px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ristreto  {
+    background: rgb(136 106 188 / 37%);
+  width: 620px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 37px;
+    border-radius: 12px !important;
+    border: 0px solid #373e47;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.catapult1 {
+  background: pink;
 }
