@@ -4764,7 +4764,8 @@ input[type="text"]:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin-top: 60px;
+  margin-top: 29px;
+    margin-bottom: -10px;
 }
 
 
@@ -4800,7 +4801,7 @@ box-shadow: 0 0 0px 4px #008eff38;
 .targetintitate {
     width: 90% !important;
     margin-left: 7%;
-    margin-bottom: -5px;
+    margin-bottom: -30px;
   margin-top: 20px;
 }
 
