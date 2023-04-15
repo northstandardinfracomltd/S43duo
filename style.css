@@ -4758,6 +4758,9 @@ input[type="text"]:focus {
 }
 
 
+.regions-picker:hover {
+box-shadow: 0 0 0px 4px #008eff38;
+}
 
 
 
@@ -5011,16 +5014,18 @@ margin-left: auto;
 }
 
 
-.siliconleft {
+.siliconleft  {
     width: 350px !important;
-    margin-top: -8px !important;
+    margin-top: 5px !important;
     margin-bottom: -10px !important;
+    max-height: 98% !important;
 }
 
-.siliconright {
+.siliconright  {
     width: 350px !important;
-    margin-top: -8px !important;
+    margin-top: 5px !important;
     margin-bottom: -10px !important;
+    max-height: 98% !important;
 }
 
 .repercute {
