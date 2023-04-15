@@ -2217,7 +2217,6 @@ purpleblockswww2001 {
   padding-left: 22px !important;
   padding-right: 14px !important;
   margin-left: -5px;
-  box-shadow: 0 0 0px 4px #008eff38;
   outline: none !important;
   transition-duration: 0s;
 
@@ -2264,6 +2263,12 @@ purpleblockswww2001 {
   width: 361px !important;
   margin-left: 0px;
 }
+
+.cube-btn1:hover {
+    box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
 
 .cube-btn2 {
   border-top-right-radius: 0;
@@ -4421,7 +4426,7 @@ input[type="text"]:focus {
   box-shadow: 0 8px 24px #1c2128;
   border: 1px solid #ec775c;
   z-index: 2;
-  outline: 4px solid #ec775c2b !important;
+  box-shadow: 0 0 0px 4px #ec775c2b !important;
 }
 
 .explain2 {
@@ -4632,16 +4637,16 @@ input[type="text"]:focus {
 }
 
 .quantum3-4 {
-  text-decoration: none;
-  font-size: 20px !important;
-  cursor: default !important;
-  font-family: "genie15" !important;
-  color: #adbac7 !important;
-  line-height: 34px;
-  margin-right: 7%;
-  margin-left: 7%;
-  margin-top: 40px;
-  margin-bottom: 34px;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+    cursor: default !important;
+    font-family: "genie12" !important;
+    color: #adbac7 !important;
+    line-height: 35px;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 40px;
+    margin-bottom: 34px;
 }
 
 .kalashcenter {
