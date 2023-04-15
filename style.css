@@ -2021,6 +2021,22 @@ purpleblockswww2001 {
   padding-right: 23px !important;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.btn2 {
+  display: none !important;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.btn2 {
+  display: none !important;
+}    
+}
+
 .btn2:hover {
   border: 1px solid rgb(205 217 229 / 10%) !important;
   border-radius: 0px 0px 0px 0px !important;
@@ -2288,6 +2304,56 @@ purpleblockswww2001 {
   width: 361px !important;
   margin-left: 0px;
 }
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.cube-btn1 {
+  margin-bottom: 20px;
+
+  border: 1px #316dca;
+  border-radius: 8px 8px 8px 8px;
+  /* margin-right: -2px; */
+  margin-top: -5px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+    width: 79.8% !important;
+  margin-left: 0px;
+}  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.cube-btn1 {
+  margin-bottom: 20px;
+
+  border: 1px #316dca;
+  border-radius: 8px 8px 8px 8px;
+  /* margin-right: -2px; */
+  margin-top: -5px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+    width: 79.8% !important;
+  margin-left: 0px;
+}    
+}
+
+
+
 
 .cube-btn1:hover {
   box-shadow: 0 0 0px 4px #008eff38;
@@ -3624,6 +3690,55 @@ button[type="submit"]:hover {
   padding-bottom: 9px;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.nvidia-ultra {
+  width: 600px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px !important;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: radial-gradient(
+    circle,
+    #2188ff 0%,
+    #2188ff 48%,
+    #0d74ec 85%,
+    #0d74ec 98%
+  ) !important;
+  padding-bottom: 17px;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.nvidia-ultra {
+  width: 600px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px !important;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: radial-gradient(
+    circle,
+    #2188ff 0%,
+    #2188ff 48%,
+    #0d74ec 85%,
+    #0d74ec 98%
+  ) !important;
+  padding-bottom: 17px;
+}  
+}
+
 .nvidia-star-text {
   color: #cdd9e5;
   font-family: "genie14" !important;
@@ -3771,7 +3886,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .nvidia-ultra {
-    width: 90% !important;
+    width: 93% !important;
   }
 }
 
@@ -5081,6 +5196,43 @@ margin-top: 37px;
   line-height: 62px;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.geniepost {
+  text-decoration: none;
+  font-size: 52px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  line-height: 62px;
+}
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.geniepost {
+  text-decoration: none;
+  font-size: 52px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  line-height: 62px;
+}  
+}
+
 .geniemania {
   text-decoration: none;
   font-size: 1.5rem !important;
@@ -5092,6 +5244,41 @@ margin-top: 37px;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 20px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.geniemania {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.geniemania {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}    
 }
 
 .geniemania-link {
@@ -5106,6 +5293,44 @@ margin-top: 37px;
   margin-top: 33px;
   margin-bottom: 30px;
 }
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.geniemania-link {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: pointer !important;
+  font-family: "genie9" !important;
+  color: rgb(255 142 198) !important;
+  line-height: 32px;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.geniemania-link {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: pointer !important;
+  font-family: "genie9" !important;
+  color: rgb(255 142 198) !important;
+  line-height: 32px;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}  
+}
+
+
+
 
 .geniesaybig {
   background-color: rgb(236 119 92 / 15%) !important;
@@ -5295,6 +5520,32 @@ margin-top: 37px;
   padding-bottom: 20px;
   margin-left: 10%;
 }
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.ficus3 {
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  margin-left: 4%;
+}  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+.ficus3 {
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  margin-left: 4%;
+}    
+}
+
+
 
 .ficus3:focus {
   outline: none !important;
