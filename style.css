@@ -3593,10 +3593,10 @@ font-family: "genie14" !important;
     font-family: "genie14" !important;
     font-size: 18px;
     text-transform: uppercase;
-    margin-top: 27px;
-    margin-bottom: 23px;
+    margin-top: 30px;
+    margin-bottom: 26px;
     cursor: default;
-    margin-left: 29px;
+    margin-left: 44px;
 }
 
 .blue2 {
@@ -3780,6 +3780,7 @@ font-family: "genie14" !important;
   border-radius: 12px;
   background: #21272e;
   border: #454c56 1px solid;
+  height: 88px;
 }
 
 .pinnedmod {
@@ -3842,12 +3843,12 @@ font-family: "genie14" !important;
 }
 
 .mod-about {
-  color: #cdd9e5 !important;
-  font-family: "face0" !important;
-  font-size: 17px !important;
-  cursor: default !important;
-  margin-left: 13px !important;
-  text-decoration: none !important;
+    color: #cdd9e5 !important;
+    font-family: "genie9" !important;
+    font-size: 20px !important;
+    cursor: default !important;
+    margin-left: 29px !important;
+    text-decoration: none !important;
 }
 
 .ficus {
@@ -3964,9 +3965,11 @@ font-family: "genie14" !important;
 }
 
 .search-container {
-  padding: 20px;
+    padding: 20px;
+    text-align: right;
+    padding-right: 47px;
+    padding-left: 0px;
 }
-
 @media screen and (max-width: 980px) {
   .search-container {
     display: contents;
@@ -4087,7 +4090,7 @@ input[type="text"] {
 
 .nsi-engine:placeholder {
   font-size: 16px !important;
-  font-family: "genie13" !important;
+  font-family: "Saoecom2font" !important;
   font-size: 14px !important;
   letter-spacing: 1 !important;
   color: yellow !important;
