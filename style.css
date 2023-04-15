@@ -1374,7 +1374,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   margin: 0px !important;
-  background: #22272e;
+  background: #2d333b !important;
 }
 
 /* STRUCTURE */
@@ -4914,6 +4914,7 @@ margin-top: 37px;
   margin-left: 10%;
   margin-top: 33px;
   margin-bottom: 30px;
+  line-height: 62px;
 }
 
 .geniemania {
