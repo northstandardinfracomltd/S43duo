@@ -5294,6 +5294,30 @@ margin-top: 37px;
   margin-right: auto;
   margin-bottom: -17px;
   background: #2d333b;
+  display: flex;
+  height: 72px;
+}
+
+.catapult1 {
+  width: 50%;
+    display: flex;
+
+}
+.catapult2 {
+  width: 50%;
+    display: flex;
+
+}
+
+
+.catapulttxt {
+    text-decoration: none;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    font-family: "genie9" !important;
+    color: rgb(255 142 198) !important;
+    margin-right: 5px;
+    margin-left: 0px;
 }
 
 .ristreto  {
