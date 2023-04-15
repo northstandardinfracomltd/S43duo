@@ -3572,8 +3572,8 @@ button[type="submit"]:hover {
 
 .nvidia-star-text {
   color: #cdd9e5;
-  font-family: "face5" !important;
-  font-size: 16px;
+font-family: "genie14" !important;
+    font-size: 18px;
   text-transform: uppercase;
   margin-top: 22.5px;
   margin-bottom: 24px;
@@ -4412,10 +4412,10 @@ input[type="text"]:focus {
 
 .explain1 {
   width: 40%;
-  width: 98px;
-  height: 98px;
-  min-width: 98px;
-  min-height: 98px;
+  width: 105px;
+  height: 105px;
+  min-width: 105px;
+  min-height: 105px;
   background: #1c2128;
   border-radius: 12px;
   box-shadow: 0 8px 24px #1c2128;
@@ -4435,10 +4435,10 @@ input[type="text"]:focus {
 
 .explain3 {
   width: 40%;
-  width: 98px;
-  height: 98px;
-  min-width: 98px;
-  min-height: 98px;
+  width: 105px;
+  height: 105px;
+  min-width: 105px;
+  min-height: 105px;
   background: #22272e;
   border-radius: 12px;
   border: 1px dashed #444c56;
@@ -4877,12 +4877,12 @@ box-shadow: 0 0 0px 4px #008eff38;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 33px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .geniemania-link {
   text-decoration: none;
-  font-size: 20px !important;
+  font-size: 1.5rem !important;
   cursor: pointer !important;
   font-family: "genie9" !important;
   color: rgb(255 142 198) !important;
