@@ -3586,26 +3586,26 @@ font-family: "genie14" !important;
 }
 
 .blue1 {
-  color: #cdd9e5;
-font-family: "genie14" !important;
+    color: #cdd9e5;
+    font-family: "genie14" !important;
     font-size: 18px;
-  text-transform: uppercase;
-  margin-top: 21px;
-  margin-bottom: 20px;
-  cursor: default;
-  margin-left: 25px;
+    text-transform: uppercase;
+    margin-top: 27px;
+    margin-bottom: 23px;
+    cursor: default;
+    margin-left: 29px;
 }
 
 .blue2 {
-  color: #cdd9e5;
-  font-family: "face6" !important;
-  font-size: 17px;
-  text-transform: none;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  cursor: default;
-  margin-left: 25px;
-  line-height: 25px;
+    color: #cdd9e5;
+    font-family: "genie12" !important;
+    font-size: 1.2rem;
+    text-transform: none;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    cursor: default;
+    margin-left: 29px;
+    line-height: 33px;
 }
 
 .blue-terms {
