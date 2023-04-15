@@ -3099,6 +3099,27 @@ h1.tag {
   margin-right: 10px;
 }
 
+.ficusbtn-nvidia2 {
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 40px;
+
+}
+
+
 .ficusbtn-nvidia {
   text-decoration: none;
   display: inline-block !important;
@@ -3116,10 +3137,8 @@ h1.tag {
   color: #feffff !important;
   background-color: #347d39 !important;
   height: 40px;
-  
-  
-  
-  
+margin-top: 24.2px;
+    margin-right: 10px;
 }
 
 .buttonalert:hover {
@@ -3765,6 +3784,8 @@ font-family: "genie14" !important;
   border-radius: 12px;
   background: #21272e;
   border: #454c56 1px solid;
+    height: 88px;
+padding-right: 11px;
 }
 
 .moduleitempinned {
@@ -3821,7 +3842,8 @@ font-family: "genie14" !important;
 .moduleitemcol3 {
   width: 20%;
   text-align: right;
-  padding-right: 15px;
+  padding-right: 0px;
+    text-align: right;
 }
 
 .mod-usage {
