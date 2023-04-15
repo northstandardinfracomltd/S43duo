@@ -479,13 +479,12 @@ img.iconcard {
     width: 90%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 37px;
     border-radius: 12px !important;
     border: 0px solid #373e47;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 260px;
     margin-top: 2px;
 }
 
@@ -3246,23 +3245,35 @@ img.btnsub-icon1 {
 }
 
 .linkdivpromo {
-  background-color: #3e29a6cf !important;
-  font-size: 16px !important;
-  font-family: "Saoecom2font" !important;
-  margin-right: 20px;
-  padding-top: 21px !important;
-  padding-bottom: 18px !important;
-  line-height: 0 !important;
-  letter-spacing: 0.02em !important;
-  color: #c8beff;
-  margin-bottom: 20px !important;
-  border-style: dashed !important;
-  border-width: 1px 1px 1px 1px !important;
-  border-color: #c8beff3d !important;
-  border-radius: 15px !important;
-  cursor: default;
-  margin-left: 20px;
-  margin-right: auto;
+    background-color: #262b33 !important;
+    font-size: 16px !important;
+    font-family: "Saoecom2font" !important;
+    margin-right: 20px;
+    padding-top: 21px !important;
+    padding-bottom: 18px !important;
+    line-height: 0 !important;
+    letter-spacing: 0.02em !important;
+    color: #cdd9e5;
+    margin-bottom: 20px !important;
+    border-style: dashed !important;
+    border-width: 1px 1px 1px 1px !important;
+    border-color: #363c45 !important;
+    border-radius: 15px !important;
+    cursor: default;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.linkdivpromo23 {
+transform: rotate(0.01turn);
+}
+
+.linkdivpromo231 {
+transform: rotate(0.97turn);
+}
+
+.linkdivpromo232 {
+transform: rotate(0.02turn);
 }
 
 @media screen and (max-width: 980px) {
