@@ -4073,6 +4073,49 @@ button[type="submit"]:hover {
   padding-right: 12px;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.moduleitempinned {
+  width: 100% !important;
+
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 15px 0;
+
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 12px;
+  background: #21272e;
+  border: #454c56 1px solid;
+  height: 165px;
+  padding-right: 12px;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.moduleitempinned {
+  width: 100% !important;
+
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 15px 0;
+
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 12px;
+  background: #21272e;
+  border: #454c56 1px solid;
+  height: 165px;
+  padding-right: 12px;
+}  
+}
+
 .pinnedmod {
   border-radius: 12px !important;
   background: rgb(65 132 228 / 15%) !important;
@@ -4101,11 +4144,62 @@ button[type="submit"]:hover {
   padding-left: 15px;
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+.moduleitemcol1 {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 15px;
+  height: 25px;
+}
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.moduleitemcol1 {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 15px;
+  height: 25px;
+}  
+}
+
 .moduleitemcol2 {
   width: 40%;
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.moduleitemcol2 {
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 25px;
+}  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.moduleitemcol2 {
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 25px;
+}    
 }
 
 .moduleitemcol3 {
