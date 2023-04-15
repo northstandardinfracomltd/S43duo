@@ -5284,7 +5284,7 @@ margin-top: 37px;
 }
 
 .cristalinefooterlink:hover {
-    color: #75abff !important;
+    color: #ff8ec6 !important;
         font-size: 14px !important;
     cursor: pointer !important;
     font-family: "genie9" !important;
@@ -5311,7 +5311,7 @@ margin-top: 37px;
   display: flex;
   height: 72px;
   padding-top: 5px;
-    padding-bottom: 77px;
+    padding-bottom: 79px;
 }
 
 .catapult1 {
@@ -5335,6 +5335,20 @@ padding-top: 15px;
     color: #7d8590 !important;
     margin-right: 15px;
     margin-left: 0px;
+}
+
+.catapulttxt:hover {
+    text-decoration: none;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    font-family: "genie9" !important;
+    color: #ff8ec6 !important;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+.ambiant-starship {
+    background: #22272e !important;
 }
 
 .ristreto  {
