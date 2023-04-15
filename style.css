@@ -1078,21 +1078,21 @@ article:nth-child(even) {
 }
 
 .thebalad {
-    color: #e7d8ff !important;
-    font-family: "face6" !important;
-    font-size: 20px !important;
-    margin-top: 17.5px;
+    color: #ffffff !important;
+    font-family: "genie13" !important;
+    font-size: 1.3rem !important;
+    margin-top: 16px;
     margin-bottom: 0px;
-    margin-left: 7px;
+    margin-left: 12px;
 }
 
 .thebalad2 {
-    color: #ffd9d0 !important;
-    font-family: "face6" !important;
-    font-size: 20px !important;
-    margin-top: 17.5px;
+    color: #ffffff !important;
+    font-family: "genie13" !important;
+    font-size: 1.3rem !important;
+    margin-top: 16px;
     margin-bottom: 0px;
-    margin-left: 7px;
+    margin-left: 12px;
 }
 
 .cardservice1 {
@@ -3587,9 +3587,9 @@ font-family: "genie14" !important;
 
 .blue1 {
   color: #cdd9e5;
-  font-family: "face4" !important;
-  font-size: 17px;
-  text-transform: none;
+font-family: "genie14" !important;
+    font-size: 18px;
+  text-transform: uppercase;
   margin-top: 21px;
   margin-bottom: 20px;
   cursor: default;
@@ -5215,10 +5215,10 @@ margin-left: auto;
 
 .serverfriendly2  {
     text-decoration: none;
-    font-size: 18px !important;
+    font-size: 20px !important;
     font-family: "genie12" !important;
     color: #8498c1 !important;
-    line-height: 28px;
+    line-height: 1.6;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 17px !important;
