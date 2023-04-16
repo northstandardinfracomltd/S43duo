@@ -2141,41 +2141,47 @@ purpleblockswww2001 {
   margin-left: -3px;
 }
 
-.cube0 {
-  width: 140px !important;
-  font-family: "Saoecom2font" !important;
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 8px 0px 0px 8px !important;
-  margin-right: -2px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
-  background: #373e47 !important;
-  font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
-  padding-left: 22px !important;
-  padding-right: 14px !important;
-  outline: none !important;
-  transition-duration: 0s;
+.cube0  {
+    width: 122px !important;
+    font-family: "Saoecom2font" !important;
+    border-left: 1px solid rgb(205 217 229 / 10%) !important;
+      border-top : 1px solid rgb(205 217 229 / 10%) !important;
+    border-bottom : 1px solid rgb(205 217 229 / 10%) !important;
+    border-right: 0px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 8px 0px 0px 8px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    outline: none !important;
+    transition-duration: 0s;
 }
 
 .cube1 {
-  width: 224px !important;
-  font-family: "Saoecom2font" !important;
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 0px 8px 8px 0px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
-  background: #373e47 !important;
-  font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
-  padding-left: 22px !important;
-  padding-right: 14px !important;
-  margin-left: -5px;
-  outline: none !important;
-  transition-duration: 0s;
-  text-transform: lowercase;
+    width: 242px !important;
+    font-family: "Saoecom2font" !important;
+    border-left: 0px solid rgb(205 217 229 / 10%) !important;
+    border-top: 1px solid rgb(205 217 229 / 10%) !important;
+    border-bottom: 1px solid rgb(205 217 229 / 10%) !important;
+    border-right: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 0px !important;
+    padding-right: 14px !important;
+    margin-left: -5px;
+    outline: none !important;
+    transition-duration: 0s;
+    text-transform: lowercase;
 }
 
 
@@ -2226,42 +2232,48 @@ purpleblockswww2001 {
 }  
 }
 
-.cube0:hover {
-  width: 140px !important;
-  font-family: "Saoecom2font" !important;
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 8px 0px 0px 8px !important;
-  margin-right: -2px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
-  background: #373e47 !important;
-  font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
-  padding-left: 22px !important;
-  padding-right: 14px !important;
-  outline: none !important;
-  transition-duration: 0s;
+.cube0:hover  {
+    width: 122px !important;
+    font-family: "Saoecom2font" !important;
+    border-left: 1px solid rgb(205 217 229 / 10%) !important;
+      border-top : 1px solid rgb(205 217 229 / 10%) !important;
+    border-bottom : 1px solid rgb(205 217 229 / 10%) !important;
+    border-right: 0px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 8px 0px 0px 8px !important;
+    margin-right: -2px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    outline: none !important;
+    transition-duration: 0s;
 }
 
-.cube1:hover {
-  width: 224px !important;
-  font-family: "Saoecom2font" !important;
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 0px 8px 8px 0px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
-  background: #373e47 !important;
-  font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
-  padding-left: 22px !important;
-  padding-right: 14px !important;
-  margin-left: -5px;
-  outline: none !important;
-  transition-duration: 0s;
 
-  text-transform: lowercase;
+.cube1:hover {
+    width: 242px !important;
+    font-family: "Saoecom2font" !important;
+    border-left: 0px solid rgb(205 217 229 / 10%) !important;
+    border-top: 1px solid rgb(205 217 229 / 10%) !important;
+    border-bottom: 1px solid rgb(205 217 229 / 10%) !important;
+    border-right: 1px solid rgb(205 217 229 / 10%) !important;
+    border-radius: 0px 8px 8px 0px !important;
+    text-decoration: none !important;
+    color: #adbac7 !important;
+    background: #373e47 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    padding-top: 8.5px !important;
+    padding-left: 0px !important;
+    padding-right: 14px !important;
+    margin-left: -5px;
+    outline: none !important;
+    transition-duration: 0s;
+    text-transform: lowercase;
 }
 
 .cube1::placeholder {
@@ -6133,3 +6145,5 @@ padding-top: 15px;
     text-align: center;
   margin-top: -30px;
 }
+
+
