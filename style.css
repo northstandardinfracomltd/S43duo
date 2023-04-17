@@ -6130,7 +6130,7 @@ margin-top: 37px;
   width: 90%;
 max-width: 360px;
     margin-top: 25px;
-  margin-right: 
+  margin-right: 20px;
 }
 
 
@@ -6152,14 +6152,14 @@ background: linear-gradient(rgb(64, 50, 148), rgb(23, 43, 77)) 0% 0% / auto repe
 }
 
 .catapult1 {
-  width: 60%;
+  width: 45%;
 padding-top: 15px;
     padding-left: 25px;
       text-align: right;
 }
 .catapult2 {
-  width: 40%;
-    display: flex;
+  width: 55%;
+    display: block;
 
 }
 
@@ -6365,4 +6365,30 @@ max-width: 1200px;
   margin-bottom: 35px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+
+.dudes1c {
+  text-decoration: none;
+  font-size: 55px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  line-height: 62px;
+}
+
+
+
+.dudes2c {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-top: 33px;
+  margin-bottom: 35px;
 }
