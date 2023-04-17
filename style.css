@@ -6149,8 +6149,22 @@ padding-top: 15px;
 }
 
 
+
+.silicone-latex {
+max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
 .unifizo{
-    width: 20% !important;
+    width: 50% !important;
+}
+
+.unifizo1{
+    width: 100% !important;
 }
 
 
