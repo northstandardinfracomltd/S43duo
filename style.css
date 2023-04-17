@@ -6112,7 +6112,7 @@ margin-top: 37px;
   margin-bottom: -17px;
   display: flex;
   padding-top: 5px;
-    padding-bottom: 79px;
+    padding-bottom: 62px;
   max-width: 1200px;
   text-align: center;
 }
@@ -6124,6 +6124,17 @@ margin-top: 37px;
 .catapult-zero-browsers2 {
   width: 0%;
   text-align: right;
+}
+
+
+.left-footer {
+  width: 50%;
+  display: flex;
+}
+
+.right-footer {
+  width: 50%;
+  display: flex;
 }
 
 .catapult-zero-browsers-img {
