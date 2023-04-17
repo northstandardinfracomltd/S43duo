@@ -6114,20 +6114,23 @@ margin-top: 37px;
   padding-top: 5px;
     padding-bottom: 79px;
   max-width: 1200px;
+  text-align: center;
 }
 
 .catapult-zero-browsers1 {
-  width: 50%;
+  width: 100%;
 }
 
 .catapult-zero-browsers2 {
-  width: 50%;
+  width: 0%;
   text-align: right;
 }
 
 .catapult-zero-browsers-img {
   width: 90%;
-  max-width: 350px;
+max-width: 360px;
+    margin-top: 25px;
+  margin-right: 
 }
 
 
@@ -6152,6 +6155,7 @@ background: linear-gradient(rgb(64, 50, 148), rgb(23, 43, 77)) 0% 0% / auto repe
   width: 60%;
 padding-top: 15px;
     padding-left: 25px;
+      text-align: right;
 }
 .catapult2 {
   width: 40%;
@@ -6343,9 +6347,22 @@ max-width: 1200px;
   font-family: "genie18" !important;
   color: rgb(255, 255, 255) !important;
   line-height: 1.1;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 25px;
+  margin-top: 60px;
   margin-bottom: 30px;
   line-height: 62px;
+}
+
+
+
+.dudes2 {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-top: 33px;
+  margin-bottom: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
