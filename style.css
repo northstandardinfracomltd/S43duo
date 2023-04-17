@@ -6150,7 +6150,6 @@ background: linear-gradient(rgb(64, 50, 148), rgb(23, 43, 77)) 0% 0% / auto repe
 
 .catapult1 {
   width: 60%;
-    display: flex;
 padding-top: 15px;
     padding-left: 25px;
 }
@@ -6311,4 +6310,27 @@ max-width: 1200px;
   height: 20px;
   background: white;
   border-bottom-left-radius: 10px;
+}
+
+
+
+.ficusbtn-nvidia-reply-elon {
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 40px;
+  margin-top: 24.2px;
+  margin-right: 10px;
 }
