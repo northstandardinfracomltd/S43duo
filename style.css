@@ -1475,8 +1475,8 @@ footer {
   margin-bottom: auto;
   margin-top: auto;
   padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-right: 18px;
   display: flex;
 }
 
@@ -1987,8 +1987,9 @@ purpleblockswww2001 {
   color: #cdd9e5 !important;
   background: #316dca !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 9.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -2003,8 +2004,9 @@ purpleblockswww2001 {
   color: #cdd9e5 !important;
   background: #316dca !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 9.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -2017,8 +2019,9 @@ purpleblockswww2001 {
   color: #adbac7 !important;
   background: #373e47 !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
+  height: 41px !important;
+  padding-top: 10px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -2047,8 +2050,9 @@ purpleblockswww2001 {
   color: #adbac7 !important;
   background: #3f464f !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
+  height: 41px !important;
+  padding-top: 10px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -2061,8 +2065,9 @@ purpleblockswww2001 {
   color: #adbac7 !important;
   background: #373e47 !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
+  height: 41px !important;
+  padding-top: 10px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -2075,8 +2080,9 @@ purpleblockswww2001 {
   color: #adbac7 !important;
   background: #3f464f !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 8.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
+    padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
 }
@@ -5090,9 +5096,9 @@ input[type="text"]:focus {
 
 .quantum3-4 {
   text-decoration: none;
-  font-size: 1.3rem !important;
+  font-size: 21px !important;
   cursor: default !important;
-  font-family: "genie12" !important;
+  font-family: "genie9" !important;
   color: #adbac7 !important;
   line-height: 35px;
   margin-right: 7%;
@@ -5218,7 +5224,7 @@ margin-top: 37px;
   font-family: "Saoecom2font" !important;
   color: #feffff !important;
   background-color: #347d39 !important;
-  height: 40px;
+  height: 41px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
