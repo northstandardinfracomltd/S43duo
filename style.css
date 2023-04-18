@@ -2081,7 +2081,7 @@ purpleblockswww2001 {
   background: #3f464f !important;
   font-size: 16px !important;
   height: 41px !important;
-  padding-top: 11px !important;
+  padding-top: 10px !important;
     padding-bottom: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
@@ -2317,12 +2317,14 @@ purpleblockswww2001 {
   color: #cdd9e5 !important;
   background: #316dca !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 9.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
   width: 361px !important;
   margin-left: 0px;
+    padding-bottom: 11px !important;
+
 }
 
 
@@ -3227,7 +3229,7 @@ h1.tag {
   padding: 0px 20px !important;
   font-size: 16px !important;
   font-weight: var(--base-text-weight-medium, 500) !important;
-  line-height: 38px !important;
+  line-height: 40px !important;
   white-space: nowrap !important;
   vertical-align: middle !important;
   cursor: pointer !important;
@@ -3237,7 +3239,7 @@ h1.tag {
   font-family: "Saoecom2font" !important;
   color: #feffff !important;
   background-color: #347d39 !important;
-  height: 40px;
+  height: 41px;
   margin-top: 24.2px;
   margin-right: 10px;
 }
