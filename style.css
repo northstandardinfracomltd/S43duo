@@ -5697,10 +5697,11 @@ margin-top: 37px;
   font-family: "genie13" !important;
   color: #ffffff !important;
   line-height: 32px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 33px;
   margin-bottom: 30px;
+  width: 45%;
 }
 
 
