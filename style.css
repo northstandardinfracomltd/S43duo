@@ -6059,15 +6059,16 @@ margin-top: 37px;
 }
 
 .cristalinefooter {
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 29px;
-      font-size: 14px !important;
+text-decoration: none;
+    margin-left: auto;
+    /* margin-right: auto; */
+    text-align: right;
+    margin-top: 29px;
+    font-size: 14px !important;
     cursor: pointer !important;
     font-family: "genie9" !important;
     color: #7d8590 !important;
+    padding-right: 25px;
 }
 
 .cristalinefooterlink {
@@ -6140,8 +6141,10 @@ margin-top: 37px;
 
 
 .left-footer {
-  width: 50%;
-  display: flex;
+    width: 50%;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 25px;
 }
 
 .right-footer {
