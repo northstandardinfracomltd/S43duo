@@ -4796,6 +4796,9 @@ input[type="text"]:focus {
 
 .avatar:hover {
   box-shadow: 0 0 0px 4px #ec775c2b;
+  transform: scale(1.06);
+  z-index: 5;
+
 }
 
 .avatar2 {
