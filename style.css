@@ -4320,6 +4320,14 @@ button[type="submit"]:hover {
 }
 
 
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.modules {
+  display: none !important
+}  
+}
+
+
 @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
   
 .modules {
@@ -6737,6 +6745,32 @@ text-decoration: none;
     padding-right: 25px;
 }
 
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.cristalinefooter {
+text-decoration: none;
+    margin-left: auto;
+    /* margin-right: auto; */
+    text-align: center !important;
+    margin-top: 29px;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    font-family: "genie9" !important;
+    color: #7d8590 !important;
+    padding-right: 20px !important;
+      padding-left: 20px !important;
+  line-height: 22px !important;
+
+}
+
+  
+}
+
+
+
 .cristalinefooterlink {
     color: #ff8ec6 !important;
         font-size: 14px !important;
@@ -6775,6 +6809,27 @@ text-decoration: none;
   padding-top: 5px;
     padding-bottom: 79px;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.catapult {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -17px;
+  background: #2d333b;
+  display: flex;
+  height: 115px !important;
+  padding-top: 5px;
+    padding-bottom: 79px;
+}
+  
+}
+
+
 
 
 @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
@@ -6870,6 +6925,19 @@ padding-top: 13px;
 }
 
 
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.left-footer {
+    display: none !important;
+}
+  
+}
+
+
+
+
 @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
   
 .left-footer {
@@ -6908,6 +6976,24 @@ padding-top: 13px;
   width: 50%;
   display: flex;
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.right-footer {
+  width: 100% !important;
+  display: flex;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-bottom: 20px !important;
+}
+
+  
+}
+
 
 
 @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
@@ -7011,8 +7097,9 @@ padding-top: 15px;
 .catapult1 {
   width: 100%;
 padding-top: 15px;
-    padding-left: 25px;
-      text-align: right;
+    padding-left: 0px !important;
+      padding-right: 0px !important;
+      text-align: center !important;
 }
 
   
@@ -7050,6 +7137,7 @@ padding-top: 70px;
 .catapult2 {
   width: 100%;
     display: block;
+  text-align: center !important;
 
 }
 
@@ -7238,6 +7326,40 @@ max-width: 1200px;
 }
 
 
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.ficusbtn-nvidia-reply-elon {
+  text-decoration: none;
+  display: inline-block !important;
+  padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: var(--base-text-weight-medium, 500) !important;
+  line-height: 38px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  border: 1px solid #46874c;
+  border-radius: 8px;
+  font-family: "Saoecom2font" !important;
+  color: #feffff !important;
+  background-color: #347d39 !important;
+  height: 40px;
+  margin-top: 24.2px;
+  margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
+  
+}
+
+
+
+
+
 .dudes1 {
   text-decoration: none;
   font-size: 55px !important;
@@ -7314,7 +7436,7 @@ max-width: 1200px;
   margin-top: 33px;
   margin-bottom: 15px;
   margin-right: 4% !important;
-    margin-left: auto !important;
+    margin-left: 4% !important;
 
     text-align: center !important;
 
