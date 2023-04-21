@@ -2327,6 +2327,7 @@ purpleblockswww2001 {
   width: 140px !important;
   font-family: "Saoecom2font" !important;
   border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-left: 0px solid rgb(205 217 229 / 10%) !important;
   border-radius: 0px 8px 8px 0px !important;
   text-decoration: none !important;
   color: #adbac7 !important;
@@ -2334,7 +2335,7 @@ purpleblockswww2001 {
   font-size: 16px !important;
   height: 40px !important;
   padding-top: 8.5px !important;
-  padding-left: 22px !important;
+  padding-left: 1px !important;
   padding-right: 14px !important;
   margin-left: -5px;
   outline: none !important;
@@ -2411,7 +2412,7 @@ purpleblockswww2001 {
 
 .cube-btn1 {
   margin-bottom: 20px;
-
+max-width: 360px;
   border: 1px #316dca;
   border-radius: 8px 8px 8px 8px;
   /* margin-right: -2px; */
@@ -4560,6 +4561,39 @@ button[type="submit"]:hover {
   transition: 0.1s ease-in;
 }
 
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.load-more-container .load-more-btn {
+  width: 261px !important;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  line-height: 22px;
+  margin-left: auto;
+  font-family: "Saoecom2font" !important;
+
+  margin-right: auto;
+  border: 1px #316dca;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #cdd9e5 !important;
+  background: #316dca !important;
+  font-size: 16px !important;
+  height: 40px !important;
+  padding-top: 9.5px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+  margin-top: 0px;
+}
+  
+}
+
+
+
 .load-more-container .load-more-btn {
   width: 361px;
   display: block;
@@ -5127,6 +5161,10 @@ input[type="text"]:focus {
 .resterencouple {
       white-space: nowrap !important;
   margin-bottom: -22px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
@@ -5829,6 +5867,7 @@ margin-top: 37px;
   margin-top: 33px;
   margin-bottom: 30px;
   line-height: 62px;
+  text-align: center !important;
 }  
 }
 
@@ -5895,10 +5934,11 @@ margin-top: 37px;
   font-family: "genie9" !important;
   color: rgb(255, 255, 255) !important;
   line-height: 1.6;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-right: 9%;
+  margin-left: 9%;
   margin-top: 33px;
   margin-bottom: 20px;
+  text-align: center !important;
 }    
 }
 
@@ -5954,16 +5994,7 @@ margin-top: 37px;
 @media (min-width: 320px) and (max-width: 480px) {
   
 .geniemania-link {
-  text-decoration: none;
-  font-size: 1.5rem !important;
-  cursor: pointer !important;
-  font-family: "genie9" !important;
-  color: rgb(255 142 198) !important;
-  line-height: 32px;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-top: 33px;
-  margin-bottom: 30px;
+  display: none;
 }  
 }
 
@@ -6254,9 +6285,13 @@ margin-top: 37px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .ficus3 {
-    width: 100% !important;
-  }
+.ficus3 {
+  text-align: left;
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+}
 }
 
 
