@@ -4948,6 +4948,7 @@ input[type="text"]:focus {
 
 .resterencouple {
       white-space: nowrap !important;
+  margin-bottom: -22px;
 }
 
 
@@ -5335,8 +5336,10 @@ margin-top: 37px;
   margin-right: auto;
   margin-top: -30px;
   margin-bottom: -5px;
-
 }
+
+
+
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -5610,6 +5613,13 @@ margin-top: 37px;
 }
 
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.geniemania-link {
+  display: none;
+}
+  
+}
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -5965,6 +5975,26 @@ margin-top: 37px;
 }
 
 
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.geniebrief {
+  width: 98% !important;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  border: #454c56 0px solid;
+  background: rgb(24 42 78);
+  max-width: 1188px !important;
+  padding-top: 32px;
+  padding-bottom: 13px;
+}
+  
+}
+
+
 @media (min-width: 481px) and (max-width: 767px) {
   
 .geniebrief {
@@ -5999,6 +6029,23 @@ margin-top: 37px;
   padding-top: 32px;
   padding-bottom: 13px;
 }  
+}
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.geniebriefamber {
+  width: 25% !important;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 0px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+  height: 250px !important;
+  vertical-align: middle;
+}
+  
 }
 
 
