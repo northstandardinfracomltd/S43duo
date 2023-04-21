@@ -775,6 +775,28 @@ main {
 }
 
 
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+main {
+  max-width: 1097px;
+  margin: 30px auto;
+  padding: 0 10px;
+  width: 100%;
+  display: grid;
+  /* Define Auto Row size */
+  grid-auto-rows: 77px;
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+  
+  
+  
+}
+
+
+
 @media (min-width: 768px) and (max-width: 1166px) {
   
 main {
@@ -3654,6 +3676,33 @@ button[type="submit"]:hover {
 }
 
 
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.parentsearch-container22 {
+  width: 80% !important;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #d9e1ec;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #2d333c;
+  border-radius: 12px 12px 0px 0px;
+  border: 1px solid #454c56;
+}
+
+  
+}
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 1166px) {
   
 .parentsearch-container22 {
@@ -3704,6 +3753,36 @@ button[type="submit"]:hover {
   border: 1px solid #454c56;
 }    
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.parentsearch-container {
+  width: 80% !important;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #d9e1ec;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #22272e;
+  border-radius: 0px 0px 12px 12px;
+  border-top: 0px solid #454c56;
+  border-bottom: 1px solid #454c56;
+  border-left: 1px solid #454c56;
+  border-right: 1px solid #454c56;
+}
+  
+}
+
+
+
 
 .parentsearch-container {
   width: 65%;
@@ -4134,6 +4213,21 @@ button[type="submit"]:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.modules {
+  width: 80% !important;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+}
+
 
 
 @media (min-width: 768px) and (max-width: 1166px) {
@@ -5371,6 +5465,18 @@ margin-top: 37px;
   margin-bottom: -5px;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.geniecustomers {
+  width: 93% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+  
+}
+
 
 
 @media (min-width: 768px) and (max-width: 1166px) {
@@ -5768,6 +5874,16 @@ margin-top: 37px;
 }
 
 
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.geniemania-link {
+  display: none !important;
+}
+  
+}
+
+
 @media (min-width: 481px) and (max-width: 767px) {
   
 .geniemania-link {
@@ -5867,6 +5983,27 @@ margin-top: 37px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.saasparadise-right {
+  width: 80% !important;
+  justify-content: center;
+  /* margin: 15px 0; */
+  border-radius: 0px;
+  text-align: center;
+  background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  
+}
+
+
+
+
 
 @media (min-width: 768px) and (max-width: 1166px) {
   
@@ -6137,8 +6274,31 @@ margin-top: 37px;
   margin-bottom: -25px;
 }
 
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+
 .geniebrief {
-  width: 80.2% !important;
+  width: 90% !important;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  border: #454c56 0px solid;
+  background: rgb(24 42 78);
+  max-width: 1288px !important;
+  padding-top: 32px;
+  padding-bottom: 13px;
+}
+  
+}
+
+
+
+.geniebrief {
+  width: 80.2%;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -6224,6 +6384,24 @@ margin-top: 37px;
 }
   
 }
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.geniebriefamber {
+  width: 25% !important;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 0px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+  height: 245px !important;
+  vertical-align: middle;
+}
+  
+}
+
 
 
 
