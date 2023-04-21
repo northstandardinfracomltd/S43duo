@@ -775,7 +775,7 @@ main {
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 main {
   max-width: 1200px;
@@ -3654,7 +3654,7 @@ button[type="submit"]:hover {
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .parentsearch-container22 {
   display: none !important;
@@ -3726,7 +3726,7 @@ button[type="submit"]:hover {
   border-right: 1px solid #454c56;
 }
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 
 .parentsearch-container {
@@ -3988,7 +3988,7 @@ button[type="submit"]:hover {
   justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 
 .engine93 {
@@ -4136,7 +4136,7 @@ button[type="submit"]:hover {
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .modules {
   display: none;
@@ -5373,7 +5373,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .geniecustomers {
   width: 93% !important;
@@ -5416,7 +5416,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .targetintitate {
   width: 80% !important;
@@ -5443,7 +5443,7 @@ margin-top: 37px;
   margin-right: auto;
 }
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .saasgenie {
   width: 100% !important;
@@ -5507,7 +5507,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .saasgenie-left {
   width: 100% !important;
@@ -5550,7 +5550,7 @@ margin-top: 37px;
   background: transparent;
 }
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .saasgenie-right {
   width: 100% !important;
@@ -5619,7 +5619,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 
 .geniepost {
@@ -5677,7 +5677,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .geniemania {
   text-decoration: none;
@@ -5759,7 +5759,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .geniemania-link {
   display: none;
@@ -5868,7 +5868,7 @@ margin-top: 37px;
   margin-right: auto;
 }
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .saasparadise-right {
   width: 90% !important;
@@ -6072,7 +6072,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .ficus3 {
   padding-right: 20px;
@@ -6153,7 +6153,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .geniebrief {
   width: 96% !important;
@@ -6209,7 +6209,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .geniebriefamber {
   width: 50% !important;
@@ -6424,6 +6424,23 @@ text-decoration: none;
 }
 
 
+@media (min-width: 768px) and (max-width: 1166px) {
+  
+.catapult {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -17px;
+  background: #2d333b;
+  display: block;
+  height: 72px;
+  padding-top: 5px;
+    padding-bottom: 79px;
+}
+  
+}
+
+
 
 .catapult-zero-browsers-robe {
   width: 100%;
@@ -6460,6 +6477,28 @@ padding-top: 13px;
     padding-top: 15px;
     padding-left: 25px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1166px) {
+  
+.left-footer {
+    width: 100%;
+    display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}  
+}
+
+@media (min-width: 768px) and (max-width: 1166px) {
+  
+.right-footer {
+  display: none !important;
+
+
+}  
+}
+
 
 .right-footer {
   width: 50%;
@@ -6507,7 +6546,7 @@ padding-top: 15px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1366px) {
+@media (min-width: 768px) and (max-width: 1166px) {
   
 .catapult1 {
   width: 45%;
