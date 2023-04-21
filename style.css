@@ -4453,53 +4453,64 @@ input[type="text"] {
 
 .nsi-engine {
   padding: 8px !important;
-  font-size: 16px !important;
+font-size: 16px !important;
   letter-spacing: 1 !important;
   border: solid 1px #454c56 !important;
   border-radius: 8px !important;
-  width: 82% !important;
+  width: 86% !important;
   margin-left: 46px !important;
-  color: #fff;
   background-color: #1c2128 !important;
-  outline: 4px solid #454c5647 !important;
-  font-family: "Saoecom2font" !important;
+  box-shadow: 0 0 0px 4px #454c5647 !important;
+font-family: "Saoecom2font" !important;
+    color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 42px;
+  height: 41px;
+  transition: transform 0s;
 }
+
+input::placeholder {
+font-family: "Saoecom2font" !important;
+    color: #adbac73b !important;
+  letter-spacing: 1 !important;
+  font-size: 16px !important;
+}
+
 
 .nsi-engine:hover {
   padding: 8px !important;
-  font-size: 16px !important;
+font-size: 16px !important;
   letter-spacing: 1 !important;
   border: solid 1px #454c56 !important;
   border-radius: 8px !important;
-  width: 82% !important;
+  width: 86% !important;
   margin-left: 46px !important;
-  color: #fff;
   background-color: #1c2128 !important;
-  outline: 4px solid #454c5647 !important;
-  font-family: "Saoecom2font" !important;
+  box-shadow: 0 0 0px 4px #008eff38 !important;
+font-family: "Saoecom2font" !important;
+    color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 42px;
+  height: 41px;
+  transition: transform 0s;
 }
 
 .nsi-engine:focus {
   padding: 8px !important;
-  font-size: 16px !important;
+font-size: 16px !important;
   letter-spacing: 1 !important;
   border: solid 1px #454c56 !important;
   border-radius: 8px !important;
-  width: 82% !important;
+  width: 86% !important;
   margin-left: 46px !important;
-  color: #fff;
   background-color: #1c2128 !important;
-  outline: 4px solid #454c5647 !important;
-  font-family: "Saoecom2font" !important;
+  box-shadow: 0 0 0px 4px #008eff38 !important;
+font-family: "Saoecom2font" !important;
+    color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 42px;
+  height: 41px;
+  transition: transform 0s;
 }
 
 .nsi-engine:placeholder {
