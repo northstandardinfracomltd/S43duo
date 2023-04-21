@@ -3766,6 +3766,49 @@ button[type="submit"]:hover {
 }
 
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.nvidia-ultra {
+  width: 90% !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px !important;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-image: radial-gradient(
+    circle,
+    #2188ff 0%,
+    #2188ff 48%,
+    #0d74ec 85%,
+    #0d74ec 98%
+  ) !important;
+  padding-bottom: 9px;
+}
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1366px)  { 
+.nvidia-ultra-vab {
+  background: #22272e;
+  width: 98% !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px !important;
+  padding-bottom: 35px !important;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px #1c2128 !important;
+}
+  
+}
+
+
+
 @media (min-width: 481px) and (max-width: 767px) {
   
 .nvidia-ultra {
@@ -3859,9 +3902,13 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+
+
+
+
 .nvidia-ultra-vab {
   background: #22272e;
-  width: 580px !important;
+  width: 580px ;
   margin-right: auto;
   margin-left: auto;
   padding-top: 50px !important;
@@ -4895,7 +4942,14 @@ input[type="text"]:focus {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+      white-space: nowrap !important;
 }
+
+
+.resterencouple {
+      white-space: nowrap !important;
+}
+
 
 .explain1 {
   width: 40%;
