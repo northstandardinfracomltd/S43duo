@@ -3704,7 +3704,7 @@ button[type="submit"]:hover {
 }
 
 .leftsearch-container {
-  width: 50%;
+  width: 60%;
 }
 
 .leftsearch-container93 {
@@ -3712,7 +3712,7 @@ button[type="submit"]:hover {
 }
 
 .rightsearch-container {
-  width: 50%;
+  width: 40%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -3832,7 +3832,7 @@ button[type="submit"]:hover {
   margin-top: 30px;
   margin-bottom: 26px;
   cursor: default;
-  margin-left: 44px;
+  margin-left: 35px;
 }
 
 .blue2 {
@@ -3843,7 +3843,7 @@ button[type="submit"]:hover {
   margin-top: 35px;
   margin-bottom: 34px;
   cursor: default;
-  margin-left: 45px;
+  margin-left: 35px;
   line-height: 33px;
 }
 
@@ -4173,7 +4173,7 @@ button[type="submit"]:hover {
   width: 40%;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 15px;
+  padding-left: 8px;
 }
 
 
