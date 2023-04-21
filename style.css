@@ -2037,6 +2037,13 @@ purpleblockswww2001 {
   letter-spacing: 0 !important;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.btn1 {
+  display: none !important;
+}    
+}
+
 .btn1:hover {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -2120,6 +2127,50 @@ purpleblockswww2001 {
   padding-right: 23px !important;
     letter-spacing: 0 !important;
 
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.btn3 {
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 8px 8px 8px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 41px !important;
+  padding-top: 9px !important;
+    padding-bottom: 11px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+    letter-spacing: 0 !important;
+
+}
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.btn3:hover {
+  border: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 8px 8px 8px !important;
+  margin-right: -2px !important;
+  text-decoration: none !important;
+  color: #adbac7 !important;
+  background: #373e47 !important;
+  font-size: 16px !important;
+  height: 41px !important;
+  padding-top: 9px !important;
+    padding-bottom: 11px !important;
+  padding-left: 22px !important;
+  padding-right: 23px !important;
+    letter-spacing: 0 !important;
+
+}
+  
 }
 
 .btn3:hover {
@@ -6602,6 +6653,26 @@ text-decoration: none;
 }
 
 
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.catapult {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -17px;
+  background: #2d333b;
+  display: block !important;
+  height: 72px;
+  padding-top: 5px;
+    padding-bottom: 79px;
+}
+  
+}
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 1166px) {
   
 .catapult {
@@ -6657,6 +6728,19 @@ padding-top: 13px;
 }
 
 
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.left-footer {
+    width: 100% !important;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+  
+}
+
+
+
 @media (min-width: 768px) and (max-width: 1166px) {
   
 .left-footer {
@@ -6682,6 +6766,19 @@ padding-top: 13px;
   width: 50%;
   display: flex;
 }
+
+
+@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+  
+.right-footer {
+  display: none !important;
+}
+  
+}
+
+
+
+
 
 .catapult-zero-browsers-img {
   width: 90%;
@@ -6715,6 +6812,26 @@ background: linear-gradient(rgb(64, 50, 148), rgb(23, 43, 77)) 0% 0% / auto repe
     padding-bottom: 79px;
   max-width: 1200px;
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.catapult-zero {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -17px;
+  display: block;
+  padding-top: 5px;
+    padding-bottom: 79px;
+  max-width: 1200px;
+}
+  
+}
+
+
 
 .catapult1 {
   width: 45%;
