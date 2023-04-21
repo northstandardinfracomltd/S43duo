@@ -2324,7 +2324,7 @@ purpleblockswww2001 {
 @media (min-width: 320px) and (max-width: 480px) {
   
 .cube1 {
-  width: 140px !important;
+  width: 130px !important;
   font-family: "Saoecom2font" !important;
   border: 1px solid rgb(205 217 229 / 10%) !important;
   border-left: 0px solid rgb(205 217 229 / 10%) !important;
@@ -2473,7 +2473,8 @@ max-width: 360px;
   padding-top: 9.5px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
-    width: 79.8% !important;
+    width: 100% !important;
+    max-width: 250px;
   margin-left: 0px;
 }    
 }
@@ -6440,7 +6441,7 @@ margin-top: 37px;
 @media (min-width: 320px) and (max-width: 480px) {
   
 .geniebrief {
-  width: 80.2% !important;
+  width: 85% !important;
   display: block;
   justify-content: center;
   margin-left: auto;
@@ -6532,8 +6533,28 @@ margin-top: 37px;
   background: transparent;
   cursor: pointer;
   margin-right: 8px;
-  height: 220px;
+  height: 200px;
   vertical-align: middle;
+  margin-bottom: -10px !important;
+    margin-top: -10px !important;
+}  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.geniebriefamber:hover {
+  width: 100% !important;
+  justify-content: center !important;
+  margin: 15px 0 !important;
+  border-radius: 0px !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  margin-right: 8px !important;
+  height: 200px !important;
+  vertical-align: middle !important;
+  margin-bottom: -10px !important;
+    margin-top: -10px !important;
 }  
 }
 
@@ -6542,7 +6563,7 @@ margin-top: 37px;
 }
 
 .geniebriefamber:hover {
-  width: 25% !important;
+  width: 25%;
   justify-content: center;
   margin: 15px 0;
   border-radius: 0px;
@@ -6570,6 +6591,21 @@ margin-top: 37px;
 .stayactive {
   background: rgb(30 52 98) !important;
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.stayactive {
+  background: rgb(30 52 98) !important;
+  height: 220px !important;
+  margin-top: 30px !important;
+}  
+}
+
+
+
 
 .serverfriendly2 {
   text-decoration: none;
