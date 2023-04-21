@@ -2852,6 +2852,29 @@ h1.tag {
   cursor: pointer;
 }
 
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.tag-purple {
+  background: rgb(139 133 255 / 21%);
+  color: rgb(161 157 255);
+  font-size: 16px;
+  font-family: "genie13" !important;
+  padding-left: 19px !important;
+  padding-right: 19px !important;
+  padding-top: 8px !important;
+  padding-bottom: 9px !important;
+  border-radius: 24px !important;
+  cursor: pointer;
+}
+
+  
+}
+
+
+
 .tag-purple:hover {
   transform: scale(1.02);
   box-shadow: 0 0 0px 4px #008eff38;
@@ -2871,6 +2894,27 @@ h1.tag {
   cursor: pointer;
 }
 
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.tag-blue {
+  background: rgb(56 139 253 / 32%);
+  color: #8dc3ff;
+  font-size: 16px;
+  font-family: "genie13" !important;
+  padding-left: 19px !important;
+  padding-right: 19px !important;
+  padding-top: 8px !important;
+  padding-bottom: 9px !important;
+  border-radius: 24px !important;
+  cursor: pointer;
+}  
+}
+
+
+
 .tag-blue:hover {
   transform: scale(1.02);
   box-shadow: 0 0 0px 4px #008eff38;
@@ -2889,6 +2933,27 @@ h1.tag {
   border-radius: 24px !important;
   cursor: pointer;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.tag-green {
+  background: #32a7494a;
+  color: #68ff86c7;
+  font-size: 16px;
+  font-family: "genie13" !important;
+  padding-left: 19px !important;
+  padding-right: 19px !important;
+  padding-top: 8px !important;
+  padding-bottom: 9px !important;
+  border-radius: 24px !important;
+  cursor: pointer;
+}
+  
+}
+
+
 
 .tag-green:hover {
   transform: scale(1.02);
@@ -3790,20 +3855,7 @@ button[type="submit"]:hover {
 @media (min-width: 320px) and (max-width: 480px) {
   
 .parentsearch-container22 {
-  width: 90%;
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-right: 20px;
-  margin-left: 20px;
-  border: 1px solid #d9e1ec;
-  margin-left: auto;
-  margin-right: auto;
-
-  background: #2d333c;
-  border-radius: 12px 12px 0px 0px;
-  border: 1px solid #454c56;
+  display: none !important;
 }    
 }
 
@@ -3870,7 +3922,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .parentsearch-container {
-    width: 90%;
+    display: none !important;
   }
 }
 
@@ -4294,7 +4346,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .modules {
-    width: 90% !important;
+    display: none !important;
   }
 }
 
@@ -6206,10 +6258,11 @@ margin-top: 37px;
   font-family: "genie13" !important;
   color: #ffffff !important;
   line-height: 32px;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-right: auto;
+  margin-left:  auto;
   margin-top: 33px;
   margin-bottom: 30px;
+  width: 80% !important;
 }  
 }
 
@@ -6769,6 +6822,24 @@ padding-top: 13px;
   padding-bottom: 7px;
 }
 
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.catapult-zero-browsers-robe {
+  width: 100%;
+  background: rgb(49 109 202);
+padding-top: 13px;
+  padding-bottom: 7px;
+  margin-top: -70px !important;
+}
+  
+}
+
+
+
+
 .catapult-zero-browsers {
   width: 100%;
   margin-left: auto;
@@ -6858,6 +6929,28 @@ max-width: 360px;
   margin-right: 50px;
 }
 
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.catapult-zero-browsers-img {
+  width: 85%;
+max-width: 360px;
+    margin-top: 25px;
+  margin-right: auto !important;
+    margin-left: auto !important;
+  text-align: center !important;
+
+}
+  
+  
+}
+
+
+
+
 .catapult-zero-browsers-img11 {
   width: 90%;
 max-width: 380px;
@@ -6912,6 +7005,22 @@ padding-top: 15px;
 }
 
 
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.catapult1 {
+  width: 100%;
+padding-top: 15px;
+    padding-left: 25px;
+      text-align: right;
+}
+
+  
+}
+
+
+
+
 @media (min-width: 768px) and (max-width: 1166px) {
   
 .catapult1 {
@@ -6931,6 +7040,26 @@ padding-top: 70px;
     display: block;
 
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.catapult2 {
+  width: 100%;
+    display: block;
+
+}
+
+
+
+  
+}
+
+
+
 
 
 .catapulttxt {
@@ -7147,6 +7276,50 @@ max-width: 1200px;
   margin-top: 70px;
   margin-bottom: 30px;
   line-height: 62px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.dudes1c {
+  text-decoration: none;
+  font-size: 55px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  line-height: 62px;
+  text-align: center !important;
+}
+
+  
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.dudes2c {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-top: 33px;
+  margin-bottom: 15px;
+  margin-right: 4% !important;
+    margin-left: auto !important;
+
+    text-align: center !important;
+
+}
+  
 }
 
 
