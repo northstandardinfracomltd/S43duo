@@ -5373,6 +5373,16 @@ margin-top: 37px;
 
 
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.geniecustomers {
+  width: 93% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}  
+}
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -5404,6 +5414,21 @@ margin-top: 37px;
   margin-bottom: -40px;
   margin-top: 10px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.targetintitate {
+  width: 80% !important;
+  margin-left: 10%;
+    margin-right: 10%;
+
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+  
+}
+
 
 .saasgenie {
   width: 100% !important;
@@ -5490,6 +5515,7 @@ margin-top: 37px;
   margin: 15px 0;
   border-radius: 12px;
   background: transparent;
+  text-align: center !important;
 }  
 }
 
@@ -5592,6 +5618,27 @@ margin-top: 37px;
 }
 
 
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+
+.geniepost {
+  text-decoration: none;
+  font-size: 55px !important;
+  cursor: default !important;
+  font-family: "genie18" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.1;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  line-height: 62px;
+  text-align: center;
+}  
+}
+
+
 @media (min-width: 481px) and (max-width: 767px) {
   
 .geniepost {
@@ -5627,6 +5674,28 @@ margin-top: 37px;
   line-height: 62px;
 }  
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.geniemania {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  cursor: default !important;
+  font-family: "genie9" !important;
+  color: rgb(255, 255, 255) !important;
+  line-height: 1.6;
+  margin-right: 20% !important;
+  margin-left: 20% !important;
+  margin-top: 33px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+}
+
+
 
 .geniemania {
   text-decoration: none;
@@ -6001,6 +6070,21 @@ margin-top: 37px;
     width: 100% !important;
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  
+.ficus3 {
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  margin-left: auto;
+    margin-right: auto;
+}
+  
+}
+
+
 
 .ficus3 {
   text-align: left;
