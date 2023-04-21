@@ -6147,7 +6147,8 @@ text-decoration: none;
 .catapult-zero-browsers-robe {
   width: 100%;
   background: rgb(49 109 202);
-
+padding-top: 13px;
+  padding-bottom: 7px;
 }
 
 .catapult-zero-browsers {
@@ -6202,6 +6203,8 @@ max-width: 380px;
   width: 100%;
 background: linear-gradient(rgb(64, 50, 148), rgb(23, 43, 77)) 0% 0% / auto repeat scroll padding-box border-box rgb(64, 50, 148);
     background-blend-mode: normal;
+    padding-top: 15px;
+
 }
 
 .catapult-zero {
