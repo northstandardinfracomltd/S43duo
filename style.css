@@ -1507,7 +1507,7 @@ footer {
   height: 72px;
   width: 100%;
   justify-content: space-between;
-  background: red !important;
+  background: #2d333b !important;
   z-index: 5;
 }
   
@@ -4271,7 +4271,7 @@ button[type="submit"]:hover {
   justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 
 .engine93 {
@@ -4442,7 +4442,7 @@ button[type="submit"]:hover {
 
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .modules {
   display: none;
@@ -5003,7 +5003,7 @@ input[type="text"]:focus {
   outline: 4px solid #3b3b3b2e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .grid-item {
     width: 100% !important;
   }
@@ -5771,6 +5771,22 @@ margin-top: 37px;
 }
 
 
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+  
+.targetintitate {
+    width: 93% !important;
+    margin-left: auto !important;
+    margin-bottom: -40px;
+    margin-top: -3px;
+    margin-right: auto !important;
+}
+
+}
+
+
 @media (min-width: 820px) and (max-width: 1166px) {
   
 .targetintitate {
@@ -5894,6 +5910,8 @@ margin-top: 37px;
   margin: 15px 0;
   border-radius: 12px;
   background: transparent;
+  text-align: center !important;
+  margin-bottom: -22px !important;
 }    
 }
 
@@ -5905,7 +5923,7 @@ margin-top: 37px;
   background: transparent;
 }
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .saasgenie-right {
   width: 100% !important;
@@ -5974,7 +5992,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 
 .geniepost {
@@ -6116,7 +6134,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .geniemania-link {
   display: none;
@@ -6126,7 +6144,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
   
 .geniemania-link {
   display: none !important;
@@ -6227,7 +6245,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
   
 .saasparadise-right {
   width: 80% !important;
@@ -6247,7 +6265,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .saasparadise-right {
   width: 90% !important;
@@ -6456,7 +6474,7 @@ margin-top: 37px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .ficus3 {
   padding-right: 20px;
@@ -6494,11 +6512,13 @@ margin-top: 37px;
   
   
 .ficus3 {
-  text-align: left;
-  padding-right: 20px;
-  padding-top: 21px;
-  padding-bottom: 20px;
-  margin-left: 4%;
+  text-align: center !important;
+  padding-right: 20px !important;
+    padding-left: 20px !important;
+  padding-top: 21px !important;
+  padding-bottom: 20px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }    
 }
 
@@ -6523,7 +6543,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
   
 
 .geniebrief {
@@ -6560,7 +6580,7 @@ margin-top: 37px;
 
 
 
-@media (min-width: 768px) and (max-width: 1166px) {
+@media (min-width: 820px) and (max-width: 1166px) {
   
 .geniebrief {
   width: 96% !important;
@@ -7095,7 +7115,7 @@ padding-top: 13px;
 
 
 
-@media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+@media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
   
 .right-footer {
   display: none !important;
