@@ -6678,7 +6678,7 @@ margin-top: 37px;
 @media (min-width: 820px) and (max-width: 1166px) {
   
 .geniebriefamber {
-  width: 50% !important;
+  width: 33% !important;
   justify-content: center;
   margin: 15px 0;
   border-radius: 0px;
@@ -6692,10 +6692,25 @@ margin-top: 37px;
 }
 
 
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+  
+  
+
+.conflictram {
+  display: none !important;
+}
+
+
+}
+
+
+
 @media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
   
 .geniebriefamber {
-  width: 25% !important;
+  width: 33% !important;
   justify-content: center;
   margin: 15px 0;
   border-radius: 0px;
@@ -6712,7 +6727,7 @@ margin-top: 37px;
 
 
 .geniebriefamber {
-  width: 25% !important;
+  width: 25% ;
   justify-content: center;
   margin: 15px 0;
   border-radius: 0px;
@@ -6910,7 +6925,8 @@ text-decoration: none;
   
 .cristalinefooter {
 text-decoration: none;
-    margin-left: auto;
+    margin-left: auto !important;
+      margin-right: auto !important;
     /* margin-right: auto; */
     text-align: center !important;
     margin-top: 29px;
