@@ -4136,7 +4136,7 @@ button[type="submit"]:hover {
     #0d74ec 85%,
     #0d74ec 98%
   ) !important;
-  padding-bottom: 17px;
+  padding-bottom: 19px !important;
 }  
 }
 
@@ -4149,6 +4149,45 @@ button[type="submit"]:hover {
   margin-bottom: 24px;
   cursor: default;
 }
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+  
+.confluenceresp {
+  display: none !important;
+}
+
+}
+
+
+
+
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+  
+.nvidia-star-text {
+  color: #cdd9e5;
+  font-family: "genie14" !important;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 22.5px;
+  margin-bottom: 24px;
+  cursor: default;
+  margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+
+
+
+}
+
+
+
 
 .blue1 {
   color: #cdd9e5;
@@ -7147,6 +7186,7 @@ max-width: 360px;
   margin-right: auto !important;
     margin-left: auto !important;
   text-align: center !important;
+  margin-bottom: -40px !important;
 
 }
   
