@@ -1494,6 +1494,27 @@ footer {
   z-index: 5;
 }
 
+
+@media (min-width: 320px) and (max-width: 810px) {
+  
+.main-nav {
+  position: fixed;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  height: 72px;
+  width: 100%;
+  justify-content: space-between;
+  background: red !important;
+  z-index: 5;
+}
+  
+}
+
+
+
 .nav-parent {
   width: 100%;
   display: flex;
@@ -2052,7 +2073,7 @@ purpleblockswww2001 {
   letter-spacing: 0 !important;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 810px) {
   
 .btn1 {
   display: none !important;
