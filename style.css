@@ -1495,7 +1495,7 @@ footer {
 }
 
 
-@media (min-width: 320px) and (max-width: 810px) {
+@media (min-width: 320px) and (max-width: 819px) {
   
 .main-nav {
   position: fixed;
@@ -2073,7 +2073,7 @@ purpleblockswww2001 {
   letter-spacing: 0 !important;
 }
 
-@media (min-width: 320px) and (max-width: 810px) {
+@media (min-width: 320px) and (max-width: 819px) {
   
 .btn1 {
   display: none !important;
