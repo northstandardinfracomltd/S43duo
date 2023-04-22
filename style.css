@@ -2209,6 +2209,9 @@ purpleblockswww2001 {
   
 }
 
+
+
+
 @media (min-width: 481px) and (max-width: 767px) {
   
 .btn3:hover {
@@ -2252,19 +2255,19 @@ purpleblockswww2001 {
 }
 
 .btn3:hover {
-  border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 0px 8px 8px 0px !important;
-  margin-right: -2px !important;
-  text-decoration: none !important;
-  color: #adbac7 !important;
+  border: 1px solid rgb(205 217 229 / 10%) ;
+  border-radius: 0px 8px 8px 0px ;
+  margin-right: -2px ;
+  text-decoration: none ;
+  color: #adbac7 ;
   background: #3f464f !important;
-  font-size: 16px !important;
-  height: 41px !important;
-  padding-top: 10px !important;
-    padding-bottom: 11px !important;
-  padding-left: 22px !important;
-  padding-right: 23px !important;
-    letter-spacing: 0 !important;
+  font-size: 16px ;
+  height: 41px ;
+  padding-top: 10px ;
+    padding-bottom: 11px ;
+  padding-left: 22px ;
+  padding-right: 23px ;
+    letter-spacing: 0 ;
 
 }
 
@@ -7937,4 +7940,9 @@ max-width: 360px;
     cursor: pointer !important;
     font-family: "genie9" !important;
   text-decoration: none;
+}
+
+
+.deutz {
+    margin-top: 13px !important;
 }
