@@ -7636,13 +7636,36 @@ max-width: 1200px;
 
 
 
-.catapult-login-confluence-funk {
-    background: #22272e !important;
+.ambiant-starship-funk{
+    background: red !important;
+  height: 100vh !important;
 }
 
 
 
 
 .catapult-login-confluence {
-    background: #22272e !important;
+    background: blue !important;
+    height: 100vh !important;
+
+}
+
+
+.login-door {
+    width: 100%;
+  max-width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid #d9e1ec;
+    margin-left: auto;
+    margin-right: auto;
+    background: #22272e;
+    border-radius: 0px 0px 12px 12px;
+    border-top: 0px solid #454c56;
+    border-bottom: 1px solid #454c56;
+    border-left: 1px solid #454c56;
+    border-right: 1px solid #454c56;
 }
