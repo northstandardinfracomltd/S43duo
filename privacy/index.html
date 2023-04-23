@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html translate="no">
+    <head>
+      <!-- 
+    This is the main Handlebars template for the site 
+    - When the user visits the homepage or submits a choice the app calls the endpoints in server.js
+    - The server script passes data in here and the Handlebars code builds it into the HTML page
+  -->
+      <meta name="google" content="notranslate" />
+      <meta charset="utf-8" />
+      <link rel="icon" href="https://glitch.com/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title>Privacy — The loved place where software are created</title>
+
+      <!-- Meta tags for SEO and social sharing -->
+      <link rel="canonical" href="{{seo.url}}" />
+      <meta name="description" content="{{seo.description}}" />
+      <meta property="og:title" content="{{seo.title}}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="{{seo.url}}" />
+      <meta property="og:description" content="{{seo.description}}" />
+      <meta property="og:image" content="{{seo.image}}" />
+      <meta name="twitter:card" content="summary" />
+
+      <!-- Import the webpage's stylesheet -->
+      <link rel="stylesheet" href="/style.css" />
+
+      <!-- Show choice chart on poll submission -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script type="text/javascript">
+        /*
+    The chart uses chart.js - try tweaking the config!
+    https://www.chartjs.org/docs/3.0.2/charts/doughnut.html
+    
+    We pass the choices and picks arrays from the page when the server script returns them
+    */
+        function showChart(choices, picks) {
+          // Get the page element to show the chart inside
+          var ctx = document.getElementById("myChart");
+
+          // Set up the chart colors
+          var colors = ["#05DA84", "#E6E656", "#E5AED6"];
+          var border = "#ffffff";
+
+          // Make sure we have some votes–if not show an empty chart
+          if (picks.reduce((a, b) => a + b, 0) < 1) {
+            picks = ["1e-10"]; // use a near zero value so that the doughnut displays
+            choices = ["No votes! Reload and vote again."];
+            colors = ["#00000000"]; // we'll show an empty doughnut shape
+            border = ["#000000"];
+          }
+
+          // Build the chart in the page element
+          var myLineChart = new Chart(ctx, {
+            type: "doughnut",
+            data: {
+              labels: choices,
+              datasets: [
+                {
+                  data: picks,
+                  backgroundColor: colors,
+                  borderColor: border,
+                  fill: true,
+                  hoverOffset: 12,
+                  cutout: "60%",
+                },
+              ],
+            },
+            options: {
+              plugins: {
+                legend: {
+                  display: true,
+                  position: "bottom",
+                  labels: {
+                    padding: 24,
+                  },
+                },
+              },
+              layout: {
+                padding: 24,
+              },
+            },
+          });
+        }
+      </script>
+    </head>
+      <div class="ambiant-starship-funk">
+
+    <body>
+      <!--
+      LOGIN PAGE SAASDUO
+    -->
+
+
+<br><br>
+
+        
+                        <div class="juriplace">
+                          
+          <a href="/">
+                                 <img
+              class="juriplace-img"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/saasduo%20web.svg?v=1681834269599"
+              alt=""
+            /></a>
+                          
+                          
+                                    <p class="juriplace-txt">
+                                      
+Privacy Policy<br><br>
+Last updated: 08/2022<br><br>
+My Company (change this) ("us", "we", or "our") operates http://www.mysite.com (change this) (the
+"Site"). This page informs you of our policies regarding the collection, use and disclosure of
+Personal Information we receive from users of the Site.
+We use your Personal Information only for providing and improving the Site. By using the Site, you
+agree to the collection and use of information in accordance with this policy.
+Information Collection And Use
+While using our Site, we may ask you to provide us with certain personally identifiable information
+that can be used to contact or identify you. Personally identifiable information may include, but is not
+limited to your name ("Personal Information").
+Log Data
+Like many site operators, we collect information that your browser sends whenever you visit our Site
+("Log Data").
+This Log Data may include information such as your computer's Internet Protocol ("IP") address,
+browser type, browser version, the pages of our Site that you visit, the time and date of your visit,
+the time spent on those pages and other statistics.
+In addition, we may use third party services such as Google Analytics that collect, monitor and
+analyze this …
+The Log Data section is for businesses that use analytics or tracking services in websites or
+apps, like Google Analytics. For the full disclosure section, create your own Privacy Policy.
+Communications
+We may use your Personal Information to contact you with newsletters, marketing or promotional
+materials and other information that ...
+The Communications section is for businesses that may contact users via email (email
+newsletters) or other methods. For the full disclosure section, create your own Privacy Policy.
+Cookies
+Cookies are files with small amount of data, which may include an anonymous unique identifier.
+Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all
+cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may
+not be able to use some portions of our Site.
+Security
+The security of your Personal Information is important to us, but remember that no method of
+transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to
+use commercially acceptable means to protect your Personal Information, we cannot guarantee its
+absolute security.
+Changes To This Privacy Policy
+This Privacy Policy is effective as of (add date) and will remain in effect except with respect to any
+changes in its provisions in the future, which will be in effect immediately after being posted on this
+page.
+We reserve the right to update or change our Privacy Policy at any time and you should check this
+Privacy Policy periodically. Your continued use of the Service after we post any modifications to the
+Privacy Policy on this page will constitute your acknowledgment of the modifications and your
+consent to abide and be bound by the modified Privacy Policy.
+If we make any material changes to this Privacy Policy, we will notify you either through the email
+address you have provided us, or by placing a prominent notice on our website.
+Contact Us
+If you have any questions about this Privacy Policy, please contact us.
+                                      
+                                      
+                                      
+                                      
+            Our intake pipeline is currently full, but availability is coming in 7 to 10 days, we invite you to talk with us now directly about your brief to get started, if you are already a customer please
+<a href="/login" class="cristalinefooterlink2">
+              Sign in</a
+            >
+          </p>
+
+                          
+                        <br><br>  
+
+                  </div>
+
+
+
+        
+
+
+    </body>
+              </div>
+
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+  </html>
+</html>

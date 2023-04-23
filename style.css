@@ -4821,6 +4821,11 @@ button[type="submit"]:hover {
   margin-top: 0px;
 }
 
+
+.load-more-btn:hover {
+    box-shadow: 0 0 0px 4px #008eff38;
+}
+
 .load-more-container .load-more-btn:hover {
   background: #333;
 }
@@ -7980,4 +7985,36 @@ margin-bottom: 30px !important;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+
+
+
+.juriplace {
+    background: transparent !important;
+  text-align: left;
+}
+
+
+.juriplace-txt {
+    text-decoration: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: left;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    cursor: default !important;
+    font-family: "genie9" !important;
+    color: #E6EDF3 !important;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+
+.juriplace-img {
+    padding-top: 9px;
+    width: 150px !important;
+  margin-bottom: 0px;
+  margin-left: 20px;
 }
