@@ -7984,3 +7984,23 @@ max-width: 360px;
 }
 
 }
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+  
+.deutz {
+    margin-left: 0px !important;
+}
+  
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+  
+.deutz2 {
+    margin-right: -2px !important;
+}
+  
+}
