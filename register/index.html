@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html translate="no">
+    <head>
+      <!-- 
+    This is the main Handlebars template for the site 
+    - When the user visits the homepage or submits a choice the app calls the endpoints in server.js
+    - The server script passes data in here and the Handlebars code builds it into the HTML page
+  -->
+      <meta name="google" content="notranslate" />
+      <meta charset="utf-8" />
+      <link rel="icon" href="https://glitch.com/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title>How can we help you ?</title>
+
+      <!-- Meta tags for SEO and social sharing -->
+      <link rel="canonical" href="{{seo.url}}" />
+      <meta name="description" content="{{seo.description}}" />
+      <meta property="og:title" content="{{seo.title}}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="{{seo.url}}" />
+      <meta property="og:description" content="{{seo.description}}" />
+      <meta property="og:image" content="{{seo.image}}" />
+      <meta name="twitter:card" content="summary" />
+
+      <!-- Import the webpage's stylesheet -->
+      <link rel="stylesheet" href="/style.css" />
+
+      <!-- Show choice chart on poll submission -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script type="text/javascript">
+        /*
+    The chart uses chart.js - try tweaking the config!
+    https://www.chartjs.org/docs/3.0.2/charts/doughnut.html
+    
+    We pass the choices and picks arrays from the page when the server script returns them
+    */
+        function showChart(choices, picks) {
+          // Get the page element to show the chart inside
+          var ctx = document.getElementById("myChart");
+
+          // Set up the chart colors
+          var colors = ["#05DA84", "#E6E656", "#E5AED6"];
+          var border = "#ffffff";
+
+          // Make sure we have some votes–if not show an empty chart
+          if (picks.reduce((a, b) => a + b, 0) < 1) {
+            picks = ["1e-10"]; // use a near zero value so that the doughnut displays
+            choices = ["No votes! Reload and vote again."];
+            colors = ["#00000000"]; // we'll show an empty doughnut shape
+            border = ["#000000"];
+          }
+
+          // Build the chart in the page element
+          var myLineChart = new Chart(ctx, {
+            type: "doughnut",
+            data: {
+              labels: choices,
+              datasets: [
+                {
+                  data: picks,
+                  backgroundColor: colors,
+                  borderColor: border,
+                  fill: true,
+                  hoverOffset: 12,
+                  cutout: "60%",
+                },
+              ],
+            },
+            options: {
+              plugins: {
+                legend: {
+                  display: true,
+                  position: "bottom",
+                  labels: {
+                    padding: 24,
+                  },
+                },
+              },
+              layout: {
+                padding: 24,
+              },
+            },
+          });
+        }
+      </script>
+    </head>
+      <div class="ambiant-starship-funk">
+
+    <body>
+      <!--
+      LOGIN PAGE SAASDUO
+    -->
+
+
+<br><br>
+
+        
+                        <div class="catapult-login-confluence">
+          <a href="/">
+                                 <img
+              class="propelant"
+              src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/saasduo%20web.svg?v=1681834269599"
+              alt=""
+            /></a>
+                          
+                                                  <div class="login-door">
+          <p class="cristalinefooter2 andreasmarques1">
+            Our intake pipeline is currently full, but availability is coming in 7 to 10 days, we invite you to chat with us directly about your brief to get started<a href="/register" class="cristalinefooterlink2">
+              create an account</a
+            >
+          </p>
+                                                                        <div class="viewportpost">
+                              
+
+                    <br />          <a href="mailto:about@saasduo.com">
+                    <bouton href="mailto:about@saasduo.com" class="cube-btn12"
+                      >about@saasduo.com</bouton
+                    ></a>
+                                                                      
+                                                                          <a href="https://wa.me/message/IP3MYHXYPWYBF1">
+                    <bouton href="https://wa.me/message/IP3MYHXYPWYBF1" class="cube-btn12 andreasfoot"
+                      >WhatsApp</bouton
+                    ></a>
+                                                                          
+                                                                          <a href="tel:+447723501018">
+                    <bouton href="tel:+447723501018" class="cube-btn12 andreasfoot"
+                      >+44 7723 501018</bouton
+                    ></a>
+                                                                          
+                                                                          
+                                                     </div>
+                 
+                                   <p class="cristalinefooter2 andreasmarques">
+            This site is protected by reCAPTCHA and the
+            <a href="https://policies.google.com/privacy" class="cristalinefooterlink2"
+              >Google Privacy Policy</a
+            >
+            and
+            <a href="https://policies.google.com/terms" class="cristalinefooterlink2">
+              Terms of Service</a
+            >
+            apply
+          </p>   <br>              
+                                                    
+                                                    
+
+                  </div>
+                          
+                        <br><br>  
+
+                  </div>
+
+
+
+        
+
+
+    </body>
+              </div>
+
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+  </html>
+</html>
