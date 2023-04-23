@@ -7812,18 +7812,18 @@ padding-left: 15px !important;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .cube12:hover {
-  width: 100% !important;
+    width: 100% !important;
   font-family: "Saoecom2font" !important;
   border: 1px solid rgb(205 217 229 / 10%) !important;
-  border-left: 0px solid rgb(205 217 229 / 10%) !important;
-  border-radius: 0px 8px 8px 0px !important;
+  border-left: 1px solid rgb(205 217 229 / 10%) !important;
+  border-radius: 8px 8px 8px 8px !important;
   text-decoration: none !important;
   color: #adbac7 !important;
   background: #373e47 !important;
   font-size: 16px !important;
   height: 40px !important;
   padding-top: 8.5px !important;
-  padding-left: 1px !important;
+  padding-left: 15px !important;
   padding-right: 14px !important;
   outline: none !important;
   transition-duration: 0s;
