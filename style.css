@@ -7886,12 +7886,10 @@ max-width: 360px;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .cube-btn12 {
-  margin-bottom: 20px;
-
+  margin-bottom: 5px;
   border: 1px #316dca;
   border-radius: 8px 8px 8px 8px;
-  /* margin-right: -2px; */
-  margin-top: -5px;
+  margin-top: -19px;
   text-decoration: none;
   color: #cdd9e5 !important;
   background: #316dca !important;
@@ -7901,8 +7899,9 @@ max-width: 360px;
   padding-left: 22px !important;
   padding-right: 23px !important;
     width: 100% !important;
-    max-width: 250px;
+    max-width: 247px;
   margin-left: 0px;
+    margin-right: 0px;
 }    
 }
 
@@ -7980,10 +7979,20 @@ max-width: 360px;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .deutz {
-    margin-left: -4px !important;
+    margin-left: 0px !important;
 }
 
 }
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.deutz2 {
+    margin-right: -4px !important;
+}
+
+}
+
 
 
 
@@ -8003,4 +8012,10 @@ max-width: 360px;
     margin-right: -2px !important;
 }
   
+}
+
+
+.viewportpost {
+    width: 100% !important;
+      max-width: 320px !important;
 }
