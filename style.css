@@ -7686,8 +7686,8 @@ max-width: 1200px;
   text-align: center;
     flex-flow: row wrap;
     justify-content: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px solid #d9e1ec;
     margin-left: auto;
     margin-right: auto;
@@ -7757,7 +7757,7 @@ max-width: 1200px;
 
 
 .cube12 {
-    width: 88% !important;
+    width: 100% !important;
   margin-bottom: 10px;
     font-family: "Saoecom2font" !important;
     border-left: 1px solid rgb(205 217 229 / 10%) !important;
@@ -7785,7 +7785,7 @@ padding-left: 15px !important;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .cube12 {
-    width: 78% !important;
+    width: 100% !important;
   font-family: "Saoecom2font" !important;
   border: 1px solid rgb(205 217 229 / 10%) !important;
   border-left: 1px solid rgb(205 217 229 / 10%) !important;
@@ -7798,8 +7798,6 @@ padding-left: 15px !important;
   padding-top: 8.5px !important;
   padding-left: 15px !important;
   padding-right: 14px !important;
-  margin-left: auto;
-    margin-right: auto;
   outline: none !important;
   transition-duration: 0s;
   text-transform: lowercase;
@@ -7814,7 +7812,7 @@ padding-left: 15px !important;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .cube12:hover {
-  width: 130px !important;
+  width: 100% !important;
   font-family: "Saoecom2font" !important;
   border: 1px solid rgb(205 217 229 / 10%) !important;
   border-left: 0px solid rgb(205 217 229 / 10%) !important;
@@ -7827,7 +7825,6 @@ padding-left: 15px !important;
   padding-top: 8.5px !important;
   padding-left: 1px !important;
   padding-right: 14px !important;
-  margin-left: -5px;
   outline: none !important;
   transition-duration: 0s;
   text-transform: lowercase;
@@ -7839,10 +7836,8 @@ padding-left: 15px !important;
 
 .cube-btn12 {
   margin-bottom: 20px;
-max-width: 360px;
   border: 1px #316dca;
   border-radius: 8px 8px 8px 8px;
-  /* margin-right: -2px; */
   margin-top: -18px;
   text-decoration: none;
   color: #cdd9e5 !important;
@@ -7852,10 +7847,8 @@ max-width: 360px;
   padding-top: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
-  width: 88% !important;
-  margin-left: 0px;
+  width: 100% !important;
     padding-bottom: 11px !important;
-    margin-bottom: -1px;
 }
 
 
@@ -7864,45 +7857,43 @@ max-width: 360px;
   
 .cube-btn12 {
   margin-bottom: 20px;
-
   border: 1px #316dca;
   border-radius: 8px 8px 8px 8px;
-  /* margin-right: -2px; */
-  margin-top: -5px;
+  margin-top: -18px;
   text-decoration: none;
   color: #cdd9e5 !important;
   background: #316dca !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 9.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
-    width: 79.8% !important;
-  margin-left: 0px;
-}  
+  width: 100% !important;
+    padding-bottom: 11px !important;
+}
+
 }
 
 
 @media (min-width: 100px) and (max-width: 819px) {
   
 .cube-btn12 {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   border: 1px #316dca;
   border-radius: 8px 8px 8px 8px;
-  margin-top: -19px;
+  margin-top: -18px;
   text-decoration: none;
   color: #cdd9e5 !important;
   background: #316dca !important;
   font-size: 16px !important;
-  height: 40px !important;
-  padding-top: 9.5px !important;
+  height: 41px !important;
+  padding-top: 11px !important;
   padding-left: 22px !important;
   padding-right: 23px !important;
-    width: 100% !important;
-    max-width: 247px;
-  margin-left: 0px;
-    margin-right: 0px;
-}    
+  width: 100% !important;
+    padding-bottom: 11px !important;
+}
+ 
 }
 
 
@@ -7971,51 +7962,19 @@ max-width: 360px;
 }
 
 
-.deutz {
-    margin-top: 13px !important;
+.andreasmarques {
+margin-top: 15px !important;
 }
 
-
-@media (min-width: 100px) and (max-width: 819px) {
-  
-.deutz {
-    margin-left: 0px !important;
-}
-
-}
-
-
-@media (min-width: 100px) and (max-width: 819px) {
-  
-.deutz2 {
-    margin-right: -4px !important;
-}
-
-}
-
-
-
-
-@media (min-width: 820px) and (max-width: 1166px) {
-  
-.deutz {
-    margin-left: 0px !important;
-}
-  
-}
-
-
-
-@media (min-width: 820px) and (max-width: 1166px) {
-  
-.deutz2 {
-    margin-right: -2px !important;
-}
-  
+.andreasmarques1 {
+margin-bottom: 30px !important;
 }
 
 
 .viewportpost {
-    width: 100% !important;
-      max-width: 320px !important;
+    width: 80% !important;
+      max-width: 370px !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
